@@ -1,0 +1,1 @@
+cmd_/home/cs219/madwifi/ath_rate/minstrel/ath_rate_minstrel.ko := ld -m elf_i386 -r -m elf_i386  --build-id -o /home/cs219/madwifi/ath_rate/minstrel/ath_rate_minstrel.ko /home/cs219/madwifi/ath_rate/minstrel/ath_rate_minstrel.o /home/cs219/madwifi/ath_rate/minstrel/ath_rate_minstrel.mod.o

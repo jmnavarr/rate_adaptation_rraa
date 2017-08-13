@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/2863/madwifi/trunk/hal
+END
+ah_soc.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/2721/madwifi/trunk/hal/ah_soc.h
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/2721/madwifi/trunk/hal/COPYRIGHT
+END
+ah_devid.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/2721/madwifi/trunk/hal/ah_devid.h
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/2721/madwifi/trunk/hal/version.h
+END
+ah_desc.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/2863/madwifi/trunk/hal/ah_desc.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/2721/madwifi/trunk/hal/README
+END
+ah.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/2863/madwifi/trunk/hal/ah.h
+END

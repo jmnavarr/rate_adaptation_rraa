@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/!svn/ver/3912/ath_info/trunk
+END
+ath_info.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/3912/ath_info/trunk/ath_info.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/3773/ath_info/trunk/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/3442/ath_info/trunk/README
+END
+ath_info.8
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/3806/ath_info/trunk/ath_info.8
+END
+eeprom.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/3869/ath_info/trunk/eeprom.h
+END

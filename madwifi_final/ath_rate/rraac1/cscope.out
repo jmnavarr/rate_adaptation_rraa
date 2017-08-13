@@ -1,0 +1,10866 @@
+cscope 15 $HOME/madwifi/ath_rate/rraac1               0000065404
+	@ath_rate_rraac1.mod.c
+
+1 
+	~<löux/moduÀ.h
+>
+
+2 
+	~<löux/vîmagic.h
+>
+
+3 
+	~<löux/compûî.h
+>
+
+5 
+MODULE_INFO
+(
+vîmagic
+, 
+VERMAGIC_STRING
+);
+
+7 
+moduÀ
+ 
+__this_moduÀ
+
+
+8 
+__©åibuã__
+((
+£˘i⁄
+(".gnu.linkonce.this_module"))) = {
+
+9 .
+«me
+ = 
+KBUILD_MODNAME
+,
+
+10 .
+	göô
+ = 
+öô_moduÀ
+,
+
+11 #ifde‡
+CONFIG_MODULE_UNLOAD
+
+
+12 .
+	gexô
+ = 
+˛ónup_moduÀ
+,
+
+14 .
+	g¨ch
+ = 
+MODULE_ARCH_INIT
+,
+
+17 c⁄° 
+modvîsi⁄_öfo
+ 
+	g____vîsi⁄s
+[]
+
+18 
+__©åibuã_u£d__
+
+
+19 
+__©åibuã__
+((
+£˘i⁄
+("__versions"))) = {
+
+30 c⁄° 
+	g__moduÀ_dïíds
+[]
+
+31 
+__©åibuã_u£d__
+
+
+32 
+__©åibuã__
+((
+£˘i⁄
+(".modinfo"))) =
+
+36 
+MODULE_INFO
+(
+§cvîsi⁄
+, "6D2A01157B91C8F60AC7E1D");
+
+	@rraac1.c
+
+11 #i‚de‡
+AUTOCONF_INCLUDED
+
+
+12 
+	~<löux/c⁄fig.h
+>
+
+14 
+	~<löux/vîsi⁄.h
+>
+
+15 
+	~<löux/moduÀ.h
+>
+
+16 
+	~<löux/öô.h
+>
+
+17 
+	~<löux/skbuff.h
+>
+
+18 
+	~<löux/√tdevi˚.h
+>
+
+19 
+	~<löux/øndom.h
+>
+
+20 
+	~<löux/dñay.h
+>
+
+21 
+	~<löux/ˇche.h
+>
+
+22 
+	~<löux/sys˘l.h
+>
+
+23 
+	~<löux/¥oc_fs.h
+>
+
+24 
+	~<löux/if_¨p.h
+>
+
+26 
+	~<asm/uac˚ss.h
+>
+
+28 
+	~<√t80211/if_medü.h
+>
+
+29 
+	~<√t80211/õì80211_v¨.h
+>
+
+30 
+	~<√t80211/õì80211_øã.h
+>
+
+32 
+	~"if_©hv¨.h
+"
+
+33 
+	~"if_©h_hÆ.h
+"
+
+34 
+	~"ah_desc.h
+"
+
+36 
+	~"ºØc1.h
+"
+
+38 
+	#DEBUG
+ 1
+
+	)
+
+39 
+	#AMRR_DEBUG
+
+
+	)
+
+40 #ifde‡
+AMRR_DEBUG
+
+
+41 
+	#DPRINTF
+(
+sc
+, 
+_fmt
+, ...) do { \
+
+42 i‡(
+DEBUG
+) \
+
+43 
+	`¥ötk
+(
+_fmt
+, 
+__VA_ARGS__
+); \
+
+44 } 0)
+
+	)
+
+46 
+	#DPRINTF
+(
+sc
+, 
+_fmt
+, ...)
+
+	)
+
+50 
+boﬁ
+ 
+	gfú°_time
+ = 
+åue
+ ;
+
+51 
+	gtŸÆ_num_∑ckës
+ ;
+
+52 
+©h_øã_upd©e
+(
+©h_so·c
+ *, 
+õì80211_node
+ *, );
+
+53 
+©h_øã_˘l_°¨t
+(
+©h_so·c
+ *, 
+õì80211_node
+ *);
+
+54 
+©h_øã_˘l
+(*, 
+õì80211_node
+ *);
+
+57 
+	$©h_øã_node_öô
+(
+©h_so·c
+ *
+sc
+, 
+©h_node
+ *
+™
+)
+
+61 
+ºØ_c1_node
+ *
+ºØ
+ = 
+	`ATH_NODE_C1_RRAA
+(
+™
+);
+
+64 i‡(
+fú°_time
+){
+
+65 
+tŸÆ_num_∑ckës
+ = 0;
+
+66 
+ºØ_m≠
+[0].
+øã
+ = 1;
+
+67 
+ºØ_m≠
+[1].
+øã
+ = 2;
+
+68 
+ºØ_m≠
+[2].
+øã
+ = 5;
+
+69 
+ºØ_m≠
+[3].
+øã
+ = 6;
+
+70 
+ºØ_m≠
+[4].
+øã
+ = 9;
+
+71 
+ºØ_m≠
+[5].
+øã
+ = 11;
+
+72 
+ºØ_m≠
+[6].
+øã
+ = 12;
+
+73 
+ºØ_m≠
+[7].
+øã
+ = 18;
+
+74 
+ºØ_m≠
+[8].
+øã
+ = 24;
+
+75 
+ºØ_m≠
+[9].
+øã
+ = 36;
+
+76 
+ºØ_m≠
+[10].
+øã
+ = 48;
+
+77 
+ºØ_m≠
+[11].
+øã
+ = 54;
+
+80 
+ºØ_m≠
+[0].
+p‹i
+ = 38;
+
+81 
+ºØ_m≠
+[1].
+p‹i
+ = 38;
+
+82 
+ºØ_m≠
+[2].
+p‹i
+ = 38;
+
+83 
+ºØ_m≠
+[3].
+p‹i
+ = 38;
+
+84 
+ºØ_m≠
+[4].
+p‹i
+ = 11;
+
+85 
+ºØ_m≠
+[5].
+p‹i
+ = 12;
+
+86 
+ºØ_m≠
+[6].
+p‹i
+ = 14;
+
+87 
+ºØ_m≠
+[7].
+p‹i
+ = 10;
+
+88 
+ºØ_m≠
+[8].
+p‹i
+ = 13;
+
+89 
+ºØ_m≠
+[9].
+p‹i
+ = 9;
+
+90 
+ºØ_m≠
+[10].
+p‹i
+ = 4;
+
+91 
+ºØ_m≠
+[11].
+p‹i
+ = 0;
+
+94 
+ºØ_m≠
+[0].
+pmé
+ = 39;
+
+95 
+ºØ_m≠
+[1].
+pmé
+ = 39;
+
+96 
+ºØ_m≠
+[2].
+pmé
+ = 39;
+
+97 
+ºØ_m≠
+[3].
+pmé
+ = 39;
+
+98 
+ºØ_m≠
+[4].
+pmé
+ = 39;
+
+99 
+ºØ_m≠
+[5].
+pmé
+ = 32;
+
+100 
+ºØ_m≠
+[6].
+pmé
+ = 29;
+
+101 
+ºØ_m≠
+[7].
+pmé
+ = 37;
+
+102 
+ºØ_m≠
+[8].
+pmé
+ = 27;
+
+103 
+ºØ_m≠
+[9].
+pmé
+ = 34;
+
+104 
+ºØ_m≠
+[10].
+pmé
+ = 23;
+
+105 
+ºØ_m≠
+[11].
+pmé
+ = 9;
+
+108 
+ºØ_m≠
+[0].
+ewnd
+ = 6;
+
+109 
+ºØ_m≠
+[1].
+ewnd
+ = 6;
+
+110 
+ºØ_m≠
+[2].
+ewnd
+ = 6;
+
+111 
+ºØ_m≠
+[3].
+ewnd
+ = 6;
+
+112 
+ºØ_m≠
+[4].
+ewnd
+ = 10;
+
+113 
+ºØ_m≠
+[5].
+ewnd
+ = 15;
+
+114 
+ºØ_m≠
+[6].
+ewnd
+ = 20;
+
+115 
+ºØ_m≠
+[7].
+ewnd
+ = 20;
+
+116 
+ºØ_m≠
+[8].
+ewnd
+ = 40;
+
+117 
+ºØ_m≠
+[9].
+ewnd
+ = 40;
+
+118 
+ºØ_m≠
+[10].
+ewnd
+ = 40;
+
+119 
+ºØ_m≠
+[11].
+ewnd
+ = 40;
+
+122 
+ºØ
+->
+ºØ_cou¡î
+ = 
+ºØ_m≠
+[
+MAX_RATE_POS
+].
+ewnd
+;
+
+124 
+	`©h_øã_upd©e
+(
+sc
+, &
+™
+->
+™_node
+, 0);
+
+126 
+fú°_time
+ = 
+Ál£
+;
+
+130 
+	}
+}
+
+133 
+	$©h_øã_node_˛ónup
+(
+©h_so·c
+ *
+sc
+, 
+©h_node
+ *
+™
+)
+
+135 
+	}
+}
+
+140 
+	$©h_øã_födøã
+(
+©h_so·c
+ *
+sc
+, 
+©h_node
+ *
+™
+,
+
+141 
+sh‹tPªambÀ
+, 
+size_t
+ 
+‰ameLí
+,
+
+142 
+u_öt8_t
+ *
+rix
+, *
+åy0
+, u_öt8_à*
+txøã
+)
+
+145 
+ºØ_c1_node
+ *
+ºØ
+ = 
+	`ATH_NODE_C1_RRAA
+(
+™
+);
+
+147 *
+rix
+ = 
+ºØ
+->
+ºØ_tx_rix0
+;
+
+148 *
+åy0
+ = 
+ºØ
+->
+ºØ_tx_åy0
+;
+
+149 i‡(
+sh‹tPªambÀ
+)
+
+150 *
+txøã
+ = 
+ºØ
+->
+ºØ_tx_øã0•
+;
+
+152 *
+txøã
+ = 
+ºØ
+->
+ºØ_tx_øã0
+;
+
+153 
+	}
+}
+
+158 
+	$©h_øã_gë_mº
+(
+©h_so·c
+ *
+sc
+, 
+©h_node
+ *
+™
+, 
+sh‹tPªambÀ
+,
+
+159 
+size_t
+ 
+‰ame_size
+, 
+u_öt8_t
+ 
+rix
+, 
+õì80211_mº
+ *
+mº
+)
+
+166 
+mº
+->
+øã1
+ = 0;
+
+167 
+mº
+->
+ªåõs1
+ = 0;
+
+168 
+mº
+->
+øã2
+ = 0;
+
+169 
+mº
+->
+ªåõs2
+ = 0;
+
+170 
+mº
+->
+øã3
+ = 0;
+
+171 
+mº
+->
+ªåõs3
+ = 0;
+
+172 
+	}
+}
+
+176 
+	$©h_øã_tx_com∂ëe
+(
+©h_so·c
+ *
+sc
+,
+
+177 
+©h_node
+ *
+™
+, c⁄° 
+©h_buf
+ *
+bf
+)
+
+181 
+ºØ_c1_node
+ *
+ºØ
+ = 
+	`ATH_NODE_C1_RRAA
+(
+™
+);
+
+183 c⁄° 
+©h_tx_°©us
+ *
+ts
+ = &
+bf
+->
+bf_ds°©us
+.
+ds_tx°©
+;
+
+185 i‡(
+ts
+->
+ts_°©us
+ == 0)
+
+186 
+ºØ
+->
+ºØ_tx_com∂ëe
+++;
+
+188 
+ºØ
+->
+ºØ_tx_Áû
+++;
+
+191 
+ºØ
+->
+ºØ_tx_ªåy
+ +
+ts
+->
+ts_sh‹åëry
+ +Ås->
+ts_l⁄gªåy
+;
+
+195 i‡–--
+ºØ
+->
+ºØ_cou¡î
+ <= 0 )
+
+196 
+	`©h_øã_˘l
+(
+sc
+, &
+™
+->
+™_node
+);
+
+198 
+	}
+}
+
+201 
+	$©h_øã_√wassoc
+(
+©h_so·c
+ *
+sc
+, 
+©h_node
+ *
+™
+, 
+i¢ew
+)
+
+203 i‡(
+i¢ew
+)
+
+204 
+	`©h_øã_˘l_°¨t
+(
+sc
+, &
+™
+->
+™_node
+);
+
+205 
+	}
+}
+
+208 
+	$©h_øã_upd©e
+(
+©h_so·c
+ *
+sc
+, 
+õì80211_node
+ *
+ni
+, 
+øã
+)
+
+210 
+©h_node
+ *
+™
+ = 
+	`ATH_NODE
+(
+ni
+);
+
+211 
+ºØ_c1_node
+ *
+ºØ
+ = 
+	`ATH_NODE_C1_RRAA
+(
+™
+);
+
+212 c⁄° 
+HAL_RATE_TABLE
+ *
+π
+ = 
+sc
+->
+sc_cuº©es
+;
+
+214 
+	`KASSERT
+(
+π
+ !
+NULL
+, ("ºØ:ÇÿøãÅabÀ, modê%u", 
+sc
+->
+sc_curmode
+));
+
+217 
+	`DPRINTF
+(
+sc
+, "ºØ_m≠: %s: sëÅxÑ©êf‹ " 
+MAC_FMT
+ "Åo %dM\n",
+
+218 
+__func__
+, 
+	`MAC_ADDR
+(
+ni
+->
+ni_maˇddr
+),
+
+219 
+ni
+->
+ni_øãs
+.
+rs_ƒ©es
+ > 0 ?
+
+220 (
+ni
+->
+ni_øãs
+.
+rs_øãs
+[
+øã
+] & 
+IEEE80211_RATE_VAL
+) / 2 : 0);
+
+223 
+ni
+->
+ni_txøã
+ = 
+øã
+;
+
+225 i‡(
+ni
+->
+ni_øãs
+.
+rs_ƒ©es
+ > 0) {
+
+226 
+ºØ
+->
+ºØ_tx_rix0
+ =
+
+227 
+sc
+->
+sc_rixm≠
+[
+ni
+->
+ni_øãs
+.
+rs_øãs
+[
+øã
+] & 
+IEEE80211_RATE_VAL
+];
+
+228 
+ºØ
+->
+ºØ_tx_øã0
+ = 
+π
+->
+öfo
+[ºØ->
+ºØ_tx_rix0
+].
+øãCode
+;
+
+229 
+ºØ
+->
+ºØ_tx_øã0•
+ =Ñøa->
+ºØ_tx_øã0
+ |
+
+230 
+π
+->
+öfo
+[
+ºØ
+->
+ºØ_tx_rix0
+].
+sh‹tPªambÀ
+;
+
+236 
+ºØ
+->
+ºØ_tx_åy0
+ = 
+ATH_TXMAXTRY
+;
+
+238 
+	}
+}
+
+244 
+	$©h_øã_˘l_°¨t
+(
+©h_so·c
+ *
+sc
+, 
+õì80211_node
+ *
+ni
+)
+
+246 
+	#RATE
+(
+_ix
+Ë(
+ni
+->
+ni_øãs
+.
+rs_øãs
+[(_ix)] & 
+IEEE80211_RATE_VAL
+)
+
+	)
+
+247 
+õì80211v≠
+ *
+v≠
+ = 
+ni
+->
+ni_v≠
+;
+
+248 
+§©e
+;
+
+250 
+	`KASSERT
+(
+ni
+->
+ni_øãs
+.
+rs_ƒ©es
+ > 0, ("rraa:ÇoÑates"));
+
+251 i‡(
+v≠
+->
+iv_fixed_øã
+ =
+IEEE80211_FIXED_RATE_NONE
+) {
+
+257 
+§©e
+ = 
+ni
+->
+ni_øãs
+.
+rs_ƒ©es
+ - 1;
+
+259 i‡(
+sc
+->
+sc_curmode
+ !
+IEEE80211_MODE_11B
+) {
+
+265 ; 
+§©e
+ >0 && 
+	`RATE
+(srate) > 72; srate--);
+
+266 
+	`KASSERT
+(
+§©e
+ >= 0, ("rraa: bogusÑate set"));
+
+277 
+§©e
+ = 
+ni
+->
+ni_øãs
+.
+rs_ƒ©es
+ - 1;
+
+278 ; 
+§©e
+ >0 && 
+	`RATE
+(§©eË!
+v≠
+->
+iv_fixed_øã
+; srate--);
+
+279 
+	`KASSERT
+(
+§©e
+ >= 0,
+
+280 ("ºØ: fixedÑ©ê%dÇŸ i¿øã së", 
+v≠
+->
+iv_fixed_øã
+));
+
+283 
+	`©h_øã_upd©e
+(
+sc
+, 
+ni
+, 
+§©e
+);
+
+284 #unde‡
+RATE
+
+
+285 
+	}
+}
+
+288 
+	$©h_øã_cb
+(*
+¨g
+, 
+õì80211_node
+ *
+ni
+)
+
+290 
+	`©h_øã_upd©e
+(
+	`√tdev_¥iv
+(
+ni
+->
+ni_ic
+->
+ic_dev
+),Çi, (Ë
+¨g
+);
+
+291 
+	}
+}
+
+297 
+	$©h_øã_√w°©e
+(
+õì80211v≠
+ *
+v≠
+, 
+õì80211_°©e
+ 
+°©e
+)
+
+299 
+õì80211com
+ *
+ic
+ = 
+v≠
+->
+iv_ic
+;
+
+300 
+©h_so·c
+ *
+sc
+ = 
+	`√tdev_¥iv
+(
+ic
+->
+ic_dev
+);
+
+301 
+õì80211_node
+ *
+ni
+;
+
+303 i‡(
+ic
+->
+ic_›mode
+ =
+IEEE80211_M_STA
+) {
+
+308 
+ni
+ = 
+v≠
+->
+iv_bss
+;
+
+309 i‡(
+°©e
+ =
+IEEE80211_S_RUN
+)
+
+310 
+	`©h_øã_˘l_°¨t
+(
+sc
+, 
+ni
+);
+
+313 i‡(
+fú°_time
+){
+
+314 
+	`©h_øã_upd©e
+(
+sc
+, 
+ni
+, 0);
+
+324 
+	`õì80211_ôî©e_nodes
+(&
+ic
+->
+ic_°a
+, 
+©h_øã_cb
+, 
+NULL
+);
+
+325 i‡(
+fú°_time
+){
+
+326 
+	`©h_øã_upd©e
+(
+sc
+, 
+v≠
+->
+iv_bss
+, 0);
+
+329 
+	}
+}
+
+335 
+	$©h_øã_˘l
+(*
+¨g
+, 
+õì80211_node
+ *
+ni
+)
+
+337 
+	#is_max_øã
+(
+ni
+Ë(“i->
+ni_txøã
+ + 1Ë>ni->
+ni_øãs
+.
+rs_ƒ©es
+)
+
+	)
+
+338 
+	#is_mö_øã
+(
+ni
+Ë“i->
+ni_txøã
+ =0)
+
+	)
+
+340 
+ºØ_c1_node
+ *
+ºØ
+ = 
+	`ATH_NODE_C1_RRAA
+(
+	`ATH_NODE
+(
+ni
+));
+
+341 
+©h_so·c
+ *
+sc
+ = 
+¨g
+;
+
+342 
+ﬁd_øã
+;
+
+344 
+ﬁd_øã
+ = 
+ni
+->
+ni_txøã
+;
+
+346 
+ºØ
+->
+ºØ_loss_øtio
+ =
+
+347 (
+ºØ
+->
+ºØ_tx_ªåy
+*100)/‘øa->ºØ_tx_ªåy +Ñøa->
+ºØ_tx_com∂ëe
+);
+
+350 
+	`DPRINTF
+ (
+sc
+, "rraa:Åx_complete: %dÅx_fail: %dÅx_retry: %dÅx_loss_ratio: %d\n",
+
+351 
+ºØ
+->
+ºØ_tx_com∂ëe
+,
+
+352 
+ºØ
+->
+ºØ_tx_Áû
+,
+
+353 
+ºØ
+->
+ºØ_tx_ªåy
+,
+
+354 
+ºØ
+->
+ºØ_loss_øtio
+);
+
+357 i‡–
+ºØ
+->
+ºØ_loss_øtio
+ > 
+ºØ_m≠
+[
+ni
+->
+ni_txøã
+].
+pmé
+ ) {
+
+358 i‡–!
+	`is_mö_øã
+(
+ni
+) )
+
+359 
+ni
+->
+ni_txøã
+ --;
+
+361 i‡–
+ºØ
+->
+ºØ_loss_øtio
+ < 
+ºØ_m≠
+[
+ni
+->
+ni_txøã
+].
+p‹i
+ ) {
+
+362 i‡–!
+	`is_max_øã
+(
+ni
+) )
+
+363 
+ni
+->
+ni_txøã
+ ++;
+
+367 
+ºØ
+->
+ºØ_cou¡î
+ = 
+ºØ_m≠
+[
+ni
+->
+ni_txøã
+].
+ewnd
+;
+
+369 
+ºØ
+->
+ºØ_tx_cou¡
+ +ºØ->
+ºØ_tx_com∂ëe
+ ;
+
+372 
+ºØ
+->
+ºØ_tx_com∂ëe
+ = 0;
+
+373 
+ºØ
+->
+ºØ_tx_Áû
+ = 0;
+
+374 
+ºØ
+->
+ºØ_tx_ªåy
+ = 0;
+
+376 i‡–
+ﬁd_øã
+ !
+ni
+->
+ni_txøã
+ ){
+
+377 
+	`©h_øã_upd©e
+(
+sc
+, 
+ni
+,Çi->
+ni_txøã
+);
+
+379 
+	`DPRINTF
+(
+sc
+, "ºØc1: " 
+MAC_FMT
+ " : ", 
+	`MAC_ADDR
+(
+ni
+->
+ni_maˇddr
+));
+
+380 
+	`DPRINTF
+(
+sc
+,
+
+382 
+ºØ
+->
+ºØ_tx_cou¡
+,
+
+383 
+ºØ_m≠
+[
+ni
+->
+ni_txøã
+].
+øã
+,
+
+384 
+ºØ
+->
+ºØ_loss_øtio
+,
+
+385 
+ºØ
+->
+ºØ_cou¡î
+);
+
+390 
+	}
+}
+
+392 
+©h_øã˘æ
+ *
+
+393 
+	$©h_øã_©èch
+(
+©h_so·c
+ *
+sc
+)
+
+396 
+ºØ_c1_so·c
+ *
+asc
+;
+
+398 i‡(
+DEBUG
+){
+
+399 
+	`¥ötk
+("rraa:Åhis isÅheÇewÑraa module!\n");
+
+402 
+	`_MOD_INC_USE
+(
+THIS_MODULE
+,  
+NULL
+);
+
+403 
+asc
+ = 
+	`kmÆloc
+((
+ºØ_c1_so·c
+), 
+GFP_ATOMIC
+);
+
+404 i‡(
+asc
+ =
+NULL
+) {
+
+405 
+	`_MOD_DEC_USE
+(
+THIS_MODULE
+);
+
+406  
+NULL
+;
+
+408 
+asc
+->
+¨c
+.
+¨c_•a˚
+ = (
+ºØ_c1_node
+);
+
+409 
+asc
+->
+¨c
+.
+¨c_v≠_•a˚
+ = 0;
+
+411  &
+asc
+->
+¨c
+;
+
+412 
+	}
+}
+
+415 
+	$©h_øã_dëach
+(
+©h_øã˘æ
+ *
+¨c
+)
+
+417 
+ºØ_c1_so·c
+ *
+asc
+ = (ºØ_c1_so·¯*)
+¨c
+;
+
+418 
+	`k‰ì
+(
+asc
+);
+
+419 
+	`_MOD_DEC_USE
+(
+THIS_MODULE
+);
+
+420 
+	}
+}
+
+422 
+˘l_èbÀ_hódî
+ *
+	g©h_sys˘l_hódî
+;
+
+424 
+õì80211_øã_›s
+ 
+	g©h_øã_›s
+ = {
+
+425 .
+øã˘l_id
+ = 
+IEEE80211_RATE_RRAAC1
+,
+
+426 .
+	gnode_öô
+ = 
+©h_øã_node_öô
+,
+
+427 .
+	gnode_˛ónup
+ = 
+©h_øã_node_˛ónup
+,
+
+428 .
+	gfödøã
+ = 
+©h_øã_födøã
+,
+
+429 .
+	ggë_mº
+ = 
+©h_øã_gë_mº
+,
+
+430 .
+	gtx_com∂ëe
+ = 
+©h_øã_tx_com∂ëe
+,
+
+431 .
+	g√wassoc
+ = 
+©h_øã_√wassoc
+,
+
+432 .
+	g√w°©e
+ = 
+©h_øã_√w°©e
+,
+
+433 .
+	g©èch
+ = 
+©h_øã_©èch
+,
+
+434 .
+	gdëach
+ = 
+©h_øã_dëach
+,
+
+437 
+˘l_èbÀ_hódî
+ *
+	g©h_sys˘l_hódî
+;
+
+439 
+	~"ªÀa£.h
+"
+
+441 
+MODULE_AUTHOR
+("Nathaniel Conos, Juan M. Navarro,ánd Lucas Wanner");
+
+442 
+MODULE_DESCRIPTION
+("RRAA Rate controlálgorithm");
+
+443 #ifde‡
+MODULE_VERSION
+
+
+444 
+MODULE_VERSION
+(
+RELEASE_VERSION
+);
+
+446 #ifde‡
+MODULE_LICENSE
+
+
+447 
+MODULE_LICENSE
+("Dual BSD/GPL");
+
+450 
+__öô
+
+
+451 
+	$öô_©h_øã_ºØ_c1_so·c
+()
+
+453 
+ªt
+ = 
+	`õì80211_øã_ªgi°î
+(&
+©h_øã_›s
+);
+
+454 i‡(
+ªt
+)
+
+455  
+ªt
+;
+
+457 
+	}
+}
+
+458 
+moduÀ_öô
+(
+öô_©h_øã_ºØ_c1_so·c
+);
+
+460 
+__exô
+
+
+461 
+	$exô_©h_øã_ºØ_c1_so·c
+()
+
+463 i‡(
+©h_sys˘l_hódî
+ !
+NULL
+)
+
+464 
+	`uƒegi°î_sys˘l_èbÀ
+(
+©h_sys˘l_hódî
+);
+
+465 
+	`õì80211_øã_uƒegi°î
+(&
+©h_øã_›s
+);
+
+466 
+	}
+}
+
+467 
+moduÀ_exô
+(
+exô_©h_øã_ºØ_c1_so·c
+);
+
+	@rraac1.h
+
+11 #i‚de‡
+_DEV_ATH_RATE_RRAAC1_H
+
+
+12 
+	#_DEV_ATH_RATE_RRAAC1_H
+
+
+	)
+
+14 
+	#MAX_NUM_RATE
+ 12
+
+	)
+
+15 
+	#MAX_RATE_POS
+ 11
+
+	)
+
+17 
+	sºØ_øã_m≠
+ {
+
+18 
+u_öt
+ 
+	møã
+;
+
+19 
+u_öt
+ 
+	mp‹i
+;
+
+20 
+u_öt
+ 
+	mpmé
+;
+
+21 
+u_öt
+ 
+	mewnd
+;
+
+24 
+ºØ_øã_m≠
+ 
+	gºØ_m≠
+[
+MAX_NUM_RATE
+];
+
+27 
+	gã°_num
+ ;
+
+30 
+	sºØ_c1_so·c
+ {
+
+31 
+©h_øã˘æ
+ 
+	m¨c
+;
+
+35 
+	sºØ_c1_node
+ {
+
+38 
+u_öt
+ 
+	mºØ_tx_com∂ëe
+;
+
+39 
+u_öt
+ 
+	mºØ_tx_Áû
+;
+
+40 
+u_öt
+ 
+	mºØ_tx_ªåy
+;
+
+43 
+u_öt
+ 
+	mºØ_tx_cou¡
+;
+
+46 
+u_öt
+ 
+	mºØ_loss_øtio
+;
+
+49 
+	mºØ_cou¡î
+ ;
+
+53 
+u_öt8_t
+ 
+	mºØ_tx_rix0
+;
+
+54 
+u_öt8_t
+ 
+	mºØ_tx_øã0
+;
+
+55 
+u_öt8_t
+ 
+	mºØ_tx_øã0•
+;
+
+56 
+u_öt8_t
+ 
+	mºØ_tx_åy0
+;
+
+62 
+	#ATH_NODE_AMRR
+(
+™
+Ë((
+ºØ_c1_node
+ *)&™[1])
+
+	)
+
+63 
+	#ATH_NODE_C1_RRAA
+(
+™
+Ë((
+ºØ_c1_node
+ *)&™[1])
+
+	)
+
+	@/usr/include/linux/if_arp.h
+
+23 #i‚de‡
+_LINUX_IF_ARP_H
+
+
+24 
+	#_LINUX_IF_ARP_H
+
+
+	)
+
+26 
+	~<löux/√tdevi˚.h
+>
+
+29 
+	#ARPHRD_NETROM
+ 0
+
+	)
+
+30 
+	#ARPHRD_ETHER
+ 1
+
+	)
+
+31 
+	#ARPHRD_EETHER
+ 2
+
+	)
+
+32 
+	#ARPHRD_AX25
+ 3
+
+	)
+
+33 
+	#ARPHRD_PRONET
+ 4
+
+	)
+
+34 
+	#ARPHRD_CHAOS
+ 5
+
+	)
+
+35 
+	#ARPHRD_IEEE802
+ 6
+
+	)
+
+36 
+	#ARPHRD_ARCNET
+ 7
+
+	)
+
+37 
+	#ARPHRD_APPLETLK
+ 8
+
+	)
+
+38 
+	#ARPHRD_DLCI
+ 15
+
+	)
+
+39 
+	#ARPHRD_ATM
+ 19
+
+	)
+
+40 
+	#ARPHRD_METRICOM
+ 23
+
+	)
+
+41 
+	#ARPHRD_IEEE1394
+ 24
+
+	)
+
+42 
+	#ARPHRD_EUI64
+ 27
+
+	)
+
+43 
+	#ARPHRD_INFINIBAND
+ 32
+
+	)
+
+46 
+	#ARPHRD_SLIP
+ 256
+
+	)
+
+47 
+	#ARPHRD_CSLIP
+ 257
+
+	)
+
+48 
+	#ARPHRD_SLIP6
+ 258
+
+	)
+
+49 
+	#ARPHRD_CSLIP6
+ 259
+
+	)
+
+50 
+	#ARPHRD_RSRVD
+ 260
+
+	)
+
+51 
+	#ARPHRD_ADAPT
+ 264
+
+	)
+
+52 
+	#ARPHRD_ROSE
+ 270
+
+	)
+
+53 
+	#ARPHRD_X25
+ 271
+
+	)
+
+54 
+	#ARPHRD_HWX25
+ 272
+
+	)
+
+55 
+	#ARPHRD_WIMAX
+ 273
+
+	)
+
+57 
+	#ARPHRD_PPP
+ 512
+
+	)
+
+58 
+	#ARPHRD_CISCO
+ 513
+
+	)
+
+59 
+	#ARPHRD_HDLC
+ 
+ARPHRD_CISCO
+
+
+	)
+
+60 
+	#ARPHRD_LAPB
+ 516
+
+	)
+
+61 
+	#ARPHRD_DDCMP
+ 517
+
+	)
+
+62 
+	#ARPHRD_RAWHDLC
+ 518
+
+	)
+
+64 
+	#ARPHRD_TUNNEL
+ 768
+
+	)
+
+65 
+	#ARPHRD_TUNNEL6
+ 769
+
+	)
+
+66 
+	#ARPHRD_FRAD
+ 770
+
+	)
+
+67 
+	#ARPHRD_SKIP
+ 771
+
+	)
+
+68 
+	#ARPHRD_LOOPBACK
+ 772
+
+	)
+
+69 
+	#ARPHRD_LOCALTLK
+ 773
+
+	)
+
+70 
+	#ARPHRD_FDDI
+ 774
+
+	)
+
+71 
+	#ARPHRD_BIF
+ 775
+
+	)
+
+72 
+	#ARPHRD_SIT
+ 776
+
+	)
+
+73 
+	#ARPHRD_IPDDP
+ 777
+
+	)
+
+74 
+	#ARPHRD_IPGRE
+ 778
+
+	)
+
+75 
+	#ARPHRD_PIMREG
+ 779
+
+	)
+
+76 
+	#ARPHRD_HIPPI
+ 780
+
+	)
+
+77 
+	#ARPHRD_ASH
+ 781
+
+	)
+
+78 
+	#ARPHRD_ECONET
+ 782
+
+	)
+
+79 
+	#ARPHRD_IRDA
+ 783
+
+	)
+
+81 
+	#ARPHRD_FCPP
+ 784
+
+	)
+
+82 
+	#ARPHRD_FCAL
+ 785
+
+	)
+
+83 
+	#ARPHRD_FCPL
+ 786
+
+	)
+
+84 
+	#ARPHRD_FCFABRIC
+ 787
+
+	)
+
+86 
+	#ARPHRD_IEEE802_TR
+ 800
+
+	)
+
+87 
+	#ARPHRD_IEEE80211
+ 801
+
+	)
+
+88 
+	#ARPHRD_IEEE80211_PRISM
+ 802
+
+	)
+
+89 
+	#ARPHRD_IEEE80211_RADIOTAP
+ 803
+
+	)
+
+91 
+	#ARPHRD_VOID
+ 0xFFFF
+
+	)
+
+92 
+	#ARPHRD_NONE
+ 0xFFFE
+
+	)
+
+95 
+	#ARPOP_REQUEST
+ 1
+
+	)
+
+96 
+	#ARPOP_REPLY
+ 2
+
+	)
+
+97 
+	#ARPOP_RREQUEST
+ 3
+
+	)
+
+98 
+	#ARPOP_RREPLY
+ 4
+
+	)
+
+99 
+	#ARPOP_InREQUEST
+ 8
+
+	)
+
+100 
+	#ARPOP_InREPLY
+ 9
+
+	)
+
+101 
+	#ARPOP_NAK
+ 10
+
+	)
+
+105 
+	s¨¥eq
+ {
+
+106 
+sockaddr
+ 
+	m¨p_∑
+;
+
+107 
+sockaddr
+ 
+	m¨p_ha
+;
+
+108 
+	m¨p_Êags
+;
+
+109 
+sockaddr
+ 
+	m¨p_√tmask
+;
+
+110 
+	m¨p_dev
+[16];
+
+113 
+	s¨¥eq_ﬁd
+ {
+
+114 
+sockaddr
+ 
+	m¨p_∑
+;
+
+115 
+sockaddr
+ 
+	m¨p_ha
+;
+
+116 
+	m¨p_Êags
+;
+
+117 
+sockaddr
+ 
+	m¨p_√tmask
+;
+
+121 
+	#ATF_COM
+ 0x02
+
+	)
+
+122 
+	#ATF_PERM
+ 0x04
+
+	)
+
+123 
+	#ATF_PUBL
+ 0x08
+
+	)
+
+124 
+	#ATF_USETRAILERS
+ 0x10
+
+	)
+
+125 
+	#ATF_NETMASK
+ 0x20
+
+	)
+
+127 
+	#ATF_DONTPUB
+ 0x40
+
+	)
+
+133 
+	s¨phdr
+
+
+135 
+__be16
+ 
+	m¨_hrd
+;
+
+136 
+__be16
+ 
+	m¨_¥o
+;
+
+137 
+	m¨_h 
+;
+
+138 
+	m¨_∂n
+;
+
+139 
+__be16
+ 
+	m¨_›
+;
+
+145 
+	m¨_sha
+[
+ETH_ALEN
+];
+
+146 
+	m¨_sù
+[4];
+
+147 
+	m¨_tha
+[
+ETH_ALEN
+];
+
+148 
+	m¨_tù
+[4];
+
+	@/usr/include/linux/netdevice.h
+
+25 #i‚de‡
+_LINUX_NETDEVICE_H
+
+
+26 
+	#_LINUX_NETDEVICE_H
+
+
+	)
+
+28 
+	~<löux/if.h
+>
+
+29 
+	~<löux/if_ëhî.h
+>
+
+30 
+	~<löux/if_∑ckë.h
+>
+
+33 
+	#MAX_ADDR_LEN
+ 32
+
+	)
+
+36 
+	#NETDEV_TX_OK
+ 0
+
+	)
+
+37 
+	#NETDEV_TX_BUSY
+ 1
+
+	)
+
+38 
+	#NETDEV_TX_LOCKED
+ -1
+
+	)
+
+45 #i‡!
+deföed
+(
+CONFIG_AX25
+Ë&& !deföed(
+CONFIG_AX25_MODULE
+Ë&& !deföed(
+CONFIG_TR
+)
+
+46 
+	#LL_MAX_HEADER
+ 32
+
+	)
+
+48 #i‡
+deföed
+(
+CONFIG_AX25
+Ë|| deföed(
+CONFIG_AX25_MODULE
+)
+
+49 
+	#LL_MAX_HEADER
+ 96
+
+	)
+
+51 
+	#LL_MAX_HEADER
+ 48
+
+	)
+
+55 #i‡!
+deföed
+(
+CONFIG_NET_IPIP
+Ë&& !deföed(
+CONFIG_NET_IPIP_MODULE
+) && \
+
+56 !
+deföed
+(
+CONFIG_NET_IPGRE
+Ë&& !deföed(
+CONFIG_NET_IPGRE_MODULE
+) && \
+
+57 !
+deföed
+(
+CONFIG_IPV6_SIT
+Ë&& !deföed(
+CONFIG_IPV6_SIT_MODULE
+) && \
+
+58 !
+deföed
+(
+CONFIG_IPV6_TUNNEL
+Ë&& !
+	$deföed
+(
+CONFIG_IPV6_TUNNEL_MODULE
+)
+
+59 
+	#MAX_HEADER
+ 
+LL_MAX_HEADER
+
+
+	)
+
+61 
+	#MAX_HEADER
+ (
+LL_MAX_HEADER
+ + 48)
+
+	)
+
+64 
+	s√t_devi˚_subqueue
+
+
+69 
+°©e
+;
+
+77 
+	s√t_devi˚_°©s
+
+
+79 
+rx_∑ckës
+;
+
+80 
+tx_∑ckës
+;
+
+81 
+rx_byãs
+;
+
+82 
+tx_byãs
+;
+
+83 
+rx_îr‹s
+;
+
+84 
+tx_îr‹s
+;
+
+85 
+rx_dr›≥d
+;
+
+86 
+tx_dr›≥d
+;
+
+87 
+mu…iˇ°
+;
+
+88 
+cﬁlisi⁄s
+;
+
+91 
+rx_Àngth_îr‹s
+;
+
+92 
+rx_ovî_îr‹s
+;
+
+93 
+rx_¸c_îr‹s
+;
+
+94 
+rx_‰ame_îr‹s
+;
+
+95 
+rx_fifo_îr‹s
+;
+
+96 
+rx_mis£d_îr‹s
+;
+
+99 
+tx_ab‹ãd_îr‹s
+;
+
+100 
+tx_ˇºõr_îr‹s
+;
+
+101 
+tx_fifo_îr‹s
+;
+
+102 
+tx_hóπbót_îr‹s
+;
+
+103 
+tx_wödow_îr‹s
+;
+
+106 
+rx_com¥es£d
+;
+
+107 
+tx_com¥es£d
+;
+
+113 
+IF_PORT_UNKNOWN
+ = 0,
+
+114 
+IF_PORT_10BASE2
+,
+
+115 
+IF_PORT_10BASET
+,
+
+116 
+IF_PORT_AUI
+,
+
+117 
+IF_PORT_100BASET
+,
+
+118 
+IF_PORT_100BASETX
+,
+
+119 
+IF_PORT_100BASEFX
+
+
+	@/usr/include/linux/random.h
+
+7 #i‚de‡
+_LINUX_RANDOM_H
+
+
+8 
+	#_LINUX_RANDOM_H
+
+
+	)
+
+10 
+	~<löux/io˘l.h
+>
+
+15 
+	#RNDGETENTCNT
+ 
+	`_IOR
+–'R', 0x00, )
+
+	)
+
+18 
+	#RNDADDTOENTCNT
+ 
+	`_IOW
+–'R', 0x01, )
+
+	)
+
+21 
+	#RNDGETPOOL
+ 
+	`_IOR
+–'R', 0x02, [2] )
+
+	)
+
+27 
+	#RNDADDENTROPY
+ 
+	`_IOW
+–'R', 0x03, [2] )
+
+	)
+
+30 
+	#RNDZAPENTCNT
+ 
+	`_IO
+–'R', 0x04 )
+
+	)
+
+33 
+	#RNDCLEARPOOL
+ 
+	`_IO
+–'R', 0x06 )
+
+	)
+
+35 
+	sønd_poﬁ_öfo
+ {
+
+36 
+	míå›y_cou¡
+;
+
+37 
+	mbuf_size
+;
+
+38 
+__u32
+ 
+	mbuf
+[0];
+
+	@/usr/include/linux/sysctl.h
+
+25 #i‚de‡
+_LINUX_SYSCTL_H
+
+
+26 
+	#_LINUX_SYSCTL_H
+
+
+	)
+
+28 
+	~<löux/kî√l.h
+>
+
+29 
+	~<löux/ty≥s.h
+>
+
+31 
+	gfûe
+;
+
+32 
+	gcom∂ëi⁄
+;
+
+34 
+	#CTL_MAXNAME
+ 10
+
+	)
+
+39 
+	s__sys˘l_¨gs
+ {
+
+40 *
+	m«me
+;
+
+41 
+	m∆í
+;
+
+42 *
+	mﬁdvÆ
+;
+
+43 
+size_t
+ *
+	mﬁdÀ≈
+;
+
+44 *
+	m√wvÆ
+;
+
+45 
+size_t
+ 
+	m√wÀn
+;
+
+46 
+	m__unu£d
+[4];
+
+57 
+	mCTL_KERN
+=1,
+
+58 
+	mCTL_VM
+=2,
+
+59 
+	mCTL_NET
+=3,
+
+60 
+	mCTL_PROC
+=4,
+
+61 
+	mCTL_FS
+=5,
+
+62 
+	mCTL_DEBUG
+=6,
+
+63 
+	mCTL_DEV
+=7,
+
+64 
+	mCTL_BUS
+=8,
+
+65 
+	mCTL_ABI
+=9,
+
+66 
+	mCTL_CPU
+=10,
+
+67 
+	mCTL_ARLAN
+=254,
+
+68 
+	mCTL_S390DBF
+=5677,
+
+69 
+	mCTL_SUNRPC
+=7249,
+
+70 
+	mCTL_PM
+=9899,
+
+71 
+	mCTL_FRV
+=9898,
+
+77 
+	mCTL_BUS_ISA
+=1
+
+83 
+	mINOTIFY_MAX_USER_INSTANCES
+=1,
+
+84 
+	mINOTIFY_MAX_USER_WATCHES
+=2,
+
+85 
+	mINOTIFY_MAX_QUEUED_EVENTS
+=3
+
+91 
+	mKERN_OSTYPE
+=1,
+
+92 
+	mKERN_OSRELEASE
+=2,
+
+93 
+	mKERN_OSREV
+=3,
+
+94 
+	mKERN_VERSION
+=4,
+
+95 
+	mKERN_SECUREMASK
+=5,
+
+96 
+	mKERN_PROF
+=6,
+
+97 
+	mKERN_NODENAME
+=7,
+
+98 
+	mKERN_DOMAINNAME
+=8,
+
+100 
+	mKERN_CAP_BSET
+=14,
+
+101 
+	mKERN_PANIC
+=15,
+
+102 
+	mKERN_REALROOTDEV
+=16,
+
+104 
+	mKERN_SPARC_REBOOT
+=21,
+
+105 
+	mKERN_CTLALTDEL
+=22,
+
+106 
+	mKERN_PRINTK
+=23,
+
+107 
+	mKERN_NAMETRANS
+=24,
+
+108 
+	mKERN_PPC_HTABRECLAIM
+=25,
+
+109 
+	mKERN_PPC_ZEROPAGED
+=26,
+
+110 
+	mKERN_PPC_POWERSAVE_NAP
+=27,
+
+111 
+	mKERN_MODPROBE
+=28,
+
+112 
+	mKERN_SG_BIG_BUFF
+=29,
+
+113 
+	mKERN_ACCT
+=30,
+
+114 
+	mKERN_PPC_L2CR
+=31,
+
+116 
+	mKERN_RTSIGNR
+=32,
+
+117 
+	mKERN_RTSIGMAX
+=33,
+
+119 
+	mKERN_SHMMAX
+=34,
+
+120 
+	mKERN_MSGMAX
+=35,
+
+121 
+	mKERN_MSGMNB
+=36,
+
+122 
+	mKERN_MSGPOOL
+=37,
+
+123 
+	mKERN_SYSRQ
+=38,
+
+124 
+	mKERN_MAX_THREADS
+=39,
+
+125 
+	mKERN_RANDOM
+=40,
+
+126 
+	mKERN_SHMALL
+=41,
+
+127 
+	mKERN_MSGMNI
+=42,
+
+128 
+	mKERN_SEM
+=43,
+
+129 
+	mKERN_SPARC_STOP_A
+=44,
+
+130 
+	mKERN_SHMMNI
+=45,
+
+131 
+	mKERN_OVERFLOWUID
+=46,
+
+132 
+	mKERN_OVERFLOWGID
+=47,
+
+133 
+	mKERN_SHMPATH
+=48,
+
+134 
+	mKERN_HOTPLUG
+=49,
+
+135 
+	mKERN_IEEE_EMULATION_WARNINGS
+=50,
+
+136 
+	mKERN_S390_USER_DEBUG_LOGGING
+=51,
+
+137 
+	mKERN_CORE_USES_PID
+=52,
+
+138 
+	mKERN_TAINTED
+=53,
+
+139 
+	mKERN_CADPID
+=54,
+
+140 
+	mKERN_PIDMAX
+=55,
+
+141 
+	mKERN_CORE_PATTERN
+=56,
+
+142 
+	mKERN_PANIC_ON_OOPS
+=57,
+
+143 
+	mKERN_HPPA_PWRSW
+=58,
+
+144 
+	mKERN_HPPA_UNALIGNED
+=59,
+
+145 
+	mKERN_PRINTK_RATELIMIT
+=60,
+
+146 
+	mKERN_PRINTK_RATELIMIT_BURST
+=61,
+
+147 
+	mKERN_PTY
+=62,
+
+148 
+	mKERN_NGROUPS_MAX
+=63,
+
+149 
+	mKERN_SPARC_SCONS_PWROFF
+=64,
+
+150 
+	mKERN_HZ_TIMER
+=65,
+
+151 
+	mKERN_UNKNOWN_NMI_PANIC
+=66,
+
+152 
+	mKERN_BOOTLOADER_TYPE
+=67,
+
+153 
+	mKERN_RANDOMIZE
+=68,
+
+154 
+	mKERN_SETUID_DUMPABLE
+=69,
+
+155 
+	mKERN_SPIN_RETRY
+=70,
+
+156 
+	mKERN_ACPI_VIDEO_FLAGS
+=71,
+
+157 
+	mKERN_IA64_UNALIGNED
+=72,
+
+158 
+	mKERN_COMPAT_LOG
+=73,
+
+159 
+	mKERN_MAX_LOCK_DEPTH
+=74,
+
+160 
+	mKERN_NMI_WATCHDOG
+=75,
+
+161 
+	mKERN_PANIC_ON_NMI
+=76,
+
+169 
+	mVM_UNUSED1
+=1,
+
+170 
+	mVM_UNUSED2
+=2,
+
+171 
+	mVM_UNUSED3
+=3,
+
+172 
+	mVM_UNUSED4
+=4,
+
+173 
+	mVM_OVERCOMMIT_MEMORY
+=5,
+
+174 
+	mVM_UNUSED5
+=6,
+
+175 
+	mVM_UNUSED7
+=7,
+
+176 
+	mVM_UNUSED8
+=8,
+
+177 
+	mVM_UNUSED9
+=9,
+
+178 
+	mVM_PAGE_CLUSTER
+=10,
+
+179 
+	mVM_DIRTY_BACKGROUND
+=11,
+
+180 
+	mVM_DIRTY_RATIO
+=12,
+
+181 
+	mVM_DIRTY_WB_CS
+=13,
+
+182 
+	mVM_DIRTY_EXPIRE_CS
+=14,
+
+183 
+	mVM_NR_PDFLUSH_THREADS
+=15,
+
+184 
+	mVM_OVERCOMMIT_RATIO
+=16,
+
+185 
+	mVM_PAGEBUF
+=17,
+
+186 
+	mVM_HUGETLB_PAGES
+=18,
+
+187 
+	mVM_SWAPPINESS
+=19,
+
+188 
+	mVM_LOWMEM_RESERVE_RATIO
+=20,
+
+189 
+	mVM_MIN_FREE_KBYTES
+=21,
+
+190 
+	mVM_MAX_MAP_COUNT
+=22,
+
+191 
+	mVM_LAPTOP_MODE
+=23,
+
+192 
+	mVM_BLOCK_DUMP
+=24,
+
+193 
+	mVM_HUGETLB_GROUP
+=25,
+
+194 
+	mVM_VFS_CACHE_PRESSURE
+=26,
+
+195 
+	mVM_LEGACY_VA_LAYOUT
+=27,
+
+196 
+	mVM_SWAP_TOKEN_TIMEOUT
+=28,
+
+197 
+	mVM_DROP_PAGECACHE
+=29,
+
+198 
+	mVM_PERCPU_PAGELIST_FRACTION
+=30,
+
+199 
+	mVM_ZONE_RECLAIM_MODE
+=31,
+
+200 
+	mVM_MIN_UNMAPPED
+=32,
+
+201 
+	mVM_PANIC_ON_OOM
+=33,
+
+202 
+	mVM_VDSO_ENABLED
+=34,
+
+203 
+	mVM_MIN_SLAB
+=35,
+
+210 
+	mNET_CORE
+=1,
+
+211 
+	mNET_ETHER
+=2,
+
+212 
+	mNET_802
+=3,
+
+213 
+	mNET_UNIX
+=4,
+
+214 
+	mNET_IPV4
+=5,
+
+215 
+	mNET_IPX
+=6,
+
+216 
+	mNET_ATALK
+=7,
+
+217 
+	mNET_NETROM
+=8,
+
+218 
+	mNET_AX25
+=9,
+
+219 
+	mNET_BRIDGE
+=10,
+
+220 
+	mNET_ROSE
+=11,
+
+221 
+	mNET_IPV6
+=12,
+
+222 
+	mNET_X25
+=13,
+
+223 
+	mNET_TR
+=14,
+
+224 
+	mNET_DECNET
+=15,
+
+225 
+	mNET_ECONET
+=16,
+
+226 
+	mNET_SCTP
+=17,
+
+227 
+	mNET_LLC
+=18,
+
+228 
+	mNET_NETFILTER
+=19,
+
+229 
+	mNET_DCCP
+=20,
+
+230 
+	mNET_IRDA
+=412,
+
+236 
+	mRANDOM_POOLSIZE
+=1,
+
+237 
+	mRANDOM_ENTROPY_COUNT
+=2,
+
+238 
+	mRANDOM_READ_THRESH
+=3,
+
+239 
+	mRANDOM_WRITE_THRESH
+=4,
+
+240 
+	mRANDOM_BOOT_ID
+=5,
+
+241 
+	mRANDOM_UUID
+=6
+
+247 
+	mPTY_MAX
+=1,
+
+248 
+	mPTY_NR
+=2
+
+254 
+	mBUS_ISA_MEM_BASE
+=1,
+
+255 
+	mBUS_ISA_PORT_BASE
+=2,
+
+256 
+	mBUS_ISA_PORT_SHIFT
+=3
+
+262 
+	mNET_CORE_WMEM_MAX
+=1,
+
+263 
+	mNET_CORE_RMEM_MAX
+=2,
+
+264 
+	mNET_CORE_WMEM_DEFAULT
+=3,
+
+265 
+	mNET_CORE_RMEM_DEFAULT
+=4,
+
+267 
+	mNET_CORE_MAX_BACKLOG
+=6,
+
+268 
+	mNET_CORE_FASTROUTE
+=7,
+
+269 
+	mNET_CORE_MSG_COST
+=8,
+
+270 
+	mNET_CORE_MSG_BURST
+=9,
+
+271 
+	mNET_CORE_OPTMEM_MAX
+=10,
+
+272 
+	mNET_CORE_HOT_LIST_LENGTH
+=11,
+
+273 
+	mNET_CORE_DIVERT_VERSION
+=12,
+
+274 
+	mNET_CORE_NO_CONG_THRESH
+=13,
+
+275 
+	mNET_CORE_NO_CONG
+=14,
+
+276 
+	mNET_CORE_LO_CONG
+=15,
+
+277 
+	mNET_CORE_MOD_CONG
+=16,
+
+278 
+	mNET_CORE_DEV_WEIGHT
+=17,
+
+279 
+	mNET_CORE_SOMAXCONN
+=18,
+
+280 
+	mNET_CORE_BUDGET
+=19,
+
+281 
+	mNET_CORE_AEVENT_ETIME
+=20,
+
+282 
+	mNET_CORE_AEVENT_RSEQTH
+=21,
+
+283 
+	mNET_CORE_WARNINGS
+=22,
+
+294 
+	mNET_UNIX_DESTROY_DELAY
+=1,
+
+295 
+	mNET_UNIX_DELETE_DELAY
+=2,
+
+296 
+	mNET_UNIX_MAX_DGRAM_QLEN
+=3,
+
+302 
+	mNET_NF_CONNTRACK_MAX
+=1,
+
+303 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_SYN_SENT
+=2,
+
+304 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_SYN_RECV
+=3,
+
+305 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_ESTABLISHED
+=4,
+
+306 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_FIN_WAIT
+=5,
+
+307 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_CLOSE_WAIT
+=6,
+
+308 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_LAST_ACK
+=7,
+
+309 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_TIME_WAIT
+=8,
+
+310 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_CLOSE
+=9,
+
+311 
+	mNET_NF_CONNTRACK_UDP_TIMEOUT
+=10,
+
+312 
+	mNET_NF_CONNTRACK_UDP_TIMEOUT_STREAM
+=11,
+
+313 
+	mNET_NF_CONNTRACK_ICMP_TIMEOUT
+=12,
+
+314 
+	mNET_NF_CONNTRACK_GENERIC_TIMEOUT
+=13,
+
+315 
+	mNET_NF_CONNTRACK_BUCKETS
+=14,
+
+316 
+	mNET_NF_CONNTRACK_LOG_INVALID
+=15,
+
+317 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_MAX_RETRANS
+=16,
+
+318 
+	mNET_NF_CONNTRACK_TCP_LOOSE
+=17,
+
+319 
+	mNET_NF_CONNTRACK_TCP_BE_LIBERAL
+=18,
+
+320 
+	mNET_NF_CONNTRACK_TCP_MAX_RETRANS
+=19,
+
+321 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_CLOSED
+=20,
+
+322 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_COOKIE_WAIT
+=21,
+
+323 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_COOKIE_ECHOED
+=22,
+
+324 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_ESTABLISHED
+=23,
+
+325 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_SENT
+=24,
+
+326 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_RECD
+=25,
+
+327 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_ACK_SENT
+=26,
+
+328 
+	mNET_NF_CONNTRACK_COUNT
+=27,
+
+329 
+	mNET_NF_CONNTRACK_ICMPV6_TIMEOUT
+=28,
+
+330 
+	mNET_NF_CONNTRACK_FRAG6_TIMEOUT
+=29,
+
+331 
+	mNET_NF_CONNTRACK_FRAG6_LOW_THRESH
+=30,
+
+332 
+	mNET_NF_CONNTRACK_FRAG6_HIGH_THRESH
+=31,
+
+333 
+	mNET_NF_CONNTRACK_CHECKSUM
+=32,
+
+340 
+	mNET_IPV4_FORWARD
+=8,
+
+341 
+	mNET_IPV4_DYNADDR
+=9,
+
+343 
+	mNET_IPV4_CONF
+=16,
+
+344 
+	mNET_IPV4_NEIGH
+=17,
+
+345 
+	mNET_IPV4_ROUTE
+=18,
+
+346 
+	mNET_IPV4_FIB_HASH
+=19,
+
+347 
+	mNET_IPV4_NETFILTER
+=20,
+
+349 
+	mNET_IPV4_TCP_TIMESTAMPS
+=33,
+
+350 
+	mNET_IPV4_TCP_WINDOW_SCALING
+=34,
+
+351 
+	mNET_IPV4_TCP_SACK
+=35,
+
+352 
+	mNET_IPV4_TCP_RETRANS_COLLAPSE
+=36,
+
+353 
+	mNET_IPV4_DEFAULT_TTL
+=37,
+
+354 
+	mNET_IPV4_AUTOCONFIG
+=38,
+
+355 
+	mNET_IPV4_NO_PMTU_DISC
+=39,
+
+356 
+	mNET_IPV4_TCP_SYN_RETRIES
+=40,
+
+357 
+	mNET_IPV4_IPFRAG_HIGH_THRESH
+=41,
+
+358 
+	mNET_IPV4_IPFRAG_LOW_THRESH
+=42,
+
+359 
+	mNET_IPV4_IPFRAG_TIME
+=43,
+
+360 
+	mNET_IPV4_TCP_MAX_KA_PROBES
+=44,
+
+361 
+	mNET_IPV4_TCP_KEEPALIVE_TIME
+=45,
+
+362 
+	mNET_IPV4_TCP_KEEPALIVE_PROBES
+=46,
+
+363 
+	mNET_IPV4_TCP_RETRIES1
+=47,
+
+364 
+	mNET_IPV4_TCP_RETRIES2
+=48,
+
+365 
+	mNET_IPV4_TCP_FIN_TIMEOUT
+=49,
+
+366 
+	mNET_IPV4_IP_MASQ_DEBUG
+=50,
+
+367 
+	mNET_TCP_SYNCOOKIES
+=51,
+
+368 
+	mNET_TCP_STDURG
+=52,
+
+369 
+	mNET_TCP_RFC1337
+=53,
+
+370 
+	mNET_TCP_SYN_TAILDROP
+=54,
+
+371 
+	mNET_TCP_MAX_SYN_BACKLOG
+=55,
+
+372 
+	mNET_IPV4_LOCAL_PORT_RANGE
+=56,
+
+373 
+	mNET_IPV4_ICMP_ECHO_IGNORE_ALL
+=57,
+
+374 
+	mNET_IPV4_ICMP_ECHO_IGNORE_BROADCASTS
+=58,
+
+375 
+	mNET_IPV4_ICMP_SOURCEQUENCH_RATE
+=59,
+
+376 
+	mNET_IPV4_ICMP_DESTUNREACH_RATE
+=60,
+
+377 
+	mNET_IPV4_ICMP_TIMEEXCEED_RATE
+=61,
+
+378 
+	mNET_IPV4_ICMP_PARAMPROB_RATE
+=62,
+
+379 
+	mNET_IPV4_ICMP_ECHOREPLY_RATE
+=63,
+
+380 
+	mNET_IPV4_ICMP_IGNORE_BOGUS_ERROR_RESPONSES
+=64,
+
+381 
+	mNET_IPV4_IGMP_MAX_MEMBERSHIPS
+=65,
+
+382 
+	mNET_TCP_TW_RECYCLE
+=66,
+
+383 
+	mNET_IPV4_ALWAYS_DEFRAG
+=67,
+
+384 
+	mNET_IPV4_TCP_KEEPALIVE_INTVL
+=68,
+
+385 
+	mNET_IPV4_INET_PEER_THRESHOLD
+=69,
+
+386 
+	mNET_IPV4_INET_PEER_MINTTL
+=70,
+
+387 
+	mNET_IPV4_INET_PEER_MAXTTL
+=71,
+
+388 
+	mNET_IPV4_INET_PEER_GC_MINTIME
+=72,
+
+389 
+	mNET_IPV4_INET_PEER_GC_MAXTIME
+=73,
+
+390 
+	mNET_TCP_ORPHAN_RETRIES
+=74,
+
+391 
+	mNET_TCP_ABORT_ON_OVERFLOW
+=75,
+
+392 
+	mNET_TCP_SYNACK_RETRIES
+=76,
+
+393 
+	mNET_TCP_MAX_ORPHANS
+=77,
+
+394 
+	mNET_TCP_MAX_TW_BUCKETS
+=78,
+
+395 
+	mNET_TCP_FACK
+=79,
+
+396 
+	mNET_TCP_REORDERING
+=80,
+
+397 
+	mNET_TCP_ECN
+=81,
+
+398 
+	mNET_TCP_DSACK
+=82,
+
+399 
+	mNET_TCP_MEM
+=83,
+
+400 
+	mNET_TCP_WMEM
+=84,
+
+401 
+	mNET_TCP_RMEM
+=85,
+
+402 
+	mNET_TCP_APP_WIN
+=86,
+
+403 
+	mNET_TCP_ADV_WIN_SCALE
+=87,
+
+404 
+	mNET_IPV4_NONLOCAL_BIND
+=88,
+
+405 
+	mNET_IPV4_ICMP_RATELIMIT
+=89,
+
+406 
+	mNET_IPV4_ICMP_RATEMASK
+=90,
+
+407 
+	mNET_TCP_TW_REUSE
+=91,
+
+408 
+	mNET_TCP_FRTO
+=92,
+
+409 
+	mNET_TCP_LOW_LATENCY
+=93,
+
+410 
+	mNET_IPV4_IPFRAG_SECRET_INTERVAL
+=94,
+
+411 
+	mNET_IPV4_IGMP_MAX_MSF
+=96,
+
+412 
+	mNET_TCP_NO_METRICS_SAVE
+=97,
+
+413 
+	mNET_TCP_DEFAULT_WIN_SCALE
+=105,
+
+414 
+	mNET_TCP_MODERATE_RCVBUF
+=106,
+
+415 
+	mNET_TCP_TSO_WIN_DIVISOR
+=107,
+
+416 
+	mNET_TCP_BIC_BETA
+=108,
+
+417 
+	mNET_IPV4_ICMP_ERRORS_USE_INBOUND_IFADDR
+=109,
+
+418 
+	mNET_TCP_CONG_CONTROL
+=110,
+
+419 
+	mNET_TCP_ABC
+=111,
+
+420 
+	mNET_IPV4_IPFRAG_MAX_DIST
+=112,
+
+421 
+	mNET_TCP_MTU_PROBING
+=113,
+
+422 
+	mNET_TCP_BASE_MSS
+=114,
+
+423 
+	mNET_IPV4_TCP_WORKAROUND_SIGNED_WINDOWS
+=115,
+
+424 
+	mNET_TCP_DMA_COPYBREAK
+=116,
+
+425 
+	mNET_TCP_SLOW_START_AFTER_IDLE
+=117,
+
+426 
+	mNET_CIPSOV4_CACHE_ENABLE
+=118,
+
+427 
+	mNET_CIPSOV4_CACHE_BUCKET_SIZE
+=119,
+
+428 
+	mNET_CIPSOV4_RBM_OPTFMT
+=120,
+
+429 
+	mNET_CIPSOV4_RBM_STRICTVALID
+=121,
+
+430 
+	mNET_TCP_AVAIL_CONG_CONTROL
+=122,
+
+431 
+	mNET_TCP_ALLOWED_CONG_CONTROL
+=123,
+
+432 
+	mNET_TCP_MAX_SSTHRESH
+=124,
+
+433 
+	mNET_TCP_FRTO_RESPONSE
+=125,
+
+437 
+	mNET_IPV4_ROUTE_FLUSH
+=1,
+
+438 
+	mNET_IPV4_ROUTE_MIN_DELAY
+=2,
+
+439 
+	mNET_IPV4_ROUTE_MAX_DELAY
+=3,
+
+440 
+	mNET_IPV4_ROUTE_GC_THRESH
+=4,
+
+441 
+	mNET_IPV4_ROUTE_MAX_SIZE
+=5,
+
+442 
+	mNET_IPV4_ROUTE_GC_MIN_INTERVAL
+=6,
+
+443 
+	mNET_IPV4_ROUTE_GC_TIMEOUT
+=7,
+
+444 
+	mNET_IPV4_ROUTE_GC_INTERVAL
+=8,
+
+445 
+	mNET_IPV4_ROUTE_REDIRECT_LOAD
+=9,
+
+446 
+	mNET_IPV4_ROUTE_REDIRECT_NUMBER
+=10,
+
+447 
+	mNET_IPV4_ROUTE_REDIRECT_SILENCE
+=11,
+
+448 
+	mNET_IPV4_ROUTE_ERROR_COST
+=12,
+
+449 
+	mNET_IPV4_ROUTE_ERROR_BURST
+=13,
+
+450 
+	mNET_IPV4_ROUTE_GC_ELASTICITY
+=14,
+
+451 
+	mNET_IPV4_ROUTE_MTU_EXPIRES
+=15,
+
+452 
+	mNET_IPV4_ROUTE_MIN_PMTU
+=16,
+
+453 
+	mNET_IPV4_ROUTE_MIN_ADVMSS
+=17,
+
+454 
+	mNET_IPV4_ROUTE_SECRET_INTERVAL
+=18,
+
+455 
+	mNET_IPV4_ROUTE_GC_MIN_INTERVAL_MS
+=19,
+
+460 
+	mNET_PROTO_CONF_ALL
+=-2,
+
+461 
+	mNET_PROTO_CONF_DEFAULT
+=-3
+
+468 
+	mNET_IPV4_CONF_FORWARDING
+=1,
+
+469 
+	mNET_IPV4_CONF_MC_FORWARDING
+=2,
+
+470 
+	mNET_IPV4_CONF_PROXY_ARP
+=3,
+
+471 
+	mNET_IPV4_CONF_ACCEPT_REDIRECTS
+=4,
+
+472 
+	mNET_IPV4_CONF_SECURE_REDIRECTS
+=5,
+
+473 
+	mNET_IPV4_CONF_SEND_REDIRECTS
+=6,
+
+474 
+	mNET_IPV4_CONF_SHARED_MEDIA
+=7,
+
+475 
+	mNET_IPV4_CONF_RP_FILTER
+=8,
+
+476 
+	mNET_IPV4_CONF_ACCEPT_SOURCE_ROUTE
+=9,
+
+477 
+	mNET_IPV4_CONF_BOOTP_RELAY
+=10,
+
+478 
+	mNET_IPV4_CONF_LOG_MARTIANS
+=11,
+
+479 
+	mNET_IPV4_CONF_TAG
+=12,
+
+480 
+	mNET_IPV4_CONF_ARPFILTER
+=13,
+
+481 
+	mNET_IPV4_CONF_MEDIUM_ID
+=14,
+
+482 
+	mNET_IPV4_CONF_NOXFRM
+=15,
+
+483 
+	mNET_IPV4_CONF_NOPOLICY
+=16,
+
+484 
+	mNET_IPV4_CONF_FORCE_IGMP_VERSION
+=17,
+
+485 
+	mNET_IPV4_CONF_ARP_ANNOUNCE
+=18,
+
+486 
+	mNET_IPV4_CONF_ARP_IGNORE
+=19,
+
+487 
+	mNET_IPV4_CONF_PROMOTE_SECONDARIES
+=20,
+
+488 
+	mNET_IPV4_CONF_ARP_ACCEPT
+=21,
+
+489 
+	m__NET_IPV4_CONF_MAX
+
+
+495 
+	mNET_IPV4_NF_CONNTRACK_MAX
+=1,
+
+496 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_SYN_SENT
+=2,
+
+497 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_SYN_RECV
+=3,
+
+498 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_ESTABLISHED
+=4,
+
+499 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_FIN_WAIT
+=5,
+
+500 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_CLOSE_WAIT
+=6,
+
+501 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_LAST_ACK
+=7,
+
+502 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_TIME_WAIT
+=8,
+
+503 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_CLOSE
+=9,
+
+504 
+	mNET_IPV4_NF_CONNTRACK_UDP_TIMEOUT
+=10,
+
+505 
+	mNET_IPV4_NF_CONNTRACK_UDP_TIMEOUT_STREAM
+=11,
+
+506 
+	mNET_IPV4_NF_CONNTRACK_ICMP_TIMEOUT
+=12,
+
+507 
+	mNET_IPV4_NF_CONNTRACK_GENERIC_TIMEOUT
+=13,
+
+508 
+	mNET_IPV4_NF_CONNTRACK_BUCKETS
+=14,
+
+509 
+	mNET_IPV4_NF_CONNTRACK_LOG_INVALID
+=15,
+
+510 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_MAX_RETRANS
+=16,
+
+511 
+	mNET_IPV4_NF_CONNTRACK_TCP_LOOSE
+=17,
+
+512 
+	mNET_IPV4_NF_CONNTRACK_TCP_BE_LIBERAL
+=18,
+
+513 
+	mNET_IPV4_NF_CONNTRACK_TCP_MAX_RETRANS
+=19,
+
+514 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_CLOSED
+=20,
+
+515 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_COOKIE_WAIT
+=21,
+
+516 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_COOKIE_ECHOED
+=22,
+
+517 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_ESTABLISHED
+=23,
+
+518 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_SENT
+=24,
+
+519 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_RECD
+=25,
+
+520 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_ACK_SENT
+=26,
+
+521 
+	mNET_IPV4_NF_CONNTRACK_COUNT
+=27,
+
+522 
+	mNET_IPV4_NF_CONNTRACK_CHECKSUM
+=28,
+
+527 
+	mNET_IPV6_CONF
+=16,
+
+528 
+	mNET_IPV6_NEIGH
+=17,
+
+529 
+	mNET_IPV6_ROUTE
+=18,
+
+530 
+	mNET_IPV6_ICMP
+=19,
+
+531 
+	mNET_IPV6_BINDV6ONLY
+=20,
+
+532 
+	mNET_IPV6_IP6FRAG_HIGH_THRESH
+=21,
+
+533 
+	mNET_IPV6_IP6FRAG_LOW_THRESH
+=22,
+
+534 
+	mNET_IPV6_IP6FRAG_TIME
+=23,
+
+535 
+	mNET_IPV6_IP6FRAG_SECRET_INTERVAL
+=24,
+
+536 
+	mNET_IPV6_MLD_MAX_MSF
+=25,
+
+540 
+	mNET_IPV6_ROUTE_FLUSH
+=1,
+
+541 
+	mNET_IPV6_ROUTE_GC_THRESH
+=2,
+
+542 
+	mNET_IPV6_ROUTE_MAX_SIZE
+=3,
+
+543 
+	mNET_IPV6_ROUTE_GC_MIN_INTERVAL
+=4,
+
+544 
+	mNET_IPV6_ROUTE_GC_TIMEOUT
+=5,
+
+545 
+	mNET_IPV6_ROUTE_GC_INTERVAL
+=6,
+
+546 
+	mNET_IPV6_ROUTE_GC_ELASTICITY
+=7,
+
+547 
+	mNET_IPV6_ROUTE_MTU_EXPIRES
+=8,
+
+548 
+	mNET_IPV6_ROUTE_MIN_ADVMSS
+=9,
+
+549 
+	mNET_IPV6_ROUTE_GC_MIN_INTERVAL_MS
+=10
+
+553 
+	mNET_IPV6_FORWARDING
+=1,
+
+554 
+	mNET_IPV6_HOP_LIMIT
+=2,
+
+555 
+	mNET_IPV6_MTU
+=3,
+
+556 
+	mNET_IPV6_ACCEPT_RA
+=4,
+
+557 
+	mNET_IPV6_ACCEPT_REDIRECTS
+=5,
+
+558 
+	mNET_IPV6_AUTOCONF
+=6,
+
+559 
+	mNET_IPV6_DAD_TRANSMITS
+=7,
+
+560 
+	mNET_IPV6_RTR_SOLICITS
+=8,
+
+561 
+	mNET_IPV6_RTR_SOLICIT_INTERVAL
+=9,
+
+562 
+	mNET_IPV6_RTR_SOLICIT_DELAY
+=10,
+
+563 
+	mNET_IPV6_USE_TEMPADDR
+=11,
+
+564 
+	mNET_IPV6_TEMP_VALID_LFT
+=12,
+
+565 
+	mNET_IPV6_TEMP_PREFERED_LFT
+=13,
+
+566 
+	mNET_IPV6_REGEN_MAX_RETRY
+=14,
+
+567 
+	mNET_IPV6_MAX_DESYNC_FACTOR
+=15,
+
+568 
+	mNET_IPV6_MAX_ADDRESSES
+=16,
+
+569 
+	mNET_IPV6_FORCE_MLD_VERSION
+=17,
+
+570 
+	mNET_IPV6_ACCEPT_RA_DEFRTR
+=18,
+
+571 
+	mNET_IPV6_ACCEPT_RA_PINFO
+=19,
+
+572 
+	mNET_IPV6_ACCEPT_RA_RTR_PREF
+=20,
+
+573 
+	mNET_IPV6_RTR_PROBE_INTERVAL
+=21,
+
+574 
+	mNET_IPV6_ACCEPT_RA_RT_INFO_MAX_PLEN
+=22,
+
+575 
+	mNET_IPV6_PROXY_NDP
+=23,
+
+576 
+	mNET_IPV6_ACCEPT_SOURCE_ROUTE
+=25,
+
+577 
+	m__NET_IPV6_MAX
+
+
+582 
+	mNET_IPV6_ICMP_RATELIMIT
+=1
+
+587 
+	mNET_NEIGH_MCAST_SOLICIT
+=1,
+
+588 
+	mNET_NEIGH_UCAST_SOLICIT
+=2,
+
+589 
+	mNET_NEIGH_APP_SOLICIT
+=3,
+
+590 
+	mNET_NEIGH_RETRANS_TIME
+=4,
+
+591 
+	mNET_NEIGH_REACHABLE_TIME
+=5,
+
+592 
+	mNET_NEIGH_DELAY_PROBE_TIME
+=6,
+
+593 
+	mNET_NEIGH_GC_STALE_TIME
+=7,
+
+594 
+	mNET_NEIGH_UNRES_QLEN
+=8,
+
+595 
+	mNET_NEIGH_PROXY_QLEN
+=9,
+
+596 
+	mNET_NEIGH_ANYCAST_DELAY
+=10,
+
+597 
+	mNET_NEIGH_PROXY_DELAY
+=11,
+
+598 
+	mNET_NEIGH_LOCKTIME
+=12,
+
+599 
+	mNET_NEIGH_GC_INTERVAL
+=13,
+
+600 
+	mNET_NEIGH_GC_THRESH1
+=14,
+
+601 
+	mNET_NEIGH_GC_THRESH2
+=15,
+
+602 
+	mNET_NEIGH_GC_THRESH3
+=16,
+
+603 
+	mNET_NEIGH_RETRANS_TIME_MS
+=17,
+
+604 
+	mNET_NEIGH_REACHABLE_TIME_MS
+=18,
+
+605 
+	m__NET_NEIGH_MAX
+
+
+610 
+	mNET_DCCP_DEFAULT
+=1,
+
+615 
+	mNET_IPX_PPROP_BROADCASTING
+=1,
+
+616 
+	mNET_IPX_FORWARDING
+=2
+
+621 
+	mNET_LLC2
+=1,
+
+622 
+	mNET_LLC_STATION
+=2,
+
+627 
+	mNET_LLC2_TIMEOUT
+=1,
+
+632 
+	mNET_LLC_STATION_ACK_TIMEOUT
+=1,
+
+637 
+	mNET_LLC2_ACK_TIMEOUT
+=1,
+
+638 
+	mNET_LLC2_P_TIMEOUT
+=2,
+
+639 
+	mNET_LLC2_REJ_TIMEOUT
+=3,
+
+640 
+	mNET_LLC2_BUSY_TIMEOUT
+=4,
+
+645 
+	mNET_ATALK_AARP_EXPIRY_TIME
+=1,
+
+646 
+	mNET_ATALK_AARP_TICK_TIME
+=2,
+
+647 
+	mNET_ATALK_AARP_RETRANSMIT_LIMIT
+=3,
+
+648 
+	mNET_ATALK_AARP_RESOLVE_TIME
+=4
+
+654 
+	mNET_NETROM_DEFAULT_PATH_QUALITY
+=1,
+
+655 
+	mNET_NETROM_OBSOLESCENCE_COUNT_INITIALISER
+=2,
+
+656 
+	mNET_NETROM_NETWORK_TTL_INITIALISER
+=3,
+
+657 
+	mNET_NETROM_TRANSPORT_TIMEOUT
+=4,
+
+658 
+	mNET_NETROM_TRANSPORT_MAXIMUM_TRIES
+=5,
+
+659 
+	mNET_NETROM_TRANSPORT_ACKNOWLEDGE_DELAY
+=6,
+
+660 
+	mNET_NETROM_TRANSPORT_BUSY_DELAY
+=7,
+
+661 
+	mNET_NETROM_TRANSPORT_REQUESTED_WINDOW_SIZE
+=8,
+
+662 
+	mNET_NETROM_TRANSPORT_NO_ACTIVITY_TIMEOUT
+=9,
+
+663 
+	mNET_NETROM_ROUTING_CONTROL
+=10,
+
+664 
+	mNET_NETROM_LINK_FAILS_COUNT
+=11,
+
+665 
+	mNET_NETROM_RESET
+=12
+
+670 
+	mNET_AX25_IP_DEFAULT_MODE
+=1,
+
+671 
+	mNET_AX25_DEFAULT_MODE
+=2,
+
+672 
+	mNET_AX25_BACKOFF_TYPE
+=3,
+
+673 
+	mNET_AX25_CONNECT_MODE
+=4,
+
+674 
+	mNET_AX25_STANDARD_WINDOW
+=5,
+
+675 
+	mNET_AX25_EXTENDED_WINDOW
+=6,
+
+676 
+	mNET_AX25_T1_TIMEOUT
+=7,
+
+677 
+	mNET_AX25_T2_TIMEOUT
+=8,
+
+678 
+	mNET_AX25_T3_TIMEOUT
+=9,
+
+679 
+	mNET_AX25_IDLE_TIMEOUT
+=10,
+
+680 
+	mNET_AX25_N2
+=11,
+
+681 
+	mNET_AX25_PACLEN
+=12,
+
+682 
+	mNET_AX25_PROTOCOL
+=13,
+
+683 
+	mNET_AX25_DAMA_SLAVE_TIMEOUT
+=14
+
+688 
+	mNET_ROSE_RESTART_REQUEST_TIMEOUT
+=1,
+
+689 
+	mNET_ROSE_CALL_REQUEST_TIMEOUT
+=2,
+
+690 
+	mNET_ROSE_RESET_REQUEST_TIMEOUT
+=3,
+
+691 
+	mNET_ROSE_CLEAR_REQUEST_TIMEOUT
+=4,
+
+692 
+	mNET_ROSE_ACK_HOLD_BACK_TIMEOUT
+=5,
+
+693 
+	mNET_ROSE_ROUTING_CONTROL
+=6,
+
+694 
+	mNET_ROSE_LINK_FAIL_TIMEOUT
+=7,
+
+695 
+	mNET_ROSE_MAX_VCS
+=8,
+
+696 
+	mNET_ROSE_WINDOW_SIZE
+=9,
+
+697 
+	mNET_ROSE_NO_ACTIVITY_TIMEOUT
+=10
+
+702 
+	mNET_X25_RESTART_REQUEST_TIMEOUT
+=1,
+
+703 
+	mNET_X25_CALL_REQUEST_TIMEOUT
+=2,
+
+704 
+	mNET_X25_RESET_REQUEST_TIMEOUT
+=3,
+
+705 
+	mNET_X25_CLEAR_REQUEST_TIMEOUT
+=4,
+
+706 
+	mNET_X25_ACK_HOLD_BACK_TIMEOUT
+=5,
+
+707 
+	mNET_X25_FORWARD
+=6
+
+713 
+	mNET_TR_RIF_TIMEOUT
+=1
+
+718 
+	mNET_DECNET_NODE_TYPE
+ = 1,
+
+719 
+	mNET_DECNET_NODE_ADDRESS
+ = 2,
+
+720 
+	mNET_DECNET_NODE_NAME
+ = 3,
+
+721 
+	mNET_DECNET_DEFAULT_DEVICE
+ = 4,
+
+722 
+	mNET_DECNET_TIME_WAIT
+ = 5,
+
+723 
+	mNET_DECNET_DN_COUNT
+ = 6,
+
+724 
+	mNET_DECNET_DI_COUNT
+ = 7,
+
+725 
+	mNET_DECNET_DR_COUNT
+ = 8,
+
+726 
+	mNET_DECNET_DST_GC_INTERVAL
+ = 9,
+
+727 
+	mNET_DECNET_CONF
+ = 10,
+
+728 
+	mNET_DECNET_NO_FC_MAX_CWND
+ = 11,
+
+729 
+	mNET_DECNET_MEM
+ = 12,
+
+730 
+	mNET_DECNET_RMEM
+ = 13,
+
+731 
+	mNET_DECNET_WMEM
+ = 14,
+
+732 
+	mNET_DECNET_DEBUG_LEVEL
+ = 255
+
+737 
+	mNET_DECNET_CONF_LOOPBACK
+ = -2,
+
+738 
+	mNET_DECNET_CONF_DDCMP
+ = -3,
+
+739 
+	mNET_DECNET_CONF_PPP
+ = -4,
+
+740 
+	mNET_DECNET_CONF_X25
+ = -5,
+
+741 
+	mNET_DECNET_CONF_GRE
+ = -6,
+
+742 
+	mNET_DECNET_CONF_ETHER
+ = -7
+
+749 
+	mNET_DECNET_CONF_DEV_PRIORITY
+ = 1,
+
+750 
+	mNET_DECNET_CONF_DEV_T1
+ = 2,
+
+751 
+	mNET_DECNET_CONF_DEV_T2
+ = 3,
+
+752 
+	mNET_DECNET_CONF_DEV_T3
+ = 4,
+
+753 
+	mNET_DECNET_CONF_DEV_FORWARDING
+ = 5,
+
+754 
+	mNET_DECNET_CONF_DEV_BLKSIZE
+ = 6,
+
+755 
+	mNET_DECNET_CONF_DEV_STATE
+ = 7
+
+760 
+	mNET_SCTP_RTO_INITIAL
+ = 1,
+
+761 
+	mNET_SCTP_RTO_MIN
+ = 2,
+
+762 
+	mNET_SCTP_RTO_MAX
+ = 3,
+
+763 
+	mNET_SCTP_RTO_ALPHA
+ = 4,
+
+764 
+	mNET_SCTP_RTO_BETA
+ = 5,
+
+765 
+	mNET_SCTP_VALID_COOKIE_LIFE
+ = 6,
+
+766 
+	mNET_SCTP_ASSOCIATION_MAX_RETRANS
+ = 7,
+
+767 
+	mNET_SCTP_PATH_MAX_RETRANS
+ = 8,
+
+768 
+	mNET_SCTP_MAX_INIT_RETRANSMITS
+ = 9,
+
+769 
+	mNET_SCTP_HB_INTERVAL
+ = 10,
+
+770 
+	mNET_SCTP_PRESERVE_ENABLE
+ = 11,
+
+771 
+	mNET_SCTP_MAX_BURST
+ = 12,
+
+772 
+	mNET_SCTP_ADDIP_ENABLE
+ = 13,
+
+773 
+	mNET_SCTP_PRSCTP_ENABLE
+ = 14,
+
+774 
+	mNET_SCTP_SNDBUF_POLICY
+ = 15,
+
+775 
+	mNET_SCTP_SACK_TIMEOUT
+ = 16,
+
+776 
+	mNET_SCTP_RCVBUF_POLICY
+ = 17,
+
+781 
+	mNET_BRIDGE_NF_CALL_ARPTABLES
+ = 1,
+
+782 
+	mNET_BRIDGE_NF_CALL_IPTABLES
+ = 2,
+
+783 
+	mNET_BRIDGE_NF_CALL_IP6TABLES
+ = 3,
+
+784 
+	mNET_BRIDGE_NF_FILTER_VLAN_TAGGED
+ = 4,
+
+785 
+	mNET_BRIDGE_NF_FILTER_PPPOE_TAGGED
+ = 5,
+
+790 
+	mNET_IRDA_DISCOVERY
+=1,
+
+791 
+	mNET_IRDA_DEVNAME
+=2,
+
+792 
+	mNET_IRDA_DEBUG
+=3,
+
+793 
+	mNET_IRDA_FAST_POLL
+=4,
+
+794 
+	mNET_IRDA_DISCOVERY_SLOTS
+=5,
+
+795 
+	mNET_IRDA_DISCOVERY_TIMEOUT
+=6,
+
+796 
+	mNET_IRDA_SLOT_TIMEOUT
+=7,
+
+797 
+	mNET_IRDA_MAX_BAUD_RATE
+=8,
+
+798 
+	mNET_IRDA_MIN_TX_TURN_TIME
+=9,
+
+799 
+	mNET_IRDA_MAX_TX_DATA_SIZE
+=10,
+
+800 
+	mNET_IRDA_MAX_TX_WINDOW
+=11,
+
+801 
+	mNET_IRDA_MAX_NOREPLY_TIME
+=12,
+
+802 
+	mNET_IRDA_WARN_NOREPLY_TIME
+=13,
+
+803 
+	mNET_IRDA_LAP_KEEPALIVE_TIME
+=14,
+
+810 
+	mFS_NRINODE
+=1,
+
+811 
+	mFS_STATINODE
+=2,
+
+812 
+	mFS_MAXINODE
+=3,
+
+813 
+	mFS_NRDQUOT
+=4,
+
+814 
+	mFS_MAXDQUOT
+=5,
+
+815 
+	mFS_NRFILE
+=6,
+
+816 
+	mFS_MAXFILE
+=7,
+
+817 
+	mFS_DENTRY
+=8,
+
+818 
+	mFS_NRSUPER
+=9,
+
+819 
+	mFS_MAXSUPER
+=10,
+
+820 
+	mFS_OVERFLOWUID
+=11,
+
+821 
+	mFS_OVERFLOWGID
+=12,
+
+822 
+	mFS_LEASES
+=13,
+
+823 
+	mFS_DIR_NOTIFY
+=14,
+
+824 
+	mFS_LEASE_TIME
+=15,
+
+825 
+	mFS_DQSTATS
+=16,
+
+826 
+	mFS_XFS
+=17,
+
+827 
+	mFS_AIO_NR
+=18,
+
+828 
+	mFS_AIO_MAX_NR
+=19,
+
+829 
+	mFS_INOTIFY
+=20,
+
+830 
+	mFS_OCFS2
+=988,
+
+835 
+	mFS_DQ_LOOKUPS
+ = 1,
+
+836 
+	mFS_DQ_DROPS
+ = 2,
+
+837 
+	mFS_DQ_READS
+ = 3,
+
+838 
+	mFS_DQ_WRITES
+ = 4,
+
+839 
+	mFS_DQ_CACHE_HITS
+ = 5,
+
+840 
+	mFS_DQ_ALLOCATED
+ = 6,
+
+841 
+	mFS_DQ_FREE
+ = 7,
+
+842 
+	mFS_DQ_SYNCS
+ = 8,
+
+843 
+	mFS_DQ_WARNINGS
+ = 9,
+
+850 
+	mDEV_CDROM
+=1,
+
+851 
+	mDEV_HWMON
+=2,
+
+852 
+	mDEV_PARPORT
+=3,
+
+853 
+	mDEV_RAID
+=4,
+
+854 
+	mDEV_MAC_HID
+=5,
+
+855 
+	mDEV_SCSI
+=6,
+
+856 
+	mDEV_IPMI
+=7,
+
+861 
+	mDEV_CDROM_INFO
+=1,
+
+862 
+	mDEV_CDROM_AUTOCLOSE
+=2,
+
+863 
+	mDEV_CDROM_AUTOEJECT
+=3,
+
+864 
+	mDEV_CDROM_DEBUG
+=4,
+
+865 
+	mDEV_CDROM_LOCK
+=5,
+
+866 
+	mDEV_CDROM_CHECK_MEDIA
+=6
+
+871 
+	mDEV_PARPORT_DEFAULT
+=-3
+
+876 
+	mDEV_RAID_SPEED_LIMIT_MIN
+=1,
+
+877 
+	mDEV_RAID_SPEED_LIMIT_MAX
+=2
+
+882 
+	mDEV_PARPORT_DEFAULT_TIMESLICE
+=1,
+
+883 
+	mDEV_PARPORT_DEFAULT_SPINTIME
+=2
+
+888 
+	mDEV_PARPORT_SPINTIME
+=1,
+
+889 
+	mDEV_PARPORT_BASE_ADDR
+=2,
+
+890 
+	mDEV_PARPORT_IRQ
+=3,
+
+891 
+	mDEV_PARPORT_DMA
+=4,
+
+892 
+	mDEV_PARPORT_MODES
+=5,
+
+893 
+	mDEV_PARPORT_DEVICES
+=6,
+
+894 
+	mDEV_PARPORT_AUTOPROBE
+=16
+
+899 
+	mDEV_PARPORT_DEVICES_ACTIVE
+=-3,
+
+904 
+	mDEV_PARPORT_DEVICE_TIMESLICE
+=1,
+
+909 
+	mDEV_MAC_HID_KEYBOARD_SENDS_LINUX_KEYCODES
+=1,
+
+910 
+	mDEV_MAC_HID_KEYBOARD_LOCK_KEYCODES
+=2,
+
+911 
+	mDEV_MAC_HID_MOUSE_BUTTON_EMULATION
+=3,
+
+912 
+	mDEV_MAC_HID_MOUSE_BUTTON2_KEYCODE
+=4,
+
+913 
+	mDEV_MAC_HID_MOUSE_BUTTON3_KEYCODE
+=5,
+
+914 
+	mDEV_MAC_HID_ADB_MOUSE_SENDS_KEYCODES
+=6
+
+919 
+	mDEV_SCSI_LOGGING_LEVEL
+=1,
+
+924 
+	mDEV_IPMI_POWEROFF_POWERCYCLE
+=1,
+
+930 
+	mABI_DEFHANDLER_COFF
+=1,
+
+931 
+	mABI_DEFHANDLER_ELF
+=2,
+
+932 
+	mABI_DEFHANDLER_LCALL7
+=3,
+
+933 
+	mABI_DEFHANDLER_LIBCSO
+=4,
+
+934 
+	mABI_TRACE
+=5,
+
+935 
+	mABI_FAKE_UTSNAME
+=6,
+
+	@/usr/include/linux/version.h
+
+1 
+	#LINUX_VERSION_CODE
+ 132632
+
+	)
+
+2 
+	#KERNEL_VERSION
+(
+a
+,
+b
+,
+c
+Ë((◊Ë<< 16Ë+ ((bË<< 8Ë+ (c))
+
+	)
+
+	@/usr/include/linux/if.h
+
+19 #i‚de‡
+_LINUX_IF_H
+
+
+20 
+	#_LINUX_IF_H
+
+
+	)
+
+22 
+	~<löux/ty≥s.h
+>
+
+23 
+	~<löux/sockë.h
+>
+
+25 
+	#IFNAMSIZ
+ 16
+
+	)
+
+26 
+	~<löux/hdlc/io˘l.h
+>
+
+29 
+	#IFF_UP
+ 0x1
+
+	)
+
+30 
+	#IFF_BROADCAST
+ 0x2
+
+	)
+
+31 
+	#IFF_DEBUG
+ 0x4
+
+	)
+
+32 
+	#IFF_LOOPBACK
+ 0x8
+
+	)
+
+33 
+	#IFF_POINTOPOINT
+ 0x10
+
+	)
+
+34 
+	#IFF_NOTRAILERS
+ 0x20
+
+	)
+
+35 
+	#IFF_RUNNING
+ 0x40
+
+	)
+
+36 
+	#IFF_NOARP
+ 0x80
+
+	)
+
+37 
+	#IFF_PROMISC
+ 0x100
+
+	)
+
+38 
+	#IFF_ALLMULTI
+ 0x200
+
+	)
+
+40 
+	#IFF_MASTER
+ 0x400
+
+	)
+
+41 
+	#IFF_SLAVE
+ 0x800
+
+	)
+
+43 
+	#IFF_MULTICAST
+ 0x1000
+
+	)
+
+45 
+	#IFF_PORTSEL
+ 0x2000
+
+	)
+
+46 
+	#IFF_AUTOMEDIA
+ 0x4000
+
+	)
+
+47 
+	#IFF_DYNAMIC
+ 0x8000
+
+	)
+
+49 
+	#IFF_LOWER_UP
+ 0x10000
+
+	)
+
+50 
+	#IFF_DORMANT
+ 0x20000
+
+	)
+
+52 
+	#IFF_VOLATILE
+ (
+IFF_LOOPBACK
+|
+IFF_POINTOPOINT
+|
+IFF_BROADCAST
+|\
+
+53 
+IFF_MASTER
+|
+IFF_SLAVE
+|
+IFF_RUNNING
+|
+IFF_LOWER_UP
+|
+IFF_DORMANT
+)
+
+	)
+
+56 
+	#IFF_802_1Q_VLAN
+ 0x1
+
+	)
+
+57 
+	#IFF_EBRIDGE
+ 0x2
+
+	)
+
+58 
+	#IFF_SLAVE_INACTIVE
+ 0x4
+
+	)
+
+59 
+	#IFF_MASTER_8023AD
+ 0x8
+
+	)
+
+60 
+	#IFF_MASTER_ALB
+ 0x10
+
+	)
+
+61 
+	#IFF_BONDING
+ 0x20
+
+	)
+
+62 
+	#IFF_SLAVE_NEEDARP
+ 0x40
+
+	)
+
+64 
+	#IF_GET_IFACE
+ 0x0001
+
+	)
+
+65 
+	#IF_GET_PROTO
+ 0x0002
+
+	)
+
+68 
+	#IF_IFACE_V35
+ 0x1000
+
+	)
+
+69 
+	#IF_IFACE_V24
+ 0x1001
+
+	)
+
+70 
+	#IF_IFACE_X21
+ 0x1002
+
+	)
+
+71 
+	#IF_IFACE_T1
+ 0x1003
+
+	)
+
+72 
+	#IF_IFACE_E1
+ 0x1004
+
+	)
+
+73 
+	#IF_IFACE_SYNC_SERIAL
+ 0x1005
+
+	)
+
+74 
+	#IF_IFACE_X21D
+ 0x1006
+
+	)
+
+77 
+	#IF_PROTO_HDLC
+ 0x2000
+
+	)
+
+78 
+	#IF_PROTO_PPP
+ 0x2001
+
+	)
+
+79 
+	#IF_PROTO_CISCO
+ 0x2002
+
+	)
+
+80 
+	#IF_PROTO_FR
+ 0x2003
+
+	)
+
+81 
+	#IF_PROTO_FR_ADD_PVC
+ 0x2004
+
+	)
+
+82 
+	#IF_PROTO_FR_DEL_PVC
+ 0x2005
+
+	)
+
+83 
+	#IF_PROTO_X25
+ 0x2006
+
+	)
+
+84 
+	#IF_PROTO_HDLC_ETH
+ 0x2007
+
+	)
+
+85 
+	#IF_PROTO_FR_ADD_ETH_PVC
+ 0x2008
+
+	)
+
+86 
+	#IF_PROTO_FR_DEL_ETH_PVC
+ 0x2009
+
+	)
+
+87 
+	#IF_PROTO_FR_PVC
+ 0x200A
+
+	)
+
+88 
+	#IF_PROTO_FR_ETH_PVC
+ 0x200B
+
+	)
+
+89 
+	#IF_PROTO_RAW
+ 0x200C
+
+	)
+
+93 
+	mIF_OPER_UNKNOWN
+,
+
+94 
+	mIF_OPER_NOTPRESENT
+,
+
+95 
+	mIF_OPER_DOWN
+,
+
+96 
+	mIF_OPER_LOWERLAYERDOWN
+,
+
+97 
+	mIF_OPER_TESTING
+,
+
+98 
+	mIF_OPER_DORMANT
+,
+
+99 
+	mIF_OPER_UP
+,
+
+104 
+	mIF_LINK_MODE_DEFAULT
+,
+
+105 
+	mIF_LINK_MODE_DORMANT
+,
+
+118 
+	sifm≠
+
+
+120 
+	mmem_°¨t
+;
+
+121 
+	mmem_íd
+;
+
+122 
+	mba£_addr
+;
+
+123 
+	múq
+;
+
+124 
+	mdma
+;
+
+125 
+	mp‹t
+;
+
+129 
+	sif_£âögs
+
+
+131 
+	mty≥
+;
+
+132 
+	msize
+;
+
+135 
+øw_hdlc_¥Ÿo
+ *
+	møw_hdlc
+;
+
+136 
+cisco_¥Ÿo
+ *
+	mcisco
+;
+
+137 
+‰_¥Ÿo
+ *
+	m‰
+;
+
+138 
+‰_¥Ÿo_pvc
+ *
+	m‰_pvc
+;
+
+139 
+‰_¥Ÿo_pvc_öfo
+ *
+	m‰_pvc_öfo
+;
+
+142 
+sync_£rül_£âögs
+ *
+	msync
+;
+
+143 
+ã1_£âögs
+ *
+	mã1
+;
+
+144 } 
+	mifs_ifsu
+;
+
+154 
+	si‰eq
+
+
+156 
+	#IFHWADDRLEN
+ 6
+
+	)
+
+159 
+	mi‰n_«me
+[
+IFNAMSIZ
+];
+
+160 } 
+	mi‰_i‰n
+;
+
+163 
+sockaddr
+ 
+	mi‰u_addr
+;
+
+164 
+sockaddr
+ 
+	mi‰u_d°addr
+;
+
+165 
+sockaddr
+ 
+	mi‰u_brﬂdaddr
+;
+
+166 
+sockaddr
+ 
+	mi‰u_√tmask
+;
+
+167 
+sockaddr
+ 
+	mi‰u_hwaddr
+;
+
+168 
+	mi‰u_Êags
+;
+
+169 
+	mi‰u_ivÆue
+;
+
+170 
+	mi‰u_mtu
+;
+
+171 
+ifm≠
+ 
+	mi‰u_m≠
+;
+
+172 
+	mi‰u_¶ave
+[
+IFNAMSIZ
+];
+
+173 
+	mi‰u_√w«me
+[
+IFNAMSIZ
+];
+
+174 * 
+	mi‰u_d©a
+;
+
+175 
+if_£âögs
+ 
+	mi‰u_£âögs
+;
+
+176 } 
+	mi‰_i‰u
+;
+
+179 
+	#i‰_«me
+ 
+i‰_i‰n
+.
+i‰n_«me
+
+
+	)
+
+180 
+	#i‰_hwaddr
+ 
+i‰_i‰u
+.
+i‰u_hwaddr
+
+
+	)
+
+181 
+	#i‰_addr
+ 
+i‰_i‰u
+.
+i‰u_addr
+
+
+	)
+
+182 
+	#i‰_d°addr
+ 
+i‰_i‰u
+.
+i‰u_d°addr
+
+
+	)
+
+183 
+	#i‰_brﬂdaddr
+ 
+i‰_i‰u
+.
+i‰u_brﬂdaddr
+
+
+	)
+
+184 
+	#i‰_√tmask
+ 
+i‰_i‰u
+.
+i‰u_√tmask
+
+
+	)
+
+185 
+	#i‰_Êags
+ 
+i‰_i‰u
+.
+i‰u_Êags
+
+
+	)
+
+186 
+	#i‰_mëric
+ 
+i‰_i‰u
+.
+i‰u_ivÆue
+
+
+	)
+
+187 
+	#i‰_mtu
+ 
+i‰_i‰u
+.
+i‰u_mtu
+
+
+	)
+
+188 
+	#i‰_m≠
+ 
+i‰_i‰u
+.
+i‰u_m≠
+
+
+	)
+
+189 
+	#i‰_¶ave
+ 
+i‰_i‰u
+.
+i‰u_¶ave
+
+
+	)
+
+190 
+	#i‰_d©a
+ 
+i‰_i‰u
+.
+i‰u_d©a
+
+
+	)
+
+191 
+	#i‰_ifödex
+ 
+i‰_i‰u
+.
+i‰u_ivÆue
+
+
+	)
+
+192 
+	#i‰_b™dwidth
+ 
+i‰_i‰u
+.
+i‰u_ivÆue
+
+
+	)
+
+193 
+	#i‰_qÀn
+ 
+i‰_i‰u
+.
+i‰u_ivÆue
+
+
+	)
+
+194 
+	#i‰_√w«me
+ 
+i‰_i‰u
+.
+i‰u_√w«me
+
+
+	)
+
+195 
+	#i‰_£âögs
+ 
+i‰_i‰u
+.
+i‰u_£âögs
+
+
+	)
+
+204 
+	sifc⁄f
+
+
+206 
+	mifc_Àn
+;
+
+209 *
+	mifcu_buf
+;
+
+210 
+i‰eq
+ *
+	mifcu_ªq
+;
+
+211 } 
+	mifc_ifcu
+;
+
+213 
+	#ifc_buf
+ 
+ifc_ifcu
+.
+ifcu_buf
+
+
+	)
+
+214 
+	#ifc_ªq
+ 
+ifc_ifcu
+.
+ifcu_ªq
+
+
+	)
+
+	@/usr/include/linux/if_ether.h
+
+21 #i‚de‡
+_LINUX_IF_ETHER_H
+
+
+22 
+	#_LINUX_IF_ETHER_H
+
+
+	)
+
+24 
+	~<löux/ty≥s.h
+>
+
+31 
+	#ETH_ALEN
+ 6
+
+	)
+
+32 
+	#ETH_HLEN
+ 14
+
+	)
+
+33 
+	#ETH_ZLEN
+ 60
+
+	)
+
+34 
+	#ETH_DATA_LEN
+ 1500
+
+	)
+
+35 
+	#ETH_FRAME_LEN
+ 1514
+
+	)
+
+36 
+	#ETH_FCS_LEN
+ 4
+
+	)
+
+42 
+	#ETH_P_LOOP
+ 0x0060
+
+	)
+
+43 
+	#ETH_P_PUP
+ 0x0200
+
+	)
+
+44 
+	#ETH_P_PUPAT
+ 0x0201
+
+	)
+
+45 
+	#ETH_P_IP
+ 0x0800
+
+	)
+
+46 
+	#ETH_P_X25
+ 0x0805
+
+	)
+
+47 
+	#ETH_P_ARP
+ 0x0806
+
+	)
+
+48 
+	#ETH_P_BPQ
+ 0x08FF
+
+	)
+
+49 
+	#ETH_P_IEEEPUP
+ 0x0a00
+
+	)
+
+50 
+	#ETH_P_IEEEPUPAT
+ 0x0a01
+
+	)
+
+51 
+	#ETH_P_DEC
+ 0x6000
+
+	)
+
+52 
+	#ETH_P_DNA_DL
+ 0x6001
+
+	)
+
+53 
+	#ETH_P_DNA_RC
+ 0x6002
+
+	)
+
+54 
+	#ETH_P_DNA_RT
+ 0x6003
+
+	)
+
+55 
+	#ETH_P_LAT
+ 0x6004
+
+	)
+
+56 
+	#ETH_P_DIAG
+ 0x6005
+
+	)
+
+57 
+	#ETH_P_CUST
+ 0x6006
+
+	)
+
+58 
+	#ETH_P_SCA
+ 0x6007
+
+	)
+
+59 
+	#ETH_P_RARP
+ 0x8035
+
+	)
+
+60 
+	#ETH_P_ATALK
+ 0x809B
+
+	)
+
+61 
+	#ETH_P_AARP
+ 0x80F3
+
+	)
+
+62 
+	#ETH_P_8021Q
+ 0x8100
+
+	)
+
+63 
+	#ETH_P_IPX
+ 0x8137
+
+	)
+
+64 
+	#ETH_P_IPV6
+ 0x86DD
+
+	)
+
+65 
+	#ETH_P_PAUSE
+ 0x8808
+
+	)
+
+66 
+	#ETH_P_SLOW
+ 0x8809
+
+	)
+
+67 
+	#ETH_P_WCCP
+ 0x883E
+
+	)
+
+69 
+	#ETH_P_PPP_DISC
+ 0x8863
+
+	)
+
+70 
+	#ETH_P_PPP_SES
+ 0x8864
+
+	)
+
+71 
+	#ETH_P_MPLS_UC
+ 0x8847
+
+	)
+
+72 
+	#ETH_P_MPLS_MC
+ 0x8848
+
+	)
+
+73 
+	#ETH_P_ATMMPOA
+ 0x884¯
+
+	)
+
+74 
+	#ETH_P_ATMFATE
+ 0x8884
+
+	)
+
+77 
+	#ETH_P_AOE
+ 0x88A2
+
+	)
+
+78 
+	#ETH_P_TIPC
+ 0x88CA
+
+	)
+
+84 
+	#ETH_P_802_3
+ 0x0001
+
+	)
+
+85 
+	#ETH_P_AX25
+ 0x0002
+
+	)
+
+86 
+	#ETH_P_ALL
+ 0x0003
+
+	)
+
+87 
+	#ETH_P_802_2
+ 0x0004
+
+	)
+
+88 
+	#ETH_P_SNAP
+ 0x0005
+
+	)
+
+89 
+	#ETH_P_DDCMP
+ 0x0006
+
+	)
+
+90 
+	#ETH_P_WAN_PPP
+ 0x0007
+
+	)
+
+91 
+	#ETH_P_PPP_MP
+ 0x0008
+
+	)
+
+92 
+	#ETH_P_LOCALTALK
+ 0x0009
+
+	)
+
+93 
+	#ETH_P_PPPTALK
+ 0x0010
+
+	)
+
+94 
+	#ETH_P_TR_802_2
+ 0x0011
+
+	)
+
+95 
+	#ETH_P_MOBITEX
+ 0x0015
+
+	)
+
+96 
+	#ETH_P_CONTROL
+ 0x0016
+
+	)
+
+97 
+	#ETH_P_IRDA
+ 0x0017
+
+	)
+
+98 
+	#ETH_P_ECONET
+ 0x0018
+
+	)
+
+99 
+	#ETH_P_HDLC
+ 0x0019
+
+	)
+
+100 
+	#ETH_P_ARCNET
+ 0x001A
+
+	)
+
+106 
+	sëhhdr
+ {
+
+107 
+	mh_de°
+[
+ETH_ALEN
+];
+
+108 
+	mh_sour˚
+[
+ETH_ALEN
+];
+
+109 
+__be16
+ 
+	mh_¥Ÿo
+;
+
+110 } 
+__©åibuã__
+((
+∑cked
+));
+
+	@/usr/include/linux/if_packet.h
+
+1 #i‚de‡
+__LINUX_IF_PACKET_H
+
+
+2 
+	#__LINUX_IF_PACKET_H
+
+
+	)
+
+4 
+	~<löux/ty≥s.h
+>
+
+6 
+	ssockaddr_pkt
+
+
+8 
+	m•kt_Ámûy
+;
+
+9 
+	m•kt_devi˚
+[14];
+
+10 
+__be16
+ 
+	m•kt_¥Ÿocﬁ
+;
+
+13 
+	ssockaddr_Œ
+
+
+15 
+	m¶l_Ámûy
+;
+
+16 
+__be16
+ 
+	m¶l_¥Ÿocﬁ
+;
+
+17 
+	m¶l_ifödex
+;
+
+18 
+	m¶l_h©y≥
+;
+
+19 
+	m¶l_pkây≥
+;
+
+20 
+	m¶l_hÆí
+;
+
+21 
+	m¶l_addr
+[8];
+
+26 
+	#PACKET_HOST
+ 0
+
+	)
+
+27 
+	#PACKET_BROADCAST
+ 1
+
+	)
+
+28 
+	#PACKET_MULTICAST
+ 2
+
+	)
+
+29 
+	#PACKET_OTHERHOST
+ 3
+
+	)
+
+30 
+	#PACKET_OUTGOING
+ 4
+
+	)
+
+32 
+	#PACKET_LOOPBACK
+ 5
+
+	)
+
+33 
+	#PACKET_FASTROUTE
+ 6
+
+	)
+
+37 
+	#PACKET_ADD_MEMBERSHIP
+ 1
+
+	)
+
+38 
+	#PACKET_DROP_MEMBERSHIP
+ 2
+
+	)
+
+39 
+	#PACKET_RECV_OUTPUT
+ 3
+
+	)
+
+41 
+	#PACKET_RX_RING
+ 5
+
+	)
+
+42 
+	#PACKET_STATISTICS
+ 6
+
+	)
+
+43 
+	#PACKET_COPY_THRESH
+ 7
+
+	)
+
+44 
+	#PACKET_AUXDATA
+ 8
+
+	)
+
+45 
+	#PACKET_ORIGDEV
+ 9
+
+	)
+
+47 
+	sçackë_°©s
+
+
+49 
+	mç_∑ckës
+;
+
+50 
+	mç_dr›s
+;
+
+53 
+	sçackë_auxd©a
+
+
+55 
+__u32
+ 
+	mç_°©us
+;
+
+56 
+__u32
+ 
+	mç_Àn
+;
+
+57 
+__u32
+ 
+	mç_¢≠Àn
+;
+
+58 
+__u16
+ 
+	mç_mac
+;
+
+59 
+__u16
+ 
+	mç_√t
+;
+
+62 
+	sçackë_hdr
+
+
+64 
+	mç_°©us
+;
+
+65 
+	#TP_STATUS_KERNEL
+ 0
+
+	)
+
+66 
+	#TP_STATUS_USER
+ 1
+
+	)
+
+67 
+	#TP_STATUS_COPY
+ 2
+
+	)
+
+68 
+	#TP_STATUS_LOSING
+ 4
+
+	)
+
+69 
+	#TP_STATUS_CSUMNOTREADY
+ 8
+
+	)
+
+70 
+	mç_Àn
+;
+
+71 
+	mç_¢≠Àn
+;
+
+72 
+	mç_mac
+;
+
+73 
+	mç_√t
+;
+
+74 
+	mç_£c
+;
+
+75 
+	mç_u£c
+;
+
+78 
+	#TPACKET_ALIGNMENT
+ 16
+
+	)
+
+79 
+	#TPACKET_ALIGN
+(
+x
+Ë(((x)+
+TPACKET_ALIGNMENT
+-1)&~(TPACKET_ALIGNMENT-1))
+
+	)
+
+80 
+	#TPACKET_HDRLEN
+ (
+	`TPACKET_ALIGN
+((
+çackë_hdr
+)Ë+ (
+sockaddr_Œ
+))
+
+	)
+
+95 
+	sçackë_ªq
+
+
+97 
+	mç_block_size
+;
+
+98 
+	mç_block_ƒ
+;
+
+99 
+	mç_‰ame_size
+;
+
+100 
+	mç_‰ame_ƒ
+;
+
+103 
+	s∑ckë_mªq
+
+
+105 
+	mmr_ifödex
+;
+
+106 
+	mmr_ty≥
+;
+
+107 
+	mmr_Æí
+;
+
+108 
+	mmr_addªss
+[8];
+
+111 
+	#PACKET_MR_MULTICAST
+ 0
+
+	)
+
+112 
+	#PACKET_MR_PROMISC
+ 1
+
+	)
+
+113 
+	#PACKET_MR_ALLMULTI
+ 2
+
+	)
+
+	@/usr/include/linux/ioctl.h
+
+1 #i‚de‡
+_LINUX_IOCTL_H
+
+
+2 
+	#_LINUX_IOCTL_H
+
+
+	)
+
+4 
+	~<asm/io˘l.h
+>
+
+	@/usr/include/linux/kernel.h
+
+1 #i‚de‡
+_LINUX_KERNEL_H
+
+
+2 
+	#_LINUX_KERNEL_H
+
+
+	)
+
+9 
+	#SI_LOAD_SHIFT
+ 16
+
+	)
+
+10 
+	ssysöfo
+ {
+
+11 
+	mu±ime
+;
+
+12 
+	mlﬂds
+[3];
+
+13 
+	mtŸÆøm
+;
+
+14 
+	m‰ìøm
+;
+
+15 
+	msh¨edøm
+;
+
+16 
+	mbuf„ºam
+;
+
+17 
+	mtŸÆsw≠
+;
+
+18 
+	m‰ìsw≠
+;
+
+19 
+	m¥ocs
+;
+
+20 
+	m∑d
+;
+
+21 
+	mtŸÆhigh
+;
+
+22 
+	m‰ìhigh
+;
+
+23 
+	mmem_unô
+;
+
+24 
+	m_f
+[20-2*()-()];
+
+28 
+	#BUILD_BUG_ON
+(
+c⁄dôi⁄
+Ë(()([1 - 2*!!(c⁄dôi⁄)]))
+
+	)
+
+34 
+	#BUILD_BUG_ON_ZERO
+(
+e
+Ë(([1 - 2 * !!”)]Ë- 1)
+
+	)
+
+37 
+	#__FUNCTION__
+ (
+__func__
+)
+
+	)
+
+40 #ifde‡
+CONFIG_NUMA
+
+
+41 
+	#NUMA_BUILD
+ 1
+
+	)
+
+43 
+	#NUMA_BUILD
+ 0
+
+	)
+
+	@/usr/include/linux/types.h
+
+1 #i‚de‡
+_LINUX_TYPES_H
+
+
+2 
+	#_LINUX_TYPES_H
+
+
+	)
+
+5 
+	~<löux/posix_ty≥s.h
+>
+
+6 
+	~<asm/ty≥s.h
+>
+
+8 #i‚de‡
+__KERNEL_STRICT_NAMES
+
+
+10 
+__u32
+ 
+	t__kî√l_dev_t
+;
+
+12 
+__kî√l_fd_£t
+ 
+	tfd_£t
+;
+
+13 
+__kî√l_dev_t
+ 
+	tdev_t
+;
+
+14 
+__kî√l_öo_t
+ 
+	töo_t
+;
+
+15 
+__kî√l_mode_t
+ 
+	tmode_t
+;
+
+16 
+__kî√l_∆ök_t
+ 
+	t∆ök_t
+;
+
+17 
+__kî√l_off_t
+ 
+	toff_t
+;
+
+18 
+__kî√l_pid_t
+ 
+	tpid_t
+;
+
+19 
+__kî√l_daddr_t
+ 
+	tdaddr_t
+;
+
+20 
+__kî√l_key_t
+ 
+	tkey_t
+;
+
+21 
+__kî√l_su£c⁄ds_t
+ 
+	tsu£c⁄ds_t
+;
+
+22 
+__kî√l_timî_t
+ 
+	ttimî_t
+;
+
+23 
+__kî√l_˛ockid_t
+ 
+	t˛ockid_t
+;
+
+24 
+__kî√l_mqd_t
+ 
+	tmqd_t
+;
+
+26 
+__kî√l_uid_t
+ 
+	tuid_t
+;
+
+27 
+__kî√l_gid_t
+ 
+	tgid_t
+;
+
+29 #i‡
+deföed
+(
+__GNUC__
+Ë&& !deföed(
+__STRICT_ANSI__
+)
+
+30 
+__kî√l_loff_t
+ 
+	tloff_t
+;
+
+37 #i‚de‡
+_SIZE_T
+
+
+38 
+	#_SIZE_T
+
+
+	)
+
+39 
+__kî√l_size_t
+ 
+	tsize_t
+;
+
+42 #i‚de‡
+_SSIZE_T
+
+
+43 
+	#_SSIZE_T
+
+
+	)
+
+44 
+__kî√l_ssize_t
+ 
+	tssize_t
+;
+
+47 #i‚de‡
+_PTRDIFF_T
+
+
+48 
+	#_PTRDIFF_T
+
+
+	)
+
+49 
+__kî√l_±rdiff_t
+ 
+	t±rdiff_t
+;
+
+52 #i‚de‡
+_TIME_T
+
+
+53 
+	#_TIME_T
+
+
+	)
+
+54 
+__kî√l_time_t
+ 
+	ttime_t
+;
+
+57 #i‚de‡
+_CLOCK_T
+
+
+58 
+	#_CLOCK_T
+
+
+	)
+
+59 
+__kî√l_˛ock_t
+ 
+	t˛ock_t
+;
+
+62 #i‚de‡
+_CADDR_T
+
+
+63 
+	#_CADDR_T
+
+
+	)
+
+64 
+__kî√l_ˇddr_t
+ 
+	tˇddr_t
+;
+
+68 
+	tu_ch¨
+;
+
+69 
+	tu_sh‹t
+;
+
+70 
+	tu_öt
+;
+
+71 
+	tu_l⁄g
+;
+
+74 
+	tunch¨
+;
+
+75 
+	tush‹t
+;
+
+76 
+	tuöt
+;
+
+77 
+	tul⁄g
+;
+
+79 #i‚de‡
+__BIT_TYPES_DEFINED__
+
+
+80 
+	#__BIT_TYPES_DEFINED__
+
+
+	)
+
+82 
+__u8
+ 
+	tu_öt8_t
+;
+
+83 
+__s8
+ 
+	töt8_t
+;
+
+84 
+__u16
+ 
+	tu_öt16_t
+;
+
+85 
+__s16
+ 
+	töt16_t
+;
+
+86 
+__u32
+ 
+	tu_öt32_t
+;
+
+87 
+__s32
+ 
+	töt32_t
+;
+
+91 
+__u8
+ 
+	tuöt8_t
+;
+
+92 
+__u16
+ 
+	tuöt16_t
+;
+
+93 
+__u32
+ 
+	tuöt32_t
+;
+
+95 #i‡
+deföed
+(
+__GNUC__
+Ë&& !deföed(
+__STRICT_ANSI__
+)
+
+96 
+__u64
+ 
+	tuöt64_t
+;
+
+97 
+__u64
+ 
+	tu_öt64_t
+;
+
+98 
+__s64
+ 
+	töt64_t
+;
+
+102 
+	#Æig√d_u64
+ 
+	`__©åibuã__
+((
+	`Æig√d
+(8)))
+
+	)
+
+103 
+	#Æig√d_be64
+ 
+__be64
+ 
+	`__©åibuã__
+((
+	`Æig√d
+(8)))
+
+	)
+
+104 
+	#Æig√d_À64
+ 
+__À64
+ 
+	`__©åibuã__
+((
+	`Æig√d
+(8)))
+
+	)
+
+112 #ifde‡
+CONFIG_LBD
+
+
+113 
+u64
+ 
+	t£˘‹_t
+;
+
+115 
+	t£˘‹_t
+;
+
+121 #ifde‡
+CONFIG_LSF
+
+
+122 
+u64
+ 
+	tblk˙t_t
+;
+
+124 
+	tblk˙t_t
+;
+
+131 #i‚de‡
+pgoff_t
+
+
+132 
+	#pgoff_t
+ 
+
+	)
+
+142 #ifde‡
+__CHECKER__
+
+
+143 
+	#__bôwi£__
+ 
+	`__©åibuã__
+((
+bôwi£
+))
+
+	)
+
+145 
+	#__bôwi£__
+
+
+	)
+
+147 #ifde‡
+__CHECK_ENDIAN__
+
+
+148 
+	#__bôwi£
+ 
+__bôwi£__
+
+
+	)
+
+150 
+	#__bôwi£
+
+
+	)
+
+153 
+__u16
+ 
+	t__bôwi£
+ 
+	t__À16
+;
+
+154 
+__u16
+ 
+	t__bôwi£
+ 
+	t__be16
+;
+
+155 
+__u32
+ 
+	t__bôwi£
+ 
+	t__À32
+;
+
+156 
+__u32
+ 
+	t__bôwi£
+ 
+	t__be32
+;
+
+157 #i‡
+deföed
+(
+__GNUC__
+Ë&& !deföed(
+__STRICT_ANSI__
+)
+
+158 
+__u64
+ 
+	t__bôwi£
+ 
+	t__À64
+;
+
+159 
+__u64
+ 
+	t__bôwi£
+ 
+	t__be64
+;
+
+161 
+__u16
+ 
+	t__bôwi£
+ 
+	t__sum16
+;
+
+162 
+__u32
+ 
+	t__bôwi£
+ 
+	t__wsum
+;
+
+165 
+	su°©
+ {
+
+166 
+__kî√l_daddr_t
+ 
+	mf_t‰ì
+;
+
+167 
+__kî√l_öo_t
+ 
+	mf_töode
+;
+
+168 
+	mf_‚ame
+[6];
+
+169 
+	mf_Âack
+[6];
+
+	@/usr/include/asm/ioctl.h
+
+1 
+	~<asm-gíîic/io˘l.h
+>
+
+	@/usr/include/asm/types.h
+
+1 #i‚de‡
+_ASM_X86_TYPES_H
+
+
+2 
+	#_ASM_X86_TYPES_H
+
+
+	)
+
+4 #i‚de‡
+__ASSEMBLY__
+
+
+6 
+	tumode_t
+;
+
+13 
+__sig√d__
+ 
+	t__s8
+;
+
+14 
+	t__u8
+;
+
+16 
+__sig√d__
+ 
+	t__s16
+;
+
+17 
+	t__u16
+;
+
+19 
+__sig√d__
+ 
+	t__s32
+;
+
+20 
+	t__u32
+;
+
+22 #ifde‡
+__i386__
+
+
+23 #ifde‡
+__GNUC__
+
+
+24 
+__exãnsi⁄__
+ 
+__sig√d__
+ 
+	t__s64
+;
+
+25 
+__exãnsi⁄__
+ 
+	t__u64
+;
+
+28 
+__sig√d__
+ 
+	t__s64
+;
+
+29 
+	t__u64
+;
+
+	@/usr/include/linux/hdlc/ioctl.h
+
+1 #i‚de‡
+__HDLC_IOCTL_H__
+
+
+2 
+	#__HDLC_IOCTL_H__
+
+
+	)
+
+5 
+	#GENERIC_HDLC_VERSION
+ 4
+
+	)
+
+7 
+	#CLOCK_DEFAULT
+ 0
+
+	)
+
+8 
+	#CLOCK_EXT
+ 1
+
+	)
+
+9 
+	#CLOCK_INT
+ 2
+
+	)
+
+10 
+	#CLOCK_TXINT
+ 3
+
+	)
+
+11 
+	#CLOCK_TXFROMRX
+ 4
+
+	)
+
+14 
+	#ENCODING_DEFAULT
+ 0
+
+	)
+
+15 
+	#ENCODING_NRZ
+ 1
+
+	)
+
+16 
+	#ENCODING_NRZI
+ 2
+
+	)
+
+17 
+	#ENCODING_FM_MARK
+ 3
+
+	)
+
+18 
+	#ENCODING_FM_SPACE
+ 4
+
+	)
+
+19 
+	#ENCODING_MANCHESTER
+ 5
+
+	)
+
+22 
+	#PARITY_DEFAULT
+ 0
+
+	)
+
+23 
+	#PARITY_NONE
+ 1
+
+	)
+
+24 
+	#PARITY_CRC16_PR0
+ 2
+
+	)
+
+25 
+	#PARITY_CRC16_PR1
+ 3
+
+	)
+
+26 
+	#PARITY_CRC16_PR0_CCITT
+ 4
+
+	)
+
+27 
+	#PARITY_CRC16_PR1_CCITT
+ 5
+
+	)
+
+28 
+	#PARITY_CRC32_PR0_CCITT
+ 6
+
+	)
+
+29 
+	#PARITY_CRC32_PR1_CCITT
+ 7
+
+	)
+
+31 
+	#LMI_DEFAULT
+ 0
+
+	)
+
+32 
+	#LMI_NONE
+ 1
+
+	)
+
+33 
+	#LMI_ANSI
+ 2
+
+	)
+
+34 
+	#LMI_CCITT
+ 3
+
+	)
+
+35 
+	#LMI_CISCO
+ 4
+
+	)
+
+38 
+	m˛ock_øã
+;
+
+39 
+	m˛ock_ty≥
+;
+
+40 
+	mlo›back
+;
+
+41 } 
+	tsync_£rül_£âögs
+;
+
+44 
+	m˛ock_øã
+;
+
+45 
+	m˛ock_ty≥
+;
+
+46 
+	mlo›back
+;
+
+47 
+	m¶Ÿ_m≠
+;
+
+48 } 
+	tã1_£âögs
+;
+
+51 
+	mícodög
+;
+
+52 
+	m∑rôy
+;
+
+53 } 
+	tøw_hdlc_¥Ÿo
+;
+
+56 
+	mt391
+;
+
+57 
+	mt392
+;
+
+58 
+	mn391
+;
+
+59 
+	mn392
+;
+
+60 
+	mn393
+;
+
+61 
+	mlmi
+;
+
+62 
+	md˚
+;
+
+63 } 
+	t‰_¥Ÿo
+;
+
+66 
+	mdlci
+;
+
+67 } 
+	t‰_¥Ÿo_pvc
+;
+
+70 
+	mdlci
+;
+
+71 
+	mma°î
+[
+IFNAMSIZ
+];
+
+72 }
+	t‰_¥Ÿo_pvc_öfo
+;
+
+75 
+	möãrvÆ
+;
+
+76 
+	mtimeout
+;
+
+77 } 
+	tcisco_¥Ÿo
+;
+
+	@/usr/include/linux/posix_types.h
+
+1 #i‚de‡
+_LINUX_POSIX_TYPES_H
+
+
+2 
+	#_LINUX_POSIX_TYPES_H
+
+
+	)
+
+4 
+	~<löux/°ddef.h
+>
+
+21 #unde‡
+__NFDBITS
+
+
+22 
+	#__NFDBITS
+ (8 * ())
+
+	)
+
+24 #unde‡
+__FD_SETSIZE
+
+
+25 
+	#__FD_SETSIZE
+ 1024
+
+	)
+
+27 #unde‡
+__FDSET_LONGS
+
+
+28 
+	#__FDSET_LONGS
+ (
+__FD_SETSIZE
+/
+__NFDBITS
+)
+
+	)
+
+30 #unde‡
+__FDELT
+
+
+31 
+	#__FDELT
+(
+d
+Ë((dË/ 
+__NFDBITS
+)
+
+	)
+
+33 #unde‡
+__FDMASK
+
+
+34 
+	#__FDMASK
+(
+d
+Ë(1UL << ((dË% 
+__NFDBITS
+))
+
+	)
+
+37 
+	mfds_bôs
+ [
+__FDSET_LONGS
+];
+
+38 } 
+	t__kî√l_fd_£t
+;
+
+41 (*
+	t__kî√l_sigh™dÀr_t
+)();
+
+44 
+	t__kî√l_key_t
+;
+
+45 
+	t__kî√l_mqd_t
+;
+
+47 
+	~<asm/posix_ty≥s.h
+>
+
+	@/usr/include/linux/socket.h
+
+1 #i‚de‡
+_LINUX_SOCKET_H
+
+
+2 
+	#_LINUX_SOCKET_H
+
+
+	)
+
+7 
+	#_K_SS_MAXSIZE
+ 128
+
+	)
+
+8 
+	#_K_SS_ALIGNSIZE
+ (
+	`__Æignof__
+ (
+sockaddr
+ *))
+
+	)
+
+11 
+	s__kî√l_sockaddr_°‹age
+ {
+
+12 
+	mss_Ámûy
+;
+
+14 
+	m__d©a
+[
+_K_SS_MAXSIZE
+ - ()];
+
+17 } 
+__©åibuã__
+ ((
+Æig√d
+(
+_K_SS_ALIGNSIZE
+)));
+
+19 #i‡
+deföed
+(
+__KERNEL__
+Ë|| !deföed(
+__GLIBC__
+) || (__GLIBC__ < 2)
+
+21 
+	~<asm/sockë.h
+>
+
+22 
+	~<löux/sockios.h
+>
+
+23 
+	~<löux/uio.h
+>
+
+24 
+	~<löux/ty≥s.h
+>
+
+26 
+sys˘l_somaxc⁄n
+;
+
+27 #ifde‡
+CONFIG_PROC_FS
+
+
+28 
+	g£q_fûe
+;
+
+29 
+sockë_£q_show
+(
+£q_fûe
+ *
+£q
+);
+
+32 
+	tß_Ámûy_t
+;
+
+38 
+	ssockaddr
+ {
+
+39 
+ß_Ámûy_t
+ 
+	mß_Ámûy
+;
+
+40 
+	mß_d©a
+[14];
+
+43 
+	slögî
+ {
+
+44 
+	ml_⁄off
+;
+
+45 
+	ml_lögî
+;
+
+48 
+	#sockaddr_°‹age
+ 
+__kî√l_sockaddr_°‹age
+
+
+	)
+
+56 
+	smsghdr
+ {
+
+57 * 
+	mmsg_«me
+;
+
+58 
+	mmsg_«mñí
+;
+
+59 
+iovec
+ * 
+	mmsg_iov
+;
+
+60 
+__kî√l_size_t
+ 
+	mmsg_iovÀn
+;
+
+61 * 
+	mmsg_c⁄åﬁ
+;
+
+62 
+__kî√l_size_t
+ 
+	mmsg_c⁄åﬁÀn
+;
+
+63 
+	mmsg_Êags
+;
+
+72 
+	scmsghdr
+ {
+
+73 
+__kî√l_size_t
+ 
+	mcmsg_Àn
+;
+
+74 
+	mcmsg_Àvñ
+;
+
+75 
+	mcmsg_ty≥
+;
+
+83 
+	#__CMSG_NXTHDR
+(
+˘l
+, 
+Àn
+, 
+cmsg
+Ë
+	`__cmsg_nxthdr
+((˘l),÷í),(cmsg))
+
+	)
+
+84 
+	#CMSG_NXTHDR
+(
+mhdr
+, 
+cmsg
+Ë
+	`cmsg_nxthdr
+((mhdr), (cmsg))
+
+	)
+
+86 
+	#CMSG_ALIGN
+(
+Àn
+Ë–(÷í)+()-1Ë& ~(()-1Ë)
+
+	)
+
+88 
+	#CMSG_DATA
+(
+cmsg
+Ë((*)((*)(cmsgË+ 
+	`CMSG_ALIGN
+((
+cmsghdr
+))))
+
+	)
+
+89 
+	#CMSG_SPACE
+(
+Àn
+Ë(
+	`CMSG_ALIGN
+((
+cmsghdr
+)Ë+ CMSG_ALIGN÷í))
+
+	)
+
+90 
+	#CMSG_LEN
+(
+Àn
+Ë(
+	`CMSG_ALIGN
+((
+cmsghdr
+)Ë+ (Àn))
+
+	)
+
+92 
+	#__CMSG_FIRSTHDR
+(
+˘l
+,
+Àn
+Ë(÷íË>(
+cmsghdr
+) ? \
+
+93 (
+cmsghdr
+ *)(
+˘l
+) : \
+
+94 (
+cmsghdr
+ *)
+NULL
+)
+
+	)
+
+95 
+	#CMSG_FIRSTHDR
+(
+msg
+Ë
+	`__CMSG_FIRSTHDR
+((msg)->
+msg_c⁄åﬁ
+, (msg)->
+msg_c⁄åﬁÀn
+)
+
+	)
+
+96 
+	#CMSG_OK
+(
+mhdr
+, 
+cmsg
+Ë((cmsg)->
+cmsg_Àn
+ >(
+cmsghdr
+) && \
+
+97 (
+cmsg
+)->
+cmsg_Àn
+ <= () \
+
+98 ((
+mhdr
+)->
+msg_c⁄åﬁÀn
+ - \
+
+99 ((*)(
+cmsg
+Ë- (*)(
+mhdr
+)->
+msg_c⁄åﬁ
+)))
+
+	)
+
+105 #i‡ 
+deföed
+(
+__GNUC__
+)
+
+106 
+	#__KINLINE
+ 
+__ölöe__
+
+
+	)
+
+107 #ñi‡
+deföed
+(
+__˝lu•lus
+)
+
+108 
+	#__KINLINE
+ 
+ölöe
+
+
+	)
+
+110 
+	#__KINLINE
+ 
+
+	)
+
+127 
+__KINLINE
+ 
+cmsghdr
+ * 
+	$__cmsg_nxthdr
+(*
+__˘l
+, 
+__kî√l_size_t
+ 
+__size
+,
+
+128 
+cmsghdr
+ *
+__cmsg
+)
+
+130 
+cmsghdr
+ * 
+__±r
+;
+
+132 
+__±r
+ = (
+cmsghdr
+*)(((*Ë
+__cmsg
+Ë+ 
+	`CMSG_ALIGN
+(__cmsg->
+cmsg_Àn
+));
+
+133 i‡(()((*)(
+__±r
++1Ë- (*Ë
+__˘l
+Ë> 
+__size
+)
+
+134  (
+cmsghdr
+ *)0;
+
+136  
+__±r
+;
+
+137 
+	}
+}
+
+139 
+__KINLINE
+ 
+cmsghdr
+ * 
+	$cmsg_nxthdr
+ (
+msghdr
+ *
+__msg
+, 
+cmsghdr
+ *
+__cmsg
+)
+
+141  
+	`__cmsg_nxthdr
+(
+__msg
+->
+msg_c⁄åﬁ
+, __msg->
+msg_c⁄åﬁÀn
+, 
+__cmsg
+);
+
+142 
+	}
+}
+
+146 
+	#SCM_RIGHTS
+ 0x01
+
+	)
+
+147 
+	#SCM_CREDENTIALS
+ 0x02
+
+	)
+
+148 
+	#SCM_SECURITY
+ 0x03
+
+	)
+
+150 
+	su¸ed
+ {
+
+151 
+__u32
+ 
+	mpid
+;
+
+152 
+__u32
+ 
+	muid
+;
+
+153 
+__u32
+ 
+	mgid
+;
+
+157 
+	#AF_UNSPEC
+ 0
+
+	)
+
+158 
+	#AF_UNIX
+ 1
+
+	)
+
+159 
+	#AF_LOCAL
+ 1
+
+	)
+
+160 
+	#AF_INET
+ 2
+
+	)
+
+161 
+	#AF_AX25
+ 3
+
+	)
+
+162 
+	#AF_IPX
+ 4
+
+	)
+
+163 
+	#AF_APPLETALK
+ 5
+
+	)
+
+164 
+	#AF_NETROM
+ 6
+
+	)
+
+165 
+	#AF_BRIDGE
+ 7
+
+	)
+
+166 
+	#AF_ATMPVC
+ 8
+
+	)
+
+167 
+	#AF_X25
+ 9
+
+	)
+
+168 
+	#AF_INET6
+ 10
+
+	)
+
+169 
+	#AF_ROSE
+ 11
+
+	)
+
+170 
+	#AF_DEC√t
+ 12
+
+	)
+
+171 
+	#AF_NETBEUI
+ 13
+
+	)
+
+172 
+	#AF_SECURITY
+ 14
+
+	)
+
+173 
+	#AF_KEY
+ 15
+
+	)
+
+174 
+	#AF_NETLINK
+ 16
+
+	)
+
+175 
+	#AF_ROUTE
+ 
+AF_NETLINK
+
+
+	)
+
+176 
+	#AF_PACKET
+ 17
+
+	)
+
+177 
+	#AF_ASH
+ 18
+
+	)
+
+178 
+	#AF_ECONET
+ 19
+
+	)
+
+179 
+	#AF_ATMSVC
+ 20
+
+	)
+
+180 
+	#AF_SNA
+ 22
+
+	)
+
+181 
+	#AF_IRDA
+ 23
+
+	)
+
+182 
+	#AF_PPPOX
+ 24
+
+	)
+
+183 
+	#AF_WANPIPE
+ 25
+
+	)
+
+184 
+	#AF_LLC
+ 26
+
+	)
+
+185 
+	#AF_TIPC
+ 30
+
+	)
+
+186 
+	#AF_BLUETOOTH
+ 31
+
+	)
+
+187 
+	#AF_IUCV
+ 32
+
+	)
+
+188 
+	#AF_RXRPC
+ 33
+
+	)
+
+189 
+	#AF_MAX
+ 34
+
+	)
+
+192 
+	#PF_UNSPEC
+ 
+AF_UNSPEC
+
+
+	)
+
+193 
+	#PF_UNIX
+ 
+AF_UNIX
+
+
+	)
+
+194 
+	#PF_LOCAL
+ 
+AF_LOCAL
+
+
+	)
+
+195 
+	#PF_INET
+ 
+AF_INET
+
+
+	)
+
+196 
+	#PF_AX25
+ 
+AF_AX25
+
+
+	)
+
+197 
+	#PF_IPX
+ 
+AF_IPX
+
+
+	)
+
+198 
+	#PF_APPLETALK
+ 
+AF_APPLETALK
+
+
+	)
+
+199 
+	#PF_NETROM
+ 
+AF_NETROM
+
+
+	)
+
+200 
+	#PF_BRIDGE
+ 
+AF_BRIDGE
+
+
+	)
+
+201 
+	#PF_ATMPVC
+ 
+AF_ATMPVC
+
+
+	)
+
+202 
+	#PF_X25
+ 
+AF_X25
+
+
+	)
+
+203 
+	#PF_INET6
+ 
+AF_INET6
+
+
+	)
+
+204 
+	#PF_ROSE
+ 
+AF_ROSE
+
+
+	)
+
+205 
+	#PF_DEC√t
+ 
+AF_DEC√t
+
+
+	)
+
+206 
+	#PF_NETBEUI
+ 
+AF_NETBEUI
+
+
+	)
+
+207 
+	#PF_SECURITY
+ 
+AF_SECURITY
+
+
+	)
+
+208 
+	#PF_KEY
+ 
+AF_KEY
+
+
+	)
+
+209 
+	#PF_NETLINK
+ 
+AF_NETLINK
+
+
+	)
+
+210 
+	#PF_ROUTE
+ 
+AF_ROUTE
+
+
+	)
+
+211 
+	#PF_PACKET
+ 
+AF_PACKET
+
+
+	)
+
+212 
+	#PF_ASH
+ 
+AF_ASH
+
+
+	)
+
+213 
+	#PF_ECONET
+ 
+AF_ECONET
+
+
+	)
+
+214 
+	#PF_ATMSVC
+ 
+AF_ATMSVC
+
+
+	)
+
+215 
+	#PF_SNA
+ 
+AF_SNA
+
+
+	)
+
+216 
+	#PF_IRDA
+ 
+AF_IRDA
+
+
+	)
+
+217 
+	#PF_PPPOX
+ 
+AF_PPPOX
+
+
+	)
+
+218 
+	#PF_WANPIPE
+ 
+AF_WANPIPE
+
+
+	)
+
+219 
+	#PF_LLC
+ 
+AF_LLC
+
+
+	)
+
+220 
+	#PF_TIPC
+ 
+AF_TIPC
+
+
+	)
+
+221 
+	#PF_BLUETOOTH
+ 
+AF_BLUETOOTH
+
+
+	)
+
+222 
+	#PF_IUCV
+ 
+AF_IUCV
+
+
+	)
+
+223 
+	#PF_RXRPC
+ 
+AF_RXRPC
+
+
+	)
+
+224 
+	#PF_MAX
+ 
+AF_MAX
+
+
+	)
+
+227 
+	#SOMAXCONN
+ 128
+
+	)
+
+233 
+	#MSG_OOB
+ 1
+
+	)
+
+234 
+	#MSG_PEEK
+ 2
+
+	)
+
+235 
+	#MSG_DONTROUTE
+ 4
+
+	)
+
+236 
+	#MSG_TRYHARD
+ 4
+
+	)
+
+237 
+	#MSG_CTRUNC
+ 8
+
+	)
+
+238 
+	#MSG_PROBE
+ 0x10
+
+	)
+
+239 
+	#MSG_TRUNC
+ 0x20
+
+	)
+
+240 
+	#MSG_DONTWAIT
+ 0x40
+
+	)
+
+241 
+	#MSG_EOR
+ 0x80
+
+	)
+
+242 
+	#MSG_WAITALL
+ 0x100
+
+	)
+
+243 
+	#MSG_FIN
+ 0x200
+
+	)
+
+244 
+	#MSG_SYN
+ 0x400
+
+	)
+
+245 
+	#MSG_CONFIRM
+ 0x800
+
+	)
+
+246 
+	#MSG_RST
+ 0x1000
+
+	)
+
+247 
+	#MSG_ERRQUEUE
+ 0x2000
+
+	)
+
+248 
+	#MSG_NOSIGNAL
+ 0x4000
+
+	)
+
+249 
+	#MSG_MORE
+ 0x8000
+
+	)
+
+251 
+	#MSG_EOF
+ 
+MSG_FIN
+
+
+	)
+
+253 
+	#MSG_CMSG_CLOEXEC
+ 0x40000000
+
+	)
+
+256 #i‡
+deföed
+(
+CONFIG_COMPAT
+)
+
+257 
+	#MSG_CMSG_COMPAT
+ 0x80000000
+
+	)
+
+259 
+	#MSG_CMSG_COMPAT
+ 0
+
+	)
+
+264 
+	#SOL_IP
+ 0
+
+	)
+
+266 
+	#SOL_TCP
+ 6
+
+	)
+
+267 
+	#SOL_UDP
+ 17
+
+	)
+
+268 
+	#SOL_IPV6
+ 41
+
+	)
+
+269 
+	#SOL_ICMPV6
+ 58
+
+	)
+
+270 
+	#SOL_SCTP
+ 132
+
+	)
+
+271 
+	#SOL_UDPLITE
+ 136
+
+	)
+
+272 
+	#SOL_RAW
+ 255
+
+	)
+
+273 
+	#SOL_IPX
+ 256
+
+	)
+
+274 
+	#SOL_AX25
+ 257
+
+	)
+
+275 
+	#SOL_ATALK
+ 258
+
+	)
+
+276 
+	#SOL_NETROM
+ 259
+
+	)
+
+277 
+	#SOL_ROSE
+ 260
+
+	)
+
+278 
+	#SOL_DECNET
+ 261
+
+	)
+
+279 
+	#SOL_X25
+ 262
+
+	)
+
+280 
+	#SOL_PACKET
+ 263
+
+	)
+
+281 
+	#SOL_ATM
+ 264
+
+	)
+
+282 
+	#SOL_AAL
+ 265
+
+	)
+
+283 
+	#SOL_IRDA
+ 266
+
+	)
+
+284 
+	#SOL_NETBEUI
+ 267
+
+	)
+
+285 
+	#SOL_LLC
+ 268
+
+	)
+
+286 
+	#SOL_DCCP
+ 269
+
+	)
+
+287 
+	#SOL_NETLINK
+ 270
+
+	)
+
+288 
+	#SOL_TIPC
+ 271
+
+	)
+
+289 
+	#SOL_RXRPC
+ 272
+
+	)
+
+290 
+	#SOL_PPPOL2TP
+ 273
+
+	)
+
+291 
+	#SOL_BLUETOOTH
+ 274
+
+	)
+
+294 
+	#IPX_TYPE
+ 1
+
+	)
+
+	@/usr/include/asm-generic/ioctl.h
+
+1 #i‚de‡
+_ASM_GENERIC_IOCTL_H
+
+
+2 
+	#_ASM_GENERIC_IOCTL_H
+
+
+	)
+
+22 
+	#_IOC_NRBITS
+ 8
+
+	)
+
+23 
+	#_IOC_TYPEBITS
+ 8
+
+	)
+
+24 
+	#_IOC_SIZEBITS
+ 14
+
+	)
+
+25 
+	#_IOC_DIRBITS
+ 2
+
+	)
+
+27 
+	#_IOC_NRMASK
+ ((1 << 
+_IOC_NRBITS
+)-1)
+
+	)
+
+28 
+	#_IOC_TYPEMASK
+ ((1 << 
+_IOC_TYPEBITS
+)-1)
+
+	)
+
+29 
+	#_IOC_SIZEMASK
+ ((1 << 
+_IOC_SIZEBITS
+)-1)
+
+	)
+
+30 
+	#_IOC_DIRMASK
+ ((1 << 
+_IOC_DIRBITS
+)-1)
+
+	)
+
+32 
+	#_IOC_NRSHIFT
+ 0
+
+	)
+
+33 
+	#_IOC_TYPESHIFT
+ (
+_IOC_NRSHIFT
++
+_IOC_NRBITS
+)
+
+	)
+
+34 
+	#_IOC_SIZESHIFT
+ (
+_IOC_TYPESHIFT
++
+_IOC_TYPEBITS
+)
+
+	)
+
+35 
+	#_IOC_DIRSHIFT
+ (
+_IOC_SIZESHIFT
++
+_IOC_SIZEBITS
+)
+
+	)
+
+40 
+	#_IOC_NONE
+ 0U
+
+	)
+
+41 
+	#_IOC_WRITE
+ 1U
+
+	)
+
+42 
+	#_IOC_READ
+ 2U
+
+	)
+
+44 
+	#_IOC
+(
+dú
+,
+ty≥
+,
+ƒ
+,
+size
+) \
+
+45 (((
+dú
+Ë<< 
+_IOC_DIRSHIFT
+) | \
+
+46 ((
+ty≥
+Ë<< 
+_IOC_TYPESHIFT
+) | \
+
+47 ((
+ƒ
+Ë<< 
+_IOC_NRSHIFT
+) | \
+
+48 ((
+size
+Ë<< 
+_IOC_SIZESHIFT
+))
+
+	)
+
+51 
+__övÆid_size_¨gumít_f‹_IOC
+;
+
+52 
+	#_IOC_TYPECHECK
+(
+t
+) \
+
+53 (((
+t
+) == (t[1]) && \
+
+54 (
+t
+Ë< (1 << 
+_IOC_SIZEBITS
+)) ? \
+
+55 (
+t
+Ë: 
+__övÆid_size_¨gumít_f‹_IOC
+)
+
+	)
+
+58 
+	#_IO
+(
+ty≥
+,
+ƒ
+Ë
+	`_IOC
+(
+_IOC_NONE
+,—y≥),“r),0)
+
+	)
+
+59 
+	#_IOR
+(
+ty≥
+,
+ƒ
+,
+size
+Ë
+	`_IOC
+(
+_IOC_READ
+,—y≥),“r),(
+	`_IOC_TYPECHECK
+(size)))
+
+	)
+
+60 
+	#_IOW
+(
+ty≥
+,
+ƒ
+,
+size
+Ë
+	`_IOC
+(
+_IOC_WRITE
+,—y≥),“r),(
+	`_IOC_TYPECHECK
+(size)))
+
+	)
+
+61 
+	#_IOWR
+(
+ty≥
+,
+ƒ
+,
+size
+Ë
+	`_IOC
+(
+_IOC_READ
+|
+_IOC_WRITE
+,—y≥),“r),(
+	`_IOC_TYPECHECK
+(size)))
+
+	)
+
+62 
+	#_IOR_BAD
+(
+ty≥
+,
+ƒ
+,
+size
+Ë
+	`_IOC
+(
+_IOC_READ
+,—y≥),“r),(size))
+
+	)
+
+63 
+	#_IOW_BAD
+(
+ty≥
+,
+ƒ
+,
+size
+Ë
+	`_IOC
+(
+_IOC_WRITE
+,—y≥),“r),(size))
+
+	)
+
+64 
+	#_IOWR_BAD
+(
+ty≥
+,
+ƒ
+,
+size
+Ë
+	`_IOC
+(
+_IOC_READ
+|
+_IOC_WRITE
+,—y≥),“r),(size))
+
+	)
+
+67 
+	#_IOC_DIR
+(
+ƒ
+Ë((“rË>> 
+_IOC_DIRSHIFT
+Ë& 
+_IOC_DIRMASK
+)
+
+	)
+
+68 
+	#_IOC_TYPE
+(
+ƒ
+Ë((“rË>> 
+_IOC_TYPESHIFT
+Ë& 
+_IOC_TYPEMASK
+)
+
+	)
+
+69 
+	#_IOC_NR
+(
+ƒ
+Ë((“rË>> 
+_IOC_NRSHIFT
+Ë& 
+_IOC_NRMASK
+)
+
+	)
+
+70 
+	#_IOC_SIZE
+(
+ƒ
+Ë((“rË>> 
+_IOC_SIZESHIFT
+Ë& 
+_IOC_SIZEMASK
+)
+
+	)
+
+74 
+	#IOC_IN
+ (
+_IOC_WRITE
+ << 
+_IOC_DIRSHIFT
+)
+
+	)
+
+75 
+	#IOC_OUT
+ (
+_IOC_READ
+ << 
+_IOC_DIRSHIFT
+)
+
+	)
+
+76 
+	#IOC_INOUT
+ ((
+_IOC_WRITE
+|
+_IOC_READ
+Ë<< 
+_IOC_DIRSHIFT
+)
+
+	)
+
+77 
+	#IOCSIZE_MASK
+ (
+_IOC_SIZEMASK
+ << 
+_IOC_SIZESHIFT
+)
+
+	)
+
+78 
+	#IOCSIZE_SHIFT
+ (
+_IOC_SIZESHIFT
+)
+
+	)
+
+	@/usr/include/asm/posix_types.h
+
+1 #ifde‡
+__i386__
+
+
+2 
+	~"posix_ty≥s_32.h
+"
+
+4 
+	~"posix_ty≥s_64.h
+"
+
+	@/usr/include/asm/socket.h
+
+1 #i‚de‡
+_ASM_SOCKET_H
+
+
+2 
+	#_ASM_SOCKET_H
+
+
+	)
+
+4 
+	~<asm/sockios.h
+>
+
+7 
+	#SOL_SOCKET
+ 1
+
+	)
+
+9 
+	#SO_DEBUG
+ 1
+
+	)
+
+10 
+	#SO_REUSEADDR
+ 2
+
+	)
+
+11 
+	#SO_TYPE
+ 3
+
+	)
+
+12 
+	#SO_ERROR
+ 4
+
+	)
+
+13 
+	#SO_DONTROUTE
+ 5
+
+	)
+
+14 
+	#SO_BROADCAST
+ 6
+
+	)
+
+15 
+	#SO_SNDBUF
+ 7
+
+	)
+
+16 
+	#SO_RCVBUF
+ 8
+
+	)
+
+17 
+	#SO_SNDBUFFORCE
+ 32
+
+	)
+
+18 
+	#SO_RCVBUFFORCE
+ 33
+
+	)
+
+19 
+	#SO_KEEPALIVE
+ 9
+
+	)
+
+20 
+	#SO_OOBINLINE
+ 10
+
+	)
+
+21 
+	#SO_NO_CHECK
+ 11
+
+	)
+
+22 
+	#SO_PRIORITY
+ 12
+
+	)
+
+23 
+	#SO_LINGER
+ 13
+
+	)
+
+24 
+	#SO_BSDCOMPAT
+ 14
+
+	)
+
+26 
+	#SO_PASSCRED
+ 16
+
+	)
+
+27 
+	#SO_PEERCRED
+ 17
+
+	)
+
+28 
+	#SO_RCVLOWAT
+ 18
+
+	)
+
+29 
+	#SO_SNDLOWAT
+ 19
+
+	)
+
+30 
+	#SO_RCVTIMEO
+ 20
+
+	)
+
+31 
+	#SO_SNDTIMEO
+ 21
+
+	)
+
+34 
+	#SO_SECURITY_AUTHENTICATION
+ 22
+
+	)
+
+35 
+	#SO_SECURITY_ENCRYPTION_TRANSPORT
+ 23
+
+	)
+
+36 
+	#SO_SECURITY_ENCRYPTION_NETWORK
+ 24
+
+	)
+
+38 
+	#SO_BINDTODEVICE
+ 25
+
+	)
+
+41 
+	#SO_ATTACH_FILTER
+ 26
+
+	)
+
+42 
+	#SO_DETACH_FILTER
+ 27
+
+	)
+
+44 
+	#SO_PEERNAME
+ 28
+
+	)
+
+45 
+	#SO_TIMESTAMP
+ 29
+
+	)
+
+46 
+	#SCM_TIMESTAMP
+ 
+SO_TIMESTAMP
+
+
+	)
+
+48 
+	#SO_ACCEPTCONN
+ 30
+
+	)
+
+50 
+	#SO_PEERSEC
+ 31
+
+	)
+
+51 
+	#SO_PASSSEC
+ 34
+
+	)
+
+52 
+	#SO_TIMESTAMPNS
+ 35
+
+	)
+
+53 
+	#SCM_TIMESTAMPNS
+ 
+SO_TIMESTAMPNS
+
+
+	)
+
+	@/usr/include/linux/sockios.h
+
+18 #i‚de‡
+_LINUX_SOCKIOS_H
+
+
+19 
+	#_LINUX_SOCKIOS_H
+
+
+	)
+
+21 
+	~<asm/sockios.h
+>
+
+24 
+	#SIOCINQ
+ 
+FIONREAD
+
+
+	)
+
+25 
+	#SIOCOUTQ
+ 
+TIOCOUTQ
+
+
+	)
+
+28 
+	#SIOCADDRT
+ 0x890B
+
+	)
+
+29 
+	#SIOCDELRT
+ 0x890C
+
+	)
+
+30 
+	#SIOCRTMSG
+ 0x890D
+
+	)
+
+33 
+	#SIOCGIFNAME
+ 0x8910
+
+	)
+
+34 
+	#SIOCSIFLINK
+ 0x8911
+
+	)
+
+35 
+	#SIOCGIFCONF
+ 0x8912
+
+	)
+
+36 
+	#SIOCGIFFLAGS
+ 0x8913
+
+	)
+
+37 
+	#SIOCSIFFLAGS
+ 0x8914
+
+	)
+
+38 
+	#SIOCGIFADDR
+ 0x8915
+
+	)
+
+39 
+	#SIOCSIFADDR
+ 0x8916
+
+	)
+
+40 
+	#SIOCGIFDSTADDR
+ 0x8917
+
+	)
+
+41 
+	#SIOCSIFDSTADDR
+ 0x8918
+
+	)
+
+42 
+	#SIOCGIFBRDADDR
+ 0x8919
+
+	)
+
+43 
+	#SIOCSIFBRDADDR
+ 0x891®
+
+	)
+
+44 
+	#SIOCGIFNETMASK
+ 0x891b
+
+	)
+
+45 
+	#SIOCSIFNETMASK
+ 0x891¯
+
+	)
+
+46 
+	#SIOCGIFMETRIC
+ 0x891d
+
+	)
+
+47 
+	#SIOCSIFMETRIC
+ 0x891ê
+
+	)
+
+48 
+	#SIOCGIFMEM
+ 0x891‡
+
+	)
+
+49 
+	#SIOCSIFMEM
+ 0x8920
+
+	)
+
+50 
+	#SIOCGIFMTU
+ 0x8921
+
+	)
+
+51 
+	#SIOCSIFMTU
+ 0x8922
+
+	)
+
+52 
+	#SIOCSIFNAME
+ 0x8923
+
+	)
+
+53 
+	#SIOCSIFHWADDR
+ 0x8924
+
+	)
+
+54 
+	#SIOCGIFENCAP
+ 0x8925
+
+	)
+
+55 
+	#SIOCSIFENCAP
+ 0x8926
+
+	)
+
+56 
+	#SIOCGIFHWADDR
+ 0x8927
+
+	)
+
+57 
+	#SIOCGIFSLAVE
+ 0x8929
+
+	)
+
+58 
+	#SIOCSIFSLAVE
+ 0x8930
+
+	)
+
+59 
+	#SIOCADDMULTI
+ 0x8931
+
+	)
+
+60 
+	#SIOCDELMULTI
+ 0x8932
+
+	)
+
+61 
+	#SIOCGIFINDEX
+ 0x8933
+
+	)
+
+62 
+	#SIOGIFINDEX
+ 
+SIOCGIFINDEX
+
+
+	)
+
+63 
+	#SIOCSIFPFLAGS
+ 0x8934
+
+	)
+
+64 
+	#SIOCGIFPFLAGS
+ 0x8935
+
+	)
+
+65 
+	#SIOCDIFADDR
+ 0x8936
+
+	)
+
+66 
+	#SIOCSIFHWBROADCAST
+ 0x8937
+
+	)
+
+67 
+	#SIOCGIFCOUNT
+ 0x8938
+
+	)
+
+69 
+	#SIOCGIFBR
+ 0x8940
+
+	)
+
+70 
+	#SIOCSIFBR
+ 0x8941
+
+	)
+
+72 
+	#SIOCGIFTXQLEN
+ 0x8942
+
+	)
+
+73 
+	#SIOCSIFTXQLEN
+ 0x8943
+
+	)
+
+78 
+	#SIOCETHTOOL
+ 0x8946
+
+	)
+
+80 
+	#SIOCGMIIPHY
+ 0x8947
+
+	)
+
+81 
+	#SIOCGMIIREG
+ 0x8948
+
+	)
+
+82 
+	#SIOCSMIIREG
+ 0x8949
+
+	)
+
+84 
+	#SIOCWANDEV
+ 0x894A
+
+	)
+
+88 
+	#SIOCDARP
+ 0x8953
+
+	)
+
+89 
+	#SIOCGARP
+ 0x8954
+
+	)
+
+90 
+	#SIOCSARP
+ 0x8955
+
+	)
+
+93 
+	#SIOCDRARP
+ 0x8960
+
+	)
+
+94 
+	#SIOCGRARP
+ 0x8961
+
+	)
+
+95 
+	#SIOCSRARP
+ 0x8962
+
+	)
+
+99 
+	#SIOCGIFMAP
+ 0x8970
+
+	)
+
+100 
+	#SIOCSIFMAP
+ 0x8971
+
+	)
+
+104 
+	#SIOCADDDLCI
+ 0x8980
+
+	)
+
+105 
+	#SIOCDELDLCI
+ 0x8981
+
+	)
+
+107 
+	#SIOCGIFVLAN
+ 0x8982
+
+	)
+
+108 
+	#SIOCSIFVLAN
+ 0x8983
+
+	)
+
+112 
+	#SIOCBONDENSLAVE
+ 0x8990
+
+	)
+
+113 
+	#SIOCBONDRELEASE
+ 0x8991
+
+	)
+
+114 
+	#SIOCBONDSETHWADDR
+ 0x8992
+
+	)
+
+115 
+	#SIOCBONDSLAVEINFOQUERY
+ 0x8993
+
+	)
+
+116 
+	#SIOCBONDINFOQUERY
+ 0x8994
+
+	)
+
+117 
+	#SIOCBONDCHANGEACTIVE
+ 0x8995
+
+	)
+
+120 
+	#SIOCBRADDBR
+ 0x89a0
+
+	)
+
+121 
+	#SIOCBRDELBR
+ 0x89a1
+
+	)
+
+122 
+	#SIOCBRADDIF
+ 0x89a2
+
+	)
+
+123 
+	#SIOCBRDELIF
+ 0x89a3
+
+	)
+
+136 
+	#SIOCDEVPRIVATE
+ 0x89F0
+
+	)
+
+142 
+	#SIOCPROTOPRIVATE
+ 0x89E0
+
+	)
+
+	@/usr/include/linux/stddef.h
+
+1 #i‚de‡
+_LINUX_STDDEF_H
+
+
+2 
+	#_LINUX_STDDEF_H
+
+
+	)
+
+5 #unde‡
+NULL
+
+
+6 #i‡
+deföed
+(
+__˝lu•lus
+)
+
+7 
+	#NULL
+ 0
+
+	)
+
+9 
+	#NULL
+ ((*)0)
+
+	)
+
+	@/usr/include/linux/uio.h
+
+1 #i‚de‡
+__LINUX_UIO_H
+
+
+2 
+	#__LINUX_UIO_H
+
+
+	)
+
+4 
+	~<löux/ty≥s.h
+>
+
+15 
+	siovec
+
+
+17 *
+	miov_ba£
+;
+
+18 
+__kî√l_size_t
+ 
+	miov_Àn
+;
+
+26 
+	#UIO_FASTIOV
+ 8
+
+	)
+
+27 
+	#UIO_MAXIOV
+ 1024
+
+	)
+
+36 
+__ölöe__
+ 
+size_t
+ 
+	$iov_Àngth
+(c⁄° 
+iovec
+ *
+iov
+, 
+ƒ_£gs
+)
+
+38 
+£g
+;
+
+39 
+size_t
+ 
+ªt
+ = 0;
+
+41 
+£g
+ = 0; seg < 
+ƒ_£gs
+; seg++)
+
+42 
+ªt
+ +
+iov
+[
+£g
+].
+iov_Àn
+;
+
+43  
+ªt
+;
+
+44 
+	}
+}
+
+46 
+iov_sh‹ãn
+(
+iovec
+ *
+iov
+, 
+ƒ_£gs
+, 
+size_t
+ 
+to
+);
+
+	@/usr/include/asm/sockios.h
+
+1 #i‚de‡
+_ASM_X86_SOCKIOS_H
+
+
+2 
+	#_ASM_X86_SOCKIOS_H
+
+
+	)
+
+5 
+	#FIOSETOWN
+ 0x8901
+
+	)
+
+6 
+	#SIOCSPGRP
+ 0x8902
+
+	)
+
+7 
+	#FIOGETOWN
+ 0x8903
+
+	)
+
+8 
+	#SIOCGPGRP
+ 0x8904
+
+	)
+
+9 
+	#SIOCATMARK
+ 0x8905
+
+	)
+
+10 
+	#SIOCGSTAMP
+ 0x8906
+
+	)
+
+11 
+	#SIOCGSTAMPNS
+ 0x8907
+
+	)
+
+	@
+1
+.
+1
+/usr/include
+26
+693
+ath_rate_rraac1.mod.c
+rraac1.c
+rraac1.h
+/usr/include/linux/if_arp.h
+/usr/include/linux/netdevice.h
+/usr/include/linux/random.h
+/usr/include/linux/sysctl.h
+/usr/include/linux/version.h
+/usr/include/linux/if.h
+/usr/include/linux/if_ether.h
+/usr/include/linux/if_packet.h
+/usr/include/linux/ioctl.h
+/usr/include/linux/kernel.h
+/usr/include/linux/types.h
+/usr/include/asm/ioctl.h
+/usr/include/asm/types.h
+/usr/include/linux/hdlc/ioctl.h
+/usr/include/linux/posix_types.h
+/usr/include/linux/socket.h
+/usr/include/asm-generic/ioctl.h
+/usr/include/asm/posix_types.h
+/usr/include/asm/socket.h
+/usr/include/linux/sockios.h
+/usr/include/linux/stddef.h
+/usr/include/linux/uio.h
+/usr/include/asm/sockios.h

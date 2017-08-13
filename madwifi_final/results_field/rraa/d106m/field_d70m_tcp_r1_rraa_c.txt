@@ -1,0 +1,41 @@
+test 1 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 40660 connected with 192.168.0.2 port 50000
+[  3]  0.0-128.3 sec  1.03 MBytes  67.5 Kbits/sec
+test 2 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 40661 connected with 192.168.0.2 port 50000
+[  3]  0.0-31.3 sec    752 KBytes    197 Kbits/sec
+test 3 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 40662 connected with 192.168.0.2 port 50000
+[  3]  0.0-201.3 sec    304 KBytes  12.4 Kbits/sec
+test 4 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 0.0.0.0 port 46213 connected with 192.168.0.2 port 50000
+[  3]  0.0- 0.0 sec  0.00 Bytes  0.00 bits/sec
+test 5 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 0.0.0.0 port 46214 connected with 192.168.0.2 port 50000
+[  3]  0.0- 0.0 sec  0.00 Bytes  0.00 bits/sec
+test 6 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 46215 connected with 192.168.0.2 port 50000

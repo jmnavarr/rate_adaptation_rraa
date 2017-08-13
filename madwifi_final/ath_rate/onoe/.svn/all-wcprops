@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/3902/madwifi/trunk/ath_rate/onoe
+END
+onoe.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/3902/madwifi/trunk/ath_rate/onoe/onoe.c
+END
+onoe.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/3808/madwifi/trunk/ath_rate/onoe/onoe.h
+END
+Makefile.kernel
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/2721/madwifi/trunk/ath_rate/onoe/Makefile.kernel
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/3699/madwifi/trunk/ath_rate/onoe/Makefile
+END

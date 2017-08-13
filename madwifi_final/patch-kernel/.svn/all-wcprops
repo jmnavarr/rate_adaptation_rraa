@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/3732/madwifi/trunk/patch-kernel
+END
+install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/3732/madwifi/trunk/patch-kernel/install.sh
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/3536/madwifi/trunk/patch-kernel/Kconfig
+END
+Configure.help.patch
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/2721/madwifi/trunk/patch-kernel/Configure.help.patch
+END
+Config.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2721/madwifi/trunk/patch-kernel/Config.in
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/2721/madwifi/trunk/patch-kernel/README
+END

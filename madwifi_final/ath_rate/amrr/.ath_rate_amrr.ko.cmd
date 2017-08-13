@@ -1,0 +1,1 @@
+cmd_/home/cs219/madwifi/ath_rate/amrr/ath_rate_amrr.ko := ld -m elf_i386 -r -m elf_i386  --build-id -o /home/cs219/madwifi/ath_rate/amrr/ath_rate_amrr.ko /home/cs219/madwifi/ath_rate/amrr/ath_rate_amrr.o /home/cs219/madwifi/ath_rate/amrr/ath_rate_amrr.mod.o

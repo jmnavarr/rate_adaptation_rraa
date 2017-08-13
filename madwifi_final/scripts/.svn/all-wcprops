@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/3935/madwifi/trunk/scripts
+END
+madwifi-indent
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2721/madwifi/trunk/scripts/madwifi-indent
+END
+madwifi-unload
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/3732/madwifi/trunk/scripts/madwifi-unload
+END
+get_arch.mk
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/3935/madwifi/trunk/scripts/get_arch.mk
+END
+hal_unmangle.sed
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/3478/madwifi/trunk/scripts/hal_unmangle.sed
+END
+make-release.bash
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/3832/madwifi/trunk/scripts/make-release.bash
+END
+hal_unmangle_log
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/3478/madwifi/trunk/scripts/hal_unmangle_log
+END
+update_hal_unmangle
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/3478/madwifi/trunk/scripts/update_hal_unmangle
+END
+find-madwifi-modules.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/2721/madwifi/trunk/scripts/find-madwifi-modules.sh
+END
+hal_unmangle.objcopy
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/3478/madwifi/trunk/scripts/hal_unmangle.objcopy
+END
+if_ath_hal_generator.pl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/3481/madwifi/trunk/scripts/if_ath_hal_generator.pl
+END

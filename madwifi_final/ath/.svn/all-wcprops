@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/!svn/ver/3930/madwifi/trunk/ath
+END
+if_ath_hal_extensions.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/3867/madwifi/trunk/ath/if_ath_hal_extensions.h
+END
+if_ath_radar.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/3902/madwifi/trunk/ath/if_ath_radar.c
+END
+if_ath_ahb.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/3902/madwifi/trunk/ath/if_ath_ahb.c
+END
+if_ath_debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/3798/madwifi/trunk/ath/if_ath_debug.h
+END
+if_ath_hal_wrappers.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/3688/madwifi/trunk/ath/if_ath_hal_wrappers.h
+END
+if_athvar.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/3856/madwifi/trunk/ath/if_athvar.h
+END
+if_ath_radar.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/3809/madwifi/trunk/ath/if_ath_radar.h
+END
+if_ath_ahb.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/3294/madwifi/trunk/ath/if_ath_ahb.h
+END
+Makefile.kernel
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/3723/madwifi/trunk/ath/Makefile.kernel
+END
+if_ath_hal.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/3497/madwifi/trunk/ath/if_ath_hal.h
+END
+if_ath_pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/3902/madwifi/trunk/ath/if_ath_pci.c
+END
+if_ath_hal_macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/3627/madwifi/trunk/ath/if_ath_hal_macros.h
+END
+if_ath.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/3930/madwifi/trunk/ath/if_ath.c
+END
+if_ath_pci.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/2864/madwifi/trunk/ath/if_ath_pci.h
+END
+if_athioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/3808/madwifi/trunk/ath/if_athioctl.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/3699/madwifi/trunk/ath/Makefile
+END
+if_ath_hal_extensions.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/3867/madwifi/trunk/ath/if_ath_hal_extensions.c
+END

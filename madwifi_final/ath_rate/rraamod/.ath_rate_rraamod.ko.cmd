@@ -1,0 +1,1 @@
+cmd_/home/cs219/madwifi/ath_rate/rraamod/ath_rate_rraamod.ko := ld -m elf_i386 -r -m elf_i386  --build-id -o /home/cs219/madwifi/ath_rate/rraamod/ath_rate_rraamod.ko /home/cs219/madwifi/ath_rate/rraamod/ath_rate_rraamod.o /home/cs219/madwifi/ath_rate/rraamod/ath_rate_rraamod.mod.o

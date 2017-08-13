@@ -1,0 +1,53 @@
+8
+
+dir
+3940
+http://svn.madwifi-project.org/madwifi/trunk/regression/tkip
+http://svn.madwifi-project.org
+
+
+
+2008-08-27T15:58:30.886499Z
+3846
+proski
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0192ed92-7a03-0410-a25b-9323aeb14dbd
+
+test_tkip.c
+file
+
+
+
+
+2009-02-02T15:37:21.000000Z
+ef20bcc7672daff6e05ce0c93157fda4
+2008-08-27T15:58:30.886499Z
+3846
+proski
+has-props
+
+Makefile
+file
+
+
+
+
+2009-02-02T15:37:21.000000Z
+705e13c7d2723b237b5af994e5a9a2d0
+2008-06-04T12:25:31.085297Z
+3699
+kelmo
+

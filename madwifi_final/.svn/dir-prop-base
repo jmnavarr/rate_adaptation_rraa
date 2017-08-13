@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 55
+*.markers
+*.order
+*.symvers
+.tmp_versions
+svnversion.h
+
+END

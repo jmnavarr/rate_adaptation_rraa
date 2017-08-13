@@ -1,0 +1,90 @@
+cs219@cs219-laptop:~/madwifi/scripts$ ./run_test.sh rraac6_arts 2_day2_25
+IPERF OUTPUT
+-------------
+Rate Algorithm:  rraac6_arts
+RTS  2_day2_25
+Test Record #
+-------------
+test 1 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 42375 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.2 sec  26.1 MBytes  7.25 Mbits/sec
+[  3] Sent 18612 datagrams
+[  3] Server Report:
+[  3]  0.0-27.3 sec  5.37 MBytes  1.65 Mbits/sec  20.819 ms 14780/18611 (79%)
+[  3]  0.0-27.3 sec  1 datagrams received out-of-order
+test 2 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 52274 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.5 sec  4.56 MBytes  1.25 Mbits/sec
+[  3] Sent 3252 datagrams
+[  3] Server Report:
+[  3]  0.0-31.6 sec  4.02 MBytes  1.07 Mbits/sec  77.052 ms  382/ 3250 (12%)
+test 3 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 52607 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.0 sec  3.59 MBytes  1.00 Mbits/sec
+[  3] Sent 2564 datagrams
+[  3] Server Report:
+[  3]  0.0-30.1 sec  3.26 MBytes    907 Kbits/sec  13.129 ms  240/ 2563 (9.4%)
+[  3]  0.0-30.1 sec  1 datagrams received out-of-order
+test 4 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 40889 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.1 sec  3.17 MBytes    882 Kbits/sec
+[  3] Sent 2262 datagrams
+[  3] Server Report:
+[  3]  0.0-32.4 sec  2.05 MBytes    530 Kbits/sec  188.688 ms  800/ 2261 (35%)
+[  3]  0.0-32.4 sec  4 datagrams received out-of-order
+test 5 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 47690 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.1 sec  4.30 MBytes  1.20 Mbits/sec
+[  3] Sent 3067 datagrams
+[  3] Server Report:
+[  3]  0.0-30.3 sec  4.03 MBytes  1.12 Mbits/sec  31.894 ms  188/ 3066 (6.1%)
+[  3]  0.0-30.3 sec  1 datagrams received out-of-order
+test 6 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 36305 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.2 sec  3.14 MBytes    872 Kbits/sec
+[  3] Sent 2241 datagrams
+[  3] Server Report:
+[  3]  0.0-30.4 sec  3.01 MBytes    832 Kbits/sec  65.434 ms   92/ 2240 (4.1%)
+[  3]  0.0-30.4 sec  1 datagrams received out-of-order
+test 7 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 59829 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.1 sec  4.95 MBytes  1.38 Mbits/sec
+[  3] Sent 3530 datagrams
+[  3] Server Report:
+[  3]  0.0-30.3 sec  4.68 MBytes  1.30 Mbits/sec  13.398 ms  188/ 3529 (5.3%)
+[  3]  0.0-30.3 sec  1 datagrams received out-of-order

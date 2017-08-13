@@ -1,0 +1,1 @@
+cmd_/home/cs219/madwifi/ath/ath_pci.o := ld -m elf_i386 -m elf_i386     -r -o /home/cs219/madwifi/ath/ath_pci.o /home/cs219/madwifi/ath/if_ath.o /home/cs219/madwifi/ath/if_ath_radar.o /home/cs219/madwifi/ath/if_ath_hal_extensions.o /home/cs219/madwifi/ath/if_ath_pci.o

@@ -1,0 +1,15 @@
+Mar  1 21:27:41 cs219-laptop kernel: [  203.779011] rraa: 06:20:a6:57:ff:32 : tx_count: 777, tx_rate: 36M, loss ratio: 99, window size: 40
+Mar  1 21:28:41 cs219-laptop kernel: [  205.451443] rraa: 06:20:a6:57:ff:32 : tx_count: 857, tx_rate: 48M, loss ratio: 4, window size: 40
+Mar  1 21:28:41 cs219-laptop kernel: [  205.460865] rraa: 06:20:a6:57:ff:32 : tx_count: 905, tx_rate: 36M, loss ratio: 97, window size: 40
+Mar  1 21:28:41 cs219-laptop kernel: [  205.468961] rraa: 06:20:a6:57:ff:32 : tx_count: 915, tx_rate: 24M, loss ratio: 97, window size: 40
+Mar  1 21:28:42 cs219-laptop kernel: [  205.476272] rraa: 06:20:a6:57:ff:32 : tx_count: 955, tx_rate: 36M, loss ratio: 9, window size: 40
+Mar  1 21:28:42 cs219-laptop kernel: [  205.489250] rraa: 06:20:a6:57:ff:32 : tx_count: 1075, tx_rate: 48M, loss ratio: 9, window size: 40
+Mar  1 21:28:42 cs219-laptop kernel: [  205.492987] rraa: 06:20:a6:57:ff:32 : tx_count: 1108, tx_rate: 36M, loss ratio: 71, window size: 40
+Mar  1 21:28:42 cs219-laptop kernel: [  205.511278] rraa: 06:20:a6:57:ff:32 : tx_count: 1122, tx_rate: 24M, loss ratio: 95, window size: 40
+Mar  1 21:28:42 cs219-laptop kernel: [  205.516465] rraa: 06:20:a6:57:ff:32 : tx_count: 1162, tx_rate: 36M, loss ratio: 6, window size: 40
+Mar  1 21:28:42 cs219-laptop kernel: [  205.519830] rraa: 06:20:a6:57:ff:32 : tx_count: 1202, tx_rate: 48M, loss ratio: 2, window size: 40
+Mar  1 21:28:58 cs219-laptop kernel: [  205.853339] rraa: 06:20:a6:57:ff:32 : tx_count: 1218, tx_rate: 36M, loss ratio: 94, window size: 40
+Mar  1 21:29:12 cs219-laptop kernel: [  206.328072] rraa: 06:20:a6:57:ff:32 : tx_count: 1298, tx_rate: 48M, loss ratio: 6, window size: 40
+Mar  1 21:29:19 cs219-laptop kernel: [  206.559064] rraa: 06:20:a6:57:ff:32 : tx_count: 1320, tx_rate: 36M, loss ratio: 90, window size: 40
+Mar  1 21:29:19 cs219-laptop kernel: [  206.577184] rraa: 06:20:a6:57:ff:32 : tx_count: 1358, tx_rate: 24M, loss ratio: 50, window size: 40
+Mar  1 21:29:19 cs219-laptop kernel: [  206.582437] rraa: 06:20:a6:57:ff:32 : tx_count: 1398, tx_ra

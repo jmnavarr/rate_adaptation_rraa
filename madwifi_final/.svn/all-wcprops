@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/!svn/ver/3937/madwifi/trunk
+END
+Makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/3783/madwifi/trunk/Makefile.inc
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/3878/madwifi/trunk/INSTALL
+END
+release.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/3083/madwifi/trunk/release.h
+END
+kernelversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/2721/madwifi/trunk/kernelversion.c
+END
+THANKS
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/3776/madwifi/trunk/THANKS
+END
+README.dfs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/3796/madwifi/trunk/README.dfs
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/2721/madwifi/trunk/COPYRIGHT
+END
+Makefile.kernel
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/3916/madwifi/trunk/Makefile.kernel
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/3878/madwifi/trunk/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/3932/madwifi/trunk/Makefile
+END
+BuildCaps.inc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/2721/madwifi/trunk/BuildCaps.inc
+END

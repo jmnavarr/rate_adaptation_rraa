@@ -1,0 +1,49 @@
+8
+
+dir
+3940
+http://svn.madwifi-project.org/madwifi/trunk/regression
+http://svn.madwifi-project.org
+
+
+
+2008-08-27T15:58:30.886499Z
+3846
+proski
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0192ed92-7a03-0410-a25b-9323aeb14dbd
+
+ccmp
+dir
+
+tkip
+dir
+
+wep
+dir
+
+Makefile
+file
+
+
+
+
+2009-02-02T15:37:21.000000Z
+1297933f3c9e81743ebd5b2037059376
+2008-06-04T12:25:31.085297Z
+3699
+kelmo
+

@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/3930/madwifi/trunk/net80211
+END
+ieee80211_ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/3497/madwifi/trunk/net80211/ieee80211_ioctl.h
+END
+if_media.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/2864/madwifi/trunk/net80211/if_media.h
+END
+ieee80211.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/3902/madwifi/trunk/net80211/ieee80211.c
+END
+ieee80211_crypto.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/3710/madwifi/trunk/net80211/ieee80211_crypto.c
+END
+ieee80211_crypto_ccmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/3734/madwifi/trunk/net80211/ieee80211_crypto_ccmp.c
+END
+ieee80211_scan.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/3787/madwifi/trunk/net80211/ieee80211_scan.c
+END
+_ieee80211.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/3820/madwifi/trunk/net80211/_ieee80211.h
+END
+ieee80211_node.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/3743/madwifi/trunk/net80211/ieee80211_node.c
+END
+ieee80211.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/3749/madwifi/trunk/net80211/ieee80211.h
+END
+ieee80211_crypto.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/3756/madwifi/trunk/net80211/ieee80211_crypto.h
+END
+ieee80211_beacon.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/3783/madwifi/trunk/net80211/ieee80211_beacon.c
+END
+Makefile.kernel
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/3067/madwifi/trunk/net80211/Makefile.kernel
+END
+ieee80211_scan.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2721/madwifi/trunk/net80211/ieee80211_scan.h
+END
+ieee80211_xauth.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/2721/madwifi/trunk/net80211/ieee80211_xauth.c
+END
+ieee80211_node.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/3743/madwifi/trunk/net80211/ieee80211_node.h
+END
+ieee80211_scan_sta.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/3733/madwifi/trunk/net80211/ieee80211_scan_sta.c
+END
+ieee80211_debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/3295/madwifi/trunk/net80211/ieee80211_debug.h
+END
+ieee80211_rate.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2721/madwifi/trunk/net80211/ieee80211_rate.c
+END
+ieee80211_wireless.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/3930/madwifi/trunk/net80211/ieee80211_wireless.c
+END
+ieee80211_input.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/3809/madwifi/trunk/net80211/ieee80211_input.c
+END
+ieee80211_crypto_none.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/3334/madwifi/trunk/net80211/ieee80211_crypto_none.c
+END
+ieee80211_acl.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/3254/madwifi/trunk/net80211/ieee80211_acl.c
+END
+if_athproto.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/3617/madwifi/trunk/net80211/if_athproto.h
+END
+ieee80211_output.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/3902/madwifi/trunk/net80211/ieee80211_output.c
+END
+ieee80211_rate.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2721/madwifi/trunk/net80211/ieee80211_rate.h
+END
+if_ethersubr.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2721/madwifi/trunk/net80211/if_ethersubr.h
+END
+ieee80211_scan_ap.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/3627/madwifi/trunk/net80211/ieee80211_scan_ap.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/3699/madwifi/trunk/net80211/Makefile
+END
+ieee80211_skb.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/3743/madwifi/trunk/net80211/ieee80211_skb.c
+END
+ieee80211_skb.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/3743/madwifi/trunk/net80211/ieee80211_skb.h
+END
+ieee80211_monitor.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/3720/madwifi/trunk/net80211/ieee80211_monitor.c
+END
+ieee80211_crypto_wep.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/3710/madwifi/trunk/net80211/ieee80211_crypto_wep.c
+END
+ieee80211_power.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/3713/madwifi/trunk/net80211/ieee80211_power.c
+END
+ieee80211_monitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/3615/madwifi/trunk/net80211/ieee80211_monitor.h
+END
+ieee80211_var.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/3849/madwifi/trunk/net80211/ieee80211_var.h
+END
+ieee80211_linux.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/3902/madwifi/trunk/net80211/ieee80211_linux.c
+END
+ieee80211_power.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/3075/madwifi/trunk/net80211/ieee80211_power.h
+END
+ieee80211_proto.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/3902/madwifi/trunk/net80211/ieee80211_proto.c
+END
+ieee80211_linux.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/3710/madwifi/trunk/net80211/ieee80211_linux.h
+END
+ieee80211_crypto_tkip.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/3734/madwifi/trunk/net80211/ieee80211_crypto_tkip.c
+END
+ieee80211_radiotap.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/2721/madwifi/trunk/net80211/ieee80211_radiotap.h
+END
+ieee80211_proto.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/3713/madwifi/trunk/net80211/ieee80211_proto.h
+END
+if_llc.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2721/madwifi/trunk/net80211/if_llc.h
+END
+if_media.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/3710/madwifi/trunk/net80211/if_media.c
+END

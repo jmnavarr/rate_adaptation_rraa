@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/2721/madwifi/trunk/include/sys
+END
+queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/2721/madwifi/trunk/include/sys/queue.h
+END

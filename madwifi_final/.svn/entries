@@ -1,0 +1,195 @@
+8
+
+dir
+3940
+http://svn.madwifi-project.org/madwifi/trunk
+http://svn.madwifi-project.org
+
+
+
+2009-01-29T06:07:19.679306Z
+3937
+proski
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0192ed92-7a03-0410-a25b-9323aeb14dbd
+
+regression
+dir
+
+net80211
+dir
+
+include
+dir
+
+Makefile.inc
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+d58a3e819160c6abcd9116798e0f637b
+2008-07-17T03:44:41.550846Z
+3783
+proski
+
+scripts
+dir
+
+ath_rate
+dir
+
+THANKS
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+143bf7ae03e1bef131abef67325a9633
+2008-07-16T10:58:04.041266Z
+3776
+scottr
+
+Makefile.kernel
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+d36e7db343db80e40c6135f349f0ae0f
+2009-01-15T22:47:31.582130Z
+3916
+proski
+
+README
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+92dd8d3a7209814ffe5d881edd12a180
+2008-12-03T16:45:23.876597Z
+3878
+proski
+
+tools
+dir
+
+ath_hal
+dir
+
+contrib
+dir
+
+hal
+dir
+
+INSTALL
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+f7765f9fc41f106ddc5e0a7bbf266fe7
+2008-12-03T16:45:23.876597Z
+3878
+proski
+
+release.h
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+afc0503566cfe9afc4eab0e41e3901bd
+2007-12-26T02:00:04.284019Z
+3083
+br1
+has-props
+
+kernelversion.c
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+2594ec58bb11d1f89892983d1fcdd068
+2006-07-05T02:21:30.264077Z
+1669
+proski
+has-props
+
+README.dfs
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+3ef16dfbfc9b09a9a395e998754eda93
+2008-07-17T06:38:23.026808Z
+3796
+proski
+
+COPYRIGHT
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+58383ec8217e551da24db177e27a6ff2
+2005-10-31T20:12:13.503256Z
+1245
+mrenzmann
+
+ath
+dir
+
+patch-kernel
+dir
+
+Makefile
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+6c58ce2d21d01a61e50bb7d68a499eff
+2009-01-26T22:39:46.579516Z
+3932
+proski
+
+BuildCaps.inc
+file
+
+
+
+
+2009-02-02T15:38:46.000000Z
+2c6d29c79dfddde6622a05ae1743deac
+2007-05-29T19:06:57.650659Z
+2388
+mtaylor
+

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/3937/madwifi/trunk/ath_hal
+END
+ah_os.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/3731/madwifi/trunk/ath_hal/ah_os.h
+END
+opt_ah.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/2721/madwifi/trunk/ath_hal/opt_ah.h
+END
+ah_target.inc
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/3318/madwifi/trunk/ath_hal/ah_target.inc
+END
+ah_osdep.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/2721/madwifi/trunk/ath_hal/ah_osdep.h
+END
+ah_os.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/3780/madwifi/trunk/ath_hal/ah_os.c
+END
+Makefile.kernel
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2721/madwifi/trunk/ath_hal/Makefile.kernel
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/3837/madwifi/trunk/ath_hal/Makefile
+END
+uudecode.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/2721/madwifi/trunk/ath_hal/uudecode.c
+END

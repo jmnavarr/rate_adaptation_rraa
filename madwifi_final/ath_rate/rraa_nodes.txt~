@@ -1,0 +1,10 @@
+// Authors: Nathaniel Conos, Juan M. Navarro, and Lucas Manner
+
+RRAA - RRAA-Basic algorithm w/ adaptive RTS/CTS
+RRAAMOD - RRAA-Basic algorithm w/ 2X ewnd size
+RRAAC1 - RRAA-Basic Case 1: constant PMTL, decreased PORI (-25%) 
+RRAAC2 - RRAA-Basic Case 2: constant PORI, decreased PMTL (-25%)
+RRAAC3 - RRAA-Basic Case 3: constant PMTL, increased PORI (+25%)
+RRAAC4 - RRAA-Basic Case 4: constant PORI, increased PMTL (+25%)
+RRAAC5 - RRAA-Basic Case 5: decreased PMTL (-25%), increased PORI (+25%)
+RRAAC6 - RRAA-Basic Case 6: increased PMTL (+25%), decreased PORI (-25%)

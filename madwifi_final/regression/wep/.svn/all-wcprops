@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/3846/madwifi/trunk/regression/wep
+END
+test_wep.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/3846/madwifi/trunk/regression/wep/test_wep.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/3699/madwifi/trunk/regression/wep/Makefile
+END

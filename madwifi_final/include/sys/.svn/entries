@@ -1,0 +1,41 @@
+8
+
+dir
+3940
+http://svn.madwifi-project.org/madwifi/trunk/include/sys
+http://svn.madwifi-project.org
+
+
+
+2007-05-29T21:55:25.537802Z
+2392
+mtaylor
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0192ed92-7a03-0410-a25b-9323aeb14dbd
+
+queue.h
+file
+
+
+
+
+2009-02-02T15:37:22.000000Z
+e928f71f1a5e82762d0856a2e0bec1fe
+2007-05-29T21:55:25.537802Z
+2392
+mtaylor
+has-props
+

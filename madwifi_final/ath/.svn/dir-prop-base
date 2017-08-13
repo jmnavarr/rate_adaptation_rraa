@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 51
+*.ko
+*.markers
+*.mod.c
+*.o
+*.order
+.*.cmd
+.*.flags
+
+END

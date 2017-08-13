@@ -1,0 +1,19 @@
+K 13
+svn:externals
+V 55
+ath_info http://svn.madwifi-project.org/ath_info/trunk
+
+K 10
+svn:ignore
+V 82
+80211debug
+80211stats
+athchans
+athctrl
+athdebug
+athkey
+athstats
+wlanconfig
+wpakey
+
+END

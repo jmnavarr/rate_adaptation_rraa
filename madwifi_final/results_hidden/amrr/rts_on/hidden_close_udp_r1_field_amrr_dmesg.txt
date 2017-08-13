@@ -1,0 +1,72 @@
+Mar 13 22:43:26 cs219-laptop kernel: [  331.550313] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:43:27 cs219-laptop kernel: [  331.995018] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:43:39 cs219-laptop kernel: [  333.285966] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:43:39 cs219-laptop kernel: [  333.329948] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:43:41 cs219-laptop kernel: [  333.444793] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:43:48 cs219-laptop kernel: [  338.538056] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:43:48 cs219-laptop kernel: [  338.726462] amrr: 00:19:7e:81:f1:1c :  tx_count: 1, tx_rate: 24M
+Mar 13 22:43:55 cs219-laptop kernel: [  341.502983] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:43:56 cs219-laptop kernel: [  341.533326] amrr: 00:19:7e:81:f1:1c :  tx_count: 2, tx_rate: 18M
+Mar 13 22:43:56 cs219-laptop kernel: [  341.533332] amrr: 00:12:f0:98:26:43 :  tx_count: 4, tx_rate: 24M
+Mar 13 22:43:56 cs219-laptop kernel: [  341.546174] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:43:57 cs219-laptop kernel: [  341.599925] amrr: 00:12:f0:98:26:43 :  tx_count: 9, tx_rate: 18M
+Mar 13 22:43:57 cs219-laptop kernel: [  341.599932] amrr: 00:1f:3b:a7:ef:05 :  tx_count: 1, tx_rate: 24M
+Mar 13 22:44:01 cs219-laptop kernel: [  341.856184] amrr: 00:12:f0:98:26:43 :  tx_count: 11, tx_rate: 12M
+Mar 13 22:44:01 cs219-laptop kernel: [  341.865135] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:44:02 cs219-laptop kernel: [  341.892181] amrr: 00:12:f0:98:10:f5 :  tx_count: 5, tx_rate: 24M
+Mar 13 22:44:04 cs219-laptop kernel: [  342.066438] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:44:05 cs219-laptop kernel: [  342.148247] amrr: 00:1f:3b:5e:7e:2d :  tx_count: 1, tx_rate: 24M
+Mar 13 22:44:07 cs219-laptop kernel: [  342.251658] amrr: 06:20:a6:57:ff:32 :  tx_count: 6872, tx_rate: 24M
+Mar 13 22:44:11 cs219-laptop kernel: [  342.437765] amrr: 00:1f:3b:a7:ef:05 :  tx_count: 2, tx_rate: 18M
+Mar 13 22:44:11 cs219-laptop kernel: [  342.437773] amrr: 00:1f:3b:5e:7e:2d :  tx_count: 2, tx_rate: 18M
+Mar 13 22:44:23 cs219-laptop kernel: [  343.276110] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:44:24 cs219-laptop kernel: [  343.299497] amrr: 00:18:de:0e:ab:1d :  tx_count: 1, tx_rate: 24M
+Mar 13 22:44:26 cs219-laptop kernel: [  343.369282] amrr: 00:18:de:0e:ab:1d :  tx_count: 2, tx_rate: 18M
+Mar 13 22:44:28 cs219-laptop kernel: [  343.434275] amrr: 06:20:a6:57:ff:32 :  tx_count: 13938, tx_rate: 18M
+Mar 13 22:44:30 cs219-laptop kernel: [  343.541150] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:44:39 cs219-laptop kernel: [  343.872256] amrr: 00:12:f0:98:26:43 :  tx_count: 12, tx_rate: 11M
+Mar 13 22:44:41 cs219-laptop kernel: [  343.947525] amrr: 00:0e:10:03:d8:a8 :  tx_count: 1, tx_rate: 24M
+Mar 13 22:44:47 cs219-laptop kernel: [  344.166627] amrr: 06:20:a6:57:ff:32 :  tx_count: 19310, tx_rate: 12M
+Mar 13 22:44:48 cs219-laptop kernel: [  344.240974] amrr: 06:20:a6:57:ff:32 :  tx_count: 19586, tx_rate: 11M
+Mar 13 22:44:49 cs219-laptop kernel: [  344.282419] amrr: 06:20:a6:57:ff:32 :  tx_count: 19804, tx_rate: 9M
+Mar 13 22:44:50 cs219-laptop kernel: [  344.323248] amrr: 06:20:a6:57:ff:32 :  tx_count: 20073, tx_rate: 6M
+Mar 13 22:44:51 cs219-laptop kernel: [  344.347712] amrr: 06:20:a6:57:ff:32 :  tx_count: 20175, tx_rate: 5M
+Mar 13 22:44:52 cs219-laptop kernel: [  344.371079] amrr: 06:20:a6:57:ff:32 :  tx_count: 20230, tx_rate: 2M
+Mar 13 22:44:53 cs219-laptop kernel: [  344.398204] amrr: 06:20:a6:57:ff:32 :  tx_count: 20293, tx_rate: 1M
+Mar 13 22:45:01 cs219-laptop kernel: [  344.611686] amrr: 00:12:f0:98:10:f5 :  tx_count: 6, tx_rate: 18M
+Mar 13 22:45:02 cs219-laptop kernel: [  344.633847] amrr: 00:12:f0:98:10:f5 :  tx_count: 7, tx_rate: 12M
+Mar 13 22:45:06 cs219-laptop kernel: [  344.788521] amrr: 00:12:f0:98:10:f5 :  tx_count: 9, tx_rate: 11M
+Mar 13 22:45:07 cs219-laptop kernel: [  344.810749] amrr: 00:12:f0:98:10:f5 :  tx_count: 11, tx_rate: 9M
+Mar 13 22:45:08 cs219-laptop kernel: [  344.833382] amrr: 00:12:f0:98:10:f5 :  tx_count: 15, tx_rate: 6M
+Mar 13 22:45:10 cs219-laptop kernel: [  344.898129] amrr: 00:12:f0:98:26:43 :  tx_count: 14, tx_rate: 9M
+Mar 13 22:45:18 cs219-laptop kernel: [  345.147305] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:45:26 cs219-laptop kernel: [  345.378480] amrr: 00:12:f0:98:10:f5 :  tx_count: 16, tx_rate: 5M
+Mar 13 22:45:27 cs219-laptop kernel: [  345.400382] amrr: 00:12:f0:98:10:f5 :  tx_count: 17, tx_rate: 2M
+Mar 13 22:45:27 cs219-laptop kernel: [  345.400389] amrr: 00:0e:10:03:d8:a8 :  tx_count: 1, tx_rate: 24M
+Mar 13 22:45:31 cs219-laptop kernel: [  345.513590] amrr: 00:12:f0:98:10:f5 :  tx_count: 20, tx_rate: 1M
+Mar 13 22:45:39 cs219-laptop kernel: [  345.799265] amrr: 00:12:f0:98:26:43 :  tx_count: 15, tx_rate: 6M
+Mar 13 22:46:02 cs219-laptop kernel: [  346.464464] amrr: 00:12:f0:98:26:43 :  tx_count: 17, tx_rate: 5M
+Mar 13 22:46:13 cs219-laptop kernel: [  346.762797] amrr: 00:12:f0:98:26:43 :  tx_count: 26, tx_rate: 2M
+Mar 13 22:46:14 cs219-laptop kernel: [  346.798942] amrr: 00:12:f0:98:26:43 :  tx_count: 29, tx_rate: 1M
+Mar 13 22:46:17 cs219-laptop kernel: [  346.869540] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:46:26 cs219-laptop kernel: [  347.138526] amrr: 00:0e:10:03:d8:a8 :  tx_count: 1, tx_rate: 24M
+Mar 13 22:46:27 cs219-laptop kernel: [  347.152670] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:46:28 cs219-laptop kernel: [  347.218370] amrr: 00:1f:e2:95:9f:0f :  tx_count: 1, tx_rate: 24M
+Mar 13 22:46:37 cs219-laptop kernel: [  347.477676] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:46:39 cs219-laptop kernel: [  347.523726] amrr: 00:18:de:0e:ab:1d :  tx_count: 1, tx_rate: 24M
+Mar 13 22:46:42 cs219-laptop kernel: [  347.600654] amrr: 00:1f:e2:95:9f:0f :  tx_count: 2, tx_rate: 18M
+Mar 13 22:46:42 cs219-laptop kernel: [  347.600661] amrr: 00:18:de:0e:ab:1d :  tx_count: 2, tx_rate: 18M
+Mar 13 22:46:42 cs219-laptop kernel: [  347.609171] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:46:43 cs219-laptop kernel: [  347.624348] amrr: 00:1f:3c:6b:b1:dc :  tx_count: 1, tx_rate: 24M
+Mar 13 22:46:48 cs219-laptop kernel: [  347.749145] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:46:50 cs219-laptop kernel: [  347.818541] amrr: 00:19:7e:81:f1:1c :  tx_count: 1, tx_rate: 24M
+Mar 13 22:46:57 cs219-laptop kernel: [  347.993007] amrr: 00:1f:3c:6b:b1:dc :  tx_count: 2, tx_rate: 18M
+Mar 13 22:46:57 cs219-laptop kernel: [  347.993015] amrr: 00:19:7e:81:f1:1c :  tx_count: 2, tx_rate: 18M
+Mar 13 22:47:02 cs219-laptop kernel: [  348.204294] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:47:35 cs219-laptop kernel: [  349.134454] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:47:38 cs219-laptop kernel: [  349.187620] amrr: 00:0e:35:d7:23:5c :  tx_count: 1, tx_rate: 24M
+Mar 13 22:47:56 cs219-laptop kernel: [  349.908981] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:48:08 cs219-laptop kernel: [  350.183479] amrr: 00:00:00:00:00:00 :  is alive!
+Mar 13 22:48:09 cs219-laptop kernel: [  350.195146] amrr: 00:1f:3b:a7:ef:05 :  tx_count: 1, tx_rate: 24M
+Mar 13 22:48:11 cs219-laptop kernel: [  350.237232] amrr: 00:1f:3b:a7:ef:05 :  tx_count: 2, tx_rate: 18M
+Mar 13 22:48:11 cs219-laptop kern

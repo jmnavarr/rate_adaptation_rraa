@@ -1,0 +1,52 @@
+8
+
+dir
+3940
+http://svn.madwifi-project.org/madwifi/trunk/ath_rate
+http://svn.madwifi-project.org
+
+
+
+2009-01-14T02:36:53.123111Z
+3902
+proski
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0192ed92-7a03-0410-a25b-9323aeb14dbd
+
+onoe
+dir
+
+amrr
+dir
+
+sample
+dir
+
+minstrel
+dir
+
+Makefile
+file
+
+
+
+
+2009-02-02T15:37:22.000000Z
+dc20c4f87b652bc0ea5adac564693d3d
+2008-06-04T12:25:31.085297Z
+3699
+kelmo
+

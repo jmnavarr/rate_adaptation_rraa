@@ -1,0 +1,1 @@
+cmd_/home/cs219/madwifi/ath_hal/i386-elf.hal.o := objcopy $$(cat /home/cs219/madwifi/ath_hal/../scripts/hal_unmangle.objcopy) /home/cs219/madwifi/ath_hal/i386-elf.bin /home/cs219/madwifi/ath_hal/i386-elf.hal.o

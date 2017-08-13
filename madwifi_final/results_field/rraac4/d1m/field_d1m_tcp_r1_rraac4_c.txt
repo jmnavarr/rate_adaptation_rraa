@@ -1,0 +1,49 @@
+test 1 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 53346 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.0 sec  50.5 MBytes  14.1 Mbits/sec
+test 2 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 53347 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.0 sec  53.0 MBytes  14.8 Mbits/sec
+test 3 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 53507 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.1 sec  53.1 MBytes  14.8 Mbits/sec
+test 4 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 53508 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.0 sec  53.4 MBytes  14.9 Mbits/sec
+test 5 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 53509 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.0 sec  51.6 MBytes  14.4 Mbits/sec
+test 6 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 53510 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.1 sec  53.0 MBytes  14.8 Mbits/sec
+test 7 tcp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, TCP port 50000
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 53511 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.0 sec  53.3 MBytes  14.9 Mbits/sec

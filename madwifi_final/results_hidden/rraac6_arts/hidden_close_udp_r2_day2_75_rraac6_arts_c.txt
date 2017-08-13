@@ -1,0 +1,84 @@
+test 1 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 49472 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.4 sec  72.1 MBytes  19.9 Mbits/sec
+[  3] Sent 51432 datagrams
+[  3] Server Report:
+[  3]  0.0-22.5 sec  18.2 MBytes  6.78 Mbits/sec  31.280 ms 38448/51431 (75%)
+[  3]  0.0-22.5 sec  1 datagrams received out-of-order
+test 2 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 39511 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.0 sec  11.8 MBytes  3.31 Mbits/sec
+[  3] Sent 8451 datagrams
+[  3] Server Report:
+[  3]  0.0-30.4 sec  11.6 MBytes  3.22 Mbits/sec  7.528 ms  152/ 8450 (1.8%)
+[  3]  0.0-30.4 sec  1 datagrams received out-of-order
+test 3 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 58983 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.1 sec  14.2 MBytes  3.95 Mbits/sec
+[  3] Sent 10111 datagrams
+[  3] Server Report:
+[  3]  0.0-30.3 sec  13.9 MBytes  3.86 Mbits/sec  22.645 ms  173/10110 (1.7%)
+[  3]  0.0-30.3 sec  1 datagrams received out-of-order
+test 4 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 58178 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.0 sec  18.7 MBytes  5.23 Mbits/sec
+[  3] Sent 13369 datagrams
+[  3] Server Report:
+[  3]  0.0-30.1 sec  18.5 MBytes  5.16 Mbits/sec  4.732 ms  156/13368 (1.2%)
+[  3]  0.0-30.1 sec  1 datagrams received out-of-order
+test 5 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 57111 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.4 sec  10.7 MBytes  2.95 Mbits/sec
+[  3] Sent 7612 datagrams
+[  3] Server Report:
+[  3]  0.0-30.6 sec  9.87 MBytes  2.71 Mbits/sec  38.481 ms  571/ 7611 (7.5%)
+[  3]  0.0-30.6 sec  8 datagrams received out-of-order
+test 6 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 52386 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.1 sec  7.08 MBytes  1.98 Mbits/sec
+[  3] Sent 5048 datagrams
+[  3] Server Report:
+[  3]  0.0-30.1 sec  7.06 MBytes  1.97 Mbits/sec  11.476 ms    8/ 5047 (0.16%)
+[  3]  0.0-30.1 sec  1 datagrams received out-of-order
+test 7 udp :
+------------------------------------------------------------
+Client connecting to 192.168.0.2, UDP port 50000
+Sending 1470 byte datagrams
+UDP buffer size:   108 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.1 port 53050 connected with 192.168.0.2 port 50000
+[  3]  0.0-30.3 sec  5.82 MBytes  1.61 Mbits/sec
+[  3] Sent 4155 datagrams
+[  3] Server Report:
+[  3]  0.0-30.5 sec  5.79 MBytes  1.59 Mbits/sec  36.519 ms   25/ 4154 (0.6%)
+[  3]  0.0-30.5 sec  1 datagrams received out-of-order

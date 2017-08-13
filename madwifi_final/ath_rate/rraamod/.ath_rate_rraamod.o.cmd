@@ -1,0 +1,1 @@
+cmd_/home/cs219/madwifi/ath_rate/rraamod/ath_rate_rraamod.o := ld -m elf_i386 -m elf_i386      -r -o /home/cs219/madwifi/ath_rate/rraamod/ath_rate_rraamod.o /home/cs219/madwifi/ath_rate/rraamod/rraamod.o

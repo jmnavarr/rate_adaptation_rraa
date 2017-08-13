@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/3902/madwifi/trunk/ath_rate/sample
+END
+sample.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/3902/madwifi/trunk/ath_rate/sample/sample.c
+END
+sample.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/3808/madwifi/trunk/ath_rate/sample/sample.h
+END
+Makefile.kernel
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/2721/madwifi/trunk/ath_rate/sample/Makefile.kernel
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/3699/madwifi/trunk/ath_rate/sample/Makefile
+END

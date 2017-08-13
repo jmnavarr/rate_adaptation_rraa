@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/3476/madwifi/trunk/tools/man
+END
+athchans.8
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2721/madwifi/trunk/tools/man/athchans.8
+END
+80211stats.8
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2721/madwifi/trunk/tools/man/80211stats.8
+END
+athstats.8
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2721/madwifi/trunk/tools/man/athstats.8
+END
+athctrl.8
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/2721/madwifi/trunk/tools/man/athctrl.8
+END
+80211debug.8
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2721/madwifi/trunk/tools/man/80211debug.8
+END
+athdebug.8
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2721/madwifi/trunk/tools/man/athdebug.8
+END
+athkey.8
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/2721/madwifi/trunk/tools/man/athkey.8
+END
+wlanconfig.8
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/3476/madwifi/trunk/tools/man/wlanconfig.8
+END
